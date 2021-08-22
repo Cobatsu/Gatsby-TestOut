@@ -1,0 +1,86 @@
+.main_wrapper{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #464660;
+}
+.contact_buttons{
+    display:flex;
+    justify-content: flex-end;
+    padding:14px 14px 0 6px;
+}
+.heyo {
+    background-color: red;
+}
+.contact_buttons_item{
+    padding:8px 10px;
+    background-color: white;
+    color:#54436B;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.contact_buttons_item:hover {
+    cursor: pointer;
+}
+.logo_links{
+    display:flex;
+    min-height: 55px;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.links li{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    padding: 6px 30px;
+    transition: 140ms;
+    position: relative;
+}
+.links  li:hover{
+    cursor: pointer;
+    background-color: #01937C;
+}
+
+.links  li:hover ul{
+    display:block;
+}
+.links  li span{
+    font-size: 14px;
+    text-align: center;
+}
+.links  li i{
+    margin-left: 8px;
+}
+
+.subLinks {
+    position: absolute;
+    background:#01937C;
+    display:none;
+    top:100%;
+    font-size: 14px;
+    white-space: nowrap;
+    min-width: 100%;
+}
+
+.subLinks li{
+    justify-content:flex-start;
+    padding:12px;
+}
+
+.subLinks li:hover{
+    background-color: #464660;
+}

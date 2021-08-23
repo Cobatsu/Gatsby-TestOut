@@ -10,19 +10,27 @@ const Home = (props) => {
   } = props;
   return (
     <Layout title="Richmond College">
-      {/* <div className={styles.postsWrapper}>
-        <div className={styles.posts}>
+      <div>
+        <div>
           {allMarkdownRemark.nodes.map((node) => (
             <Link
               key={node.id}
-              to={node.frontmatter.path}
+              to={
+                node.frontmatter.courseCategory.split(" ").join("_") +
+                "/" +
+                node.frontmatter.courseName.split(" ").join("_")
+              }
               style={{ marginTop: 10 }}
             >
-              <span>{node.frontmatter.title}</span>
+              <span>
+                {node.frontmatter.courseCategory +
+                  " " +
+                  node.frontmatter.courseName}
+              </span>
             </Link>
           ))}
         </div>
-      </div> */}
+      </div>
     </Layout>
   );
 };
@@ -32,10 +40,11 @@ export const query = graphql`
     allMarkdownRemark {
       nodes {
         frontmatter {
-          title
-          path
+          courseName
+          courseCategory
         }
         id
+        html
       }
     }
   }

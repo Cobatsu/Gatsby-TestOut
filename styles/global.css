@@ -3,6 +3,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 #gatsby-focus-wrapper {
   height: 100%;
 }

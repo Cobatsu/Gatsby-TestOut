@@ -1,6 +1,11 @@
 ---
-title: Dünya'nın En Ölümcül Hastalık Taşıyıcıları!
-path: dunyanin-en-olumcul-hastalik-tasiyicilari
+courseName: Business IGCSE
+courseCategory: IGCSE
 ---
+The Business IGCSE is an internationally recognised qualification that is designed to develop a good understanding of business terminology, concepts, and ideas within different contexts, such as international markets.
 
-Aşağıdaki fotoğrafta gördüğünüz hayvanlar, insanlık tarihinin gördüğü en ölümcül hastalık taşıyıcı hayvanlarını göstermektedir. Aslında hiçbiri doğrudan hastalığa neden olmazlar; ancak hepsi ölümcül hastalıkların ana taşıyıcısıdırlar. Öyle ki, insan da dahil olmak üzere bildiğiniz diğer hiçbir hayvan, bu canlıların taşıdığı hastalıkların neden olduğundan daha fazla insanın ölümüne neden olmamıştır. Bildiğimiz tüm savaşların ve katliamların toplamı bile, bu hayvanların taşıdığı hastalıkların toplamda öldürdüğü insanlardan daha fazla insanın canını almamıştır ve muhtemelen hiçbir zaman da alamayacaktır. 
+  -The aims of this course are to provide students with an in depth understanding of business ideas, skills, and concepts, through familiarising our students with business terminology and examples of real-life scenarios which are embedded throughout the course.
+
+  -The course provides students with a solid understanding of key business concepts, which includes: stakeholders, finance, roles within a business, production, international markets, types of businesses, expansion and innovation.
+
+This content is covered over 5 modules, all of which contain an assessment upon completion to help test and cement the student’s knowledge and understanding. Therefore, this gives our students the best chance of an IGCSE qualification in a flexible and affordable manner.

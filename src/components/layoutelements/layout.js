@@ -22,11 +22,16 @@ const Head = ({ title }) => {
   );
 };
 
+const InvisibleStaticDiv = () => {
+  return <div style={{ minHeight: 115, width: "100%" }}></div>;
+};
+
 export default function Layout({ children, title }) {
   return (
     <React.Fragment>
       <Head title={title} />
       <Header />
+      <InvisibleStaticDiv />
       {children}
       <Footer />
     </React.Fragment>

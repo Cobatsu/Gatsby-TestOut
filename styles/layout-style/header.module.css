@@ -4,6 +4,7 @@
     width: 100%;
     box-sizing: border-box;
     background-color: #464660;
+    position:fixed;
 }
 .contact_buttons{
     display:flex;
@@ -45,6 +46,7 @@ ul{
     display:flex;
     justify-content:center;
     align-items: center;
+    flex-shrink: 0;
     color:white;
     padding: 6px 30px;
     transition: 140ms;
@@ -53,6 +55,16 @@ ul{
 .links  li:hover{
     cursor: pointer;
     background-color: #01937C;
+}
+
+.linkHref{
+    padding: 6px 30px;
+    display:flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color:white;
 }
 
 .links  li:hover ul{

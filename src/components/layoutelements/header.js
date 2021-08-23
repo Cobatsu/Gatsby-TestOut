@@ -1,5 +1,6 @@
 import React from "react";
 import * as styles from "../../../styles/layout-style/header.module.css";
+import { Link } from "gatsby";
 
 const Header = () => {
   return (
@@ -18,6 +19,11 @@ const Header = () => {
           style={{ marginRight: 50 }}
         ></img> */}
         <ul className={styles.links}>
+          <li style={{ padding: 0 }}>
+            <Link to="/" className={styles.linkHref}>
+              <span>Home</span>{" "}
+            </Link>
+          </li>
           <li>
             <span>About Us</span> <i class="fas fa-caret-down"></i>{" "}
             <ul className={styles.subLinks}>
@@ -66,8 +72,11 @@ const Header = () => {
               </li>
             </ul>
           </li>
-          <li>
-            <span>Our Hubs</span>{" "}
+          <li style={{ padding: 0 }}>
+            {" "}
+            <Link to="/Hubs" className={styles.linkHref}>
+              <span>Our Hubs</span>{" "}
+            </Link>
           </li>
         </ul>
       </div>

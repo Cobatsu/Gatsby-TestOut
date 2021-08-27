@@ -39,29 +39,27 @@ const Header = () => {
             <span>Courses</span> <i class="fas fa-caret-down"></i>
             <ul className={styles.subLinks}>
               <li>
-                <Link
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "100%",
-                    color: "white",
-                  }}
-                  to="/IGCSE_Courses"
-                >
+                <Link className={styles.sublinkHref} to="/IGCSE-courses">
                   IGCSE Courses <i class="fas fa-chevron-right"></i>{" "}
                 </Link>
               </li>
               <li>
-                (Level 3) A level University entry Courses{" "}
-                <i class="fas fa-chevron-right"></i>{" "}
+                <Link className={styles.sublinkHref} to="/level3-courses">
+                  (Level 3) A level University entry Courses{" "}
+                  <i class="fas fa-chevron-right"></i>{" "}
+                </Link>{" "}
               </li>
               <li>
-                (Level 4 & 5) University 1st and 2nd year Courses{" "}
-                <i class="fas fa-chevron-right"></i>{" "}
+                <Link className={styles.sublinkHref} to="/IGCSE-courses">
+                  (Level 4 & 5) University 1st and 2nd year Courses{" "}
+                  <i class="fas fa-chevron-right"></i>{" "}
+                </Link>
               </li>
               <li>
-                Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA){" "}
-                <i class="fas fa-chevron-right"></i>{" "}
+                <Link className={styles.sublinkHref} to="/IGCSE-courses">
+                  Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA){" "}
+                  <i class="fas fa-chevron-right"></i>{" "}
+                </Link>
               </li>
             </ul>
           </li>

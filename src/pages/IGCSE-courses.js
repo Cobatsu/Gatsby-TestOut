@@ -18,7 +18,7 @@ const IGCSECourses = (props) => {
 };
 
 export const query = graphql`
-  query getAllPostsAndGetAllPosts {
+  query getAllPosts3 {
     allMarkdownRemark {
       nodes {
         frontmatter {

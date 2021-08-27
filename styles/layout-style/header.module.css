@@ -94,6 +94,19 @@ ul{
 
 .subLinks li{
     justify-content:flex-start;
+    padding:0px;
+}
+.sublinkHref i{
+    transition: 150ms;
+}
+.sublinkHref:hover i {
+    transform: translate(5px)
+}
+.sublinkHref{
+    display:block;
+    width:100%;
+    height:100%;
+    color:white;
     padding:12px;
 }
 

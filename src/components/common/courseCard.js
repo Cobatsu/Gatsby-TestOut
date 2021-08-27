@@ -16,6 +16,7 @@ const CourseCard = ({ courseName, courseCategory }) => {
         <span style={{ color: "#38384e", fontWeight: 600 }}> {courseName}</span>
         <Link
           to={
+            "/" +
             courseCategory.split(" ").join("_") +
             "/" +
             courseName.split(" ").join("_")

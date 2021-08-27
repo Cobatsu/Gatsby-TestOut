@@ -1,26 +1,24 @@
 import * as React from "react";
-import { graphql } from "gatsby";
-import "../../styles/global.css";
-import Layout from "../components/layoutelements/layout";
+import { CoursesIGCSE } from "../components/common/courses";
 import * as styles from "../../styles/pages/home.module.css";
-import { CoursesIGCSE, Courseslvl3 } from "../components/common/courses";
+import { graphql } from "gatsby";
+import Layout from "../components/layoutelements/layout";
 
-const Home = (props) => {
+const IGCSECourses = (props) => {
   const {
     data: { allMarkdownRemark },
   } = props;
   return (
-    <Layout title="Richmond College">
+    <Layout title="IGCSE Courses">
       <div className={styles.main_wrapper}>
         <CoursesIGCSE allMarkdownRemark={allMarkdownRemark} />
-        <Courseslvl3 allMarkdownRemark={allMarkdownRemark} />
       </div>
     </Layout>
   );
 };
 
 export const query = graphql`
-  query getAllPosts {
+  query getAllPostsAndGetAllPosts {
     allMarkdownRemark {
       nodes {
         frontmatter {
@@ -34,4 +32,4 @@ export const query = graphql`
   }
 `;
 
-export default Home;
+export default IGCSECourses;

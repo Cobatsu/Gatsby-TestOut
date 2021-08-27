@@ -1,5 +1,11 @@
 .inner_container{
-    background-color: #fafafa;
-    max-width: 38%;
+    background-color: #f5f0f0;
+    max-width: 80%;
     padding:20px;
+    margin-bottom: 30px;
+    color:#38384e;
+}
+
+.inner_container h2{
+    text-align: center;
 }

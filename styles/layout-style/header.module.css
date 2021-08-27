@@ -34,6 +34,7 @@
     display:flex;
     justify-content: center;
     width: 100%;
+  
 }
 
 ul{
@@ -51,6 +52,7 @@ ul{
     padding: 6px 30px;
     transition: 140ms;
     position: relative;
+   
 }
 .links  li:hover{
     cursor: pointer;
@@ -87,6 +89,7 @@ ul{
     font-size: 14px;
     white-space: nowrap;
     min-width: 100%;
+    z-index: 1000;
 }
 
 .subLinks li{

@@ -39,7 +39,17 @@ const Header = () => {
             <span>Courses</span> <i class="fas fa-caret-down"></i>
             <ul className={styles.subLinks}>
               <li>
-                IGCSE Courses <i class="fas fa-chevron-right"></i>{" "}
+                <Link
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "100%",
+                    color: "white",
+                  }}
+                  to="/IGCSE_Courses"
+                >
+                  IGCSE Courses <i class="fas fa-chevron-right"></i>{" "}
+                </Link>
               </li>
               <li>
                 (Level 3) A level University entry Courses{" "}

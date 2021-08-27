@@ -8,6 +8,7 @@ exports.createPages = async ({ graphql, actions }) => {
           frontmatter {
             courseCategory
             courseName
+            courseDetails
           }
           html
         }

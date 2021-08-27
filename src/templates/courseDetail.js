@@ -10,13 +10,14 @@ const CourseDetail = ({ pageContext }) => {
         style={{
           display: "flex",
           justifyContent: "space-evenly",
+          flexDirection: "column",
           alignItems: "center",
           boxSizing: "border-box",
           padding: 30,
         }}
       >
         <div className={styles.inner_container}>
-          <h2> About the course </h2>
+          <h2> - About the course - </h2>
           <p
             dangerouslySetInnerHTML={{
               __html: node.html,
@@ -25,10 +26,10 @@ const CourseDetail = ({ pageContext }) => {
         </div>
 
         <div className={styles.inner_container}>
-          <h2> Course Details </h2>
+          <h2> - Course Details - </h2>{" "}
           <p
             dangerouslySetInnerHTML={{
-              __html: node.html,
+              __html: node.frontmatter.courseDetails,
             }}
           />
         </div>

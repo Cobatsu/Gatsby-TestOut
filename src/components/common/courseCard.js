@@ -13,12 +13,7 @@ const CourseCard = ({ courseName, courseCategory }) => {
         }}
       ></img>
       <div className={styles.inner_holder}>
-        <span
-          style={{ color: "#38384e", fontWeight: 600, textAlign: "center" }}
-        >
-          {" "}
-          {courseName}
-        </span>
+        <span style={{ color: "#38384e", fontWeight: 600 }}> {courseName}</span>
         <Link
           to={
             courseCategory.split(" ").join("_") +

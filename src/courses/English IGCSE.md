@@ -11,18 +11,18 @@ courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees<
 <br/>
 
 <span style='font-size:18px; color:#01937C'><strong>Module listing</strong></span><br/><br/>
-<span style='font-size:15px;'><strong>The Business Environment</strong></span> <br/><br/>
-This module covers the various objectives of a business, changing business environments and criteria for judging success. The focus is on the importance of having clear business objectives and how the business environment provides opportunities for, and imposes constraints upon, the pursuit of these objectives.<br/><br/>
-<span style='font-size:15px;'><strong>Human Resources and Training</strong> </span> <br/><br/>
-This section looks at people in organisations, focusing on their roles, relationships and management in business.<br/><br/>
-<span style='font-size:15px;'><strong>Business Performance</strong> </span><br/><br/>
-This module explores the use of accounting and financial information as an aid to decision making.
+<span style='font-size:15px;'><strong>English core skills</strong></span> <br/><br/>
+The module covers the basic English skills that you will need in order to complete the rest of the course successfully. There are no specific questions on spelling and punctuation in the examination, but you will be expected to punctuate and spell correctly, as well as write good, grammatical English<br/><br/>
+<span style='font-size:15px;'><strong>Reading comprehension</strong> </span> <br/><br/>
+This module covers questions that are designed to assess reading comprehension (AO1: the ability to read with understanding and select information in an appropriate way from the passages). Questions will be asked on passages which are linked by their theme or subject matter.<br/><br/>
+<span style='font-size:15px;'><strong>Writing to specific guidelines</strong> </span><br/><br/>
+This section tests your ability to write, according to clear guidelines, in response to material that will appear on the examination paper.
 <br/><br/>
-<span style='font-size:15px;'><strong>Marketing and Advertisement</strong> </span><br/><br/>
-This module focuses on identifying and satisfying customer needs in a changing and competitive international environment.
+<span style='font-size:15px;'><strong>Writing reviews, blogs and articles</strong> </span><br/><br/>
+Reviews come in all shapes and sizes and these days, and online reviews can even make or break a business. For the purposes of the exam we will be looking at longer reviews, rather than the short ones found on review sites like Trustpilot.
 <br/><br/>
-<span style='font-size:15px;'><strong>Production</strong> </span><br/><br/>
-This Module examines the way organisations use and manage resources to produce goods and services.
+<span style='font-size:15px;'><strong>Writing Styles and Exam Prep</strong> </span><br/><br/>
+This module covers some specific formats involved in transactional writing including instructions, reports, letters, reviews, blogs, articles and leaflets.
 <br/><br/>
 
 <span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
@@ -38,10 +38,16 @@ This Module examines the way organisations use and manage resources to produce g
 </ul> 
 <br/>
 
-<span style='font-size:18px; color:#01937C'><strong>How do I sit the IGCSE Exam?</strong></span><br/><br/> Approximately 6 months before an exam date, Students should book their place at an exam centre to take the Edexcel IGCSE Business Studies (4BS1) qualification exam.The exam centre could be a private exam centre or a school or college that is also submitting its own students for the exam.Edexcel publish a list of exam centres that accept private candidates. This won’t cover every available centre, so if there’s nothing shown in your area, we recommend contacting local schools and colleges directly.Exam fees are not included in the course cost as they are paid directly to the exam centre. They will vary depending on which centre you choose.
+<span style='font-size:18px; color:#01937C'><strong>How do I sit the IGCSE Exam?</strong></span><br/><br/> Approximately 6 months before an exam date, Students should book their place at an exam centre to take the English (Specification B Paper 1 Paper code: 4EB1/01) exam.
+
+The exam centre could be a be a private exam centre or a school or college that is also submitting its own students for the exam.
+
+Edexcel publish a list of exam centres that accept private candidates. This won’t cover every available centre, so if there’s nothing shown in your area, we recommend contacting local schools and colleges directly.
+
+Exam fees are not included in the course cost as they are paid directly to the exam centre. They will vary depending on which centre you choose.
 <br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Upon completing this course, students will now have the foundations and fundamental knowledge needed to develop their Business skills further. This could be through enrolling in another one of our business-related courses, such as Level 4&5 Business and Management. Job roles associated with Business include: Managers, Marketers, Sales team member, Sales analyst, and Product management.
+<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Upon completion of this course, students will have the foundations and fundamental knowledge needed in order to study A levels or a Level 3 qualification with Online Business School.
 <br/><br/>
 
 <span style='font-size:18px; color:#01937C'><strong>How will I know if I am eligible to complete an IGCSE?</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."

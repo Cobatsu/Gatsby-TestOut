@@ -10,19 +10,28 @@ courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees<
 </ul> 
 <br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Module listing</strong></span><br/><br/>
-<span style='font-size:15px;'><strong>The Business Environment</strong></span> <br/><br/>
-This module covers the various objectives of a business, changing business environments and criteria for judging success. The focus is on the importance of having clear business objectives and how the business environment provides opportunities for, and imposes constraints upon, the pursuit of these objectives.<br/><br/>
-<span style='font-size:15px;'><strong>Human Resources and Training</strong> </span> <br/><br/>
-This section looks at people in organisations, focusing on their roles, relationships and management in business.<br/><br/>
-<span style='font-size:15px;'><strong>Business Performance</strong> </span><br/><br/>
-This module explores the use of accounting and financial information as an aid to decision making.
+<span style='font-size:18px; color:#01937C'><strong>Module Listing</strong></span><br/><br/>
+<span style='font-size:15px;'><strong>Force and motion</strong></span> <br/><br/>
+In every measurement that you make you need to measure in standard units. Over the millennia of measurement humanity has made use of a variety of means of measurement..<br/><br/>
+<span style='font-size:15px;'><strong>Electricity</strong> </span> <br/><br/>
+Units in electricity are a little more mysterious than those studied in force and motion, often people get confused and are not really sure what goes with what..<br/><br/>
+<span style='font-size:15px;'><strong>Waves</strong> </span><br/><br/>
+When you have worked through this section, you will be able to use the following units: degree (°), hertz (Hz), meter (m), metre/second (m/s) and second (s).
 <br/><br/>
-<span style='font-size:15px;'><strong>Marketing and Advertisement</strong> </span><br/><br/>
-This module focuses on identifying and satisfying customer needs in a changing and competitive international environment.
+<span style='font-size:15px;'><strong>Energy resources and energy transfer</strong> </span><br/><br/>
+This module covers kilogram (kg), joule (J), metre  (m), metre/second (m/s), meter/second2 (m/s2), newton (N), second (s) and watt (W)
 <br/><br/>
-<span style='font-size:15px;'><strong>Production</strong> </span><br/><br/>
-This Module examines the way organisations use and manage resources to produce goods and services.
+<span style='font-size:15px;'><strong>Solids, liquids and gases</strong> </span><br/><br/>
+In working with the three states of matter, we find that there are a number of units that are very particular to this area of physics.
+<br/><br/>
+<span style='font-size:15px;'><strong>Magnetism and electromagnetism</strong> </span><br/><br/>
+This modules covers the following units: ampere (A), volt (V) and watt (W).
+<br/><br/>
+<span style='font-size:15px;'><strong>Radioactivity and particles</strong> </span><br/><br/>
+We have  all heard about radioactivity. It always has a very scary aspect to it. But just what is radioactivity?
+<br/><br/>
+<span style='font-size:15px;'><strong>Astrophysics</strong> </span><br/><br/>
+The physics of forces and motion can also be applied to the bigger, and more unknown area of space. We can understand the motion of planets and why we have solar systems, galaxies and the other contents of the universe. In this section we will look at the importance of gravity in space and some calculations of speeds in space.
 <br/><br/>
 
 <span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
@@ -38,7 +47,13 @@ This Module examines the way organisations use and manage resources to produce g
 </ul> 
 <br/>
 
-<span style='font-size:18px; color:#01937C'><strong>How do I sit the IGCSE Exam?</strong></span><br/><br/> Approximately 6 months before an exam date, Students should book their place at an exam centre to take the Edexcel IGCSE Business Studies (4BS1) qualification exam.The exam centre could be a private exam centre or a school or college that is also submitting its own students for the exam.Edexcel publish a list of exam centres that accept private candidates. This won’t cover every available centre, so if there’s nothing shown in your area, we recommend contacting local schools and colleges directly.Exam fees are not included in the course cost as they are paid directly to the exam centre. They will vary depending on which centre you choose.
+<span style='font-size:18px; color:#01937C'><strong>How do I sit the IGCSE Exam?</strong></span><br/><br/> Approximately 6 months before an exam date, Students should book their place at an exam centre to take the Pearson Edexcel International IGCSE Physics (specification 4PH1) exam.
+
+The exam centre could be a private exam centre or a school or college that is also submitting its own students for the exam.
+
+Edexcel publish a list of exam centres that accept private candidates. This won’t cover every available centre, so if there’s nothing shown in your area, we recommend contacting local schools and colleges directly.
+
+Exam fees are not included in the course cost as they are paid directly to the exam centre. They will vary depending on which centre you choose.
 <br/><br/>
 
 <span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Upon completing this course, students will now have the foundations and fundamental knowledge needed to develop their Business skills further. This could be through enrolling in another one of our business-related courses, such as Level 4&5 Business and Management. Job roles associated with Business include: Managers, Marketers, Sales team member, Sales analyst, and Product management.

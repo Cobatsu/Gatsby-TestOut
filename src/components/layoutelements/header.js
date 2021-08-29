@@ -67,7 +67,9 @@ const Header = () => {
             <span>How You Will Learn</span> <i class="fas fa-caret-down"></i>
             <ul className={styles.subLinks}>
               <li>
-                How Will I Be Assessed <i class="fas fa-chevron-right"></i>{" "}
+                <Link className={styles.sublinkHref} to="/assessment-info">
+                  How Will I Be Assessed <i class="fas fa-chevron-right"></i>{" "}
+                </Link>
               </li>
               <li>
                 Levels 3-7 Explained <i class="fas fa-chevron-right"></i>

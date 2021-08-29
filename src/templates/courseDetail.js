@@ -6,16 +6,8 @@ const CourseDetail = ({ pageContext }) => {
   const { node } = pageContext;
   return (
     <Layout title={node.frontmatter.courseName}>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-evenly",
-          flexDirection: "column",
-          alignItems: "center",
-          boxSizing: "border-box",
-          padding: 30,
-        }}
-      >
+      <div className={styles.detail_general_wrapper}>
+        <h2 className={styles.header_title}>{node.frontmatter.courseName}</h2>
         <div className={styles.inner_container}>
           <h2> - About the course - </h2>
           <p

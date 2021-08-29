@@ -41,7 +41,7 @@ const Footer = () => {
           </span>
           <span style={{ color: "#F9F9F9" }}>
             <i className="fas fa-phone" style={{ marginRight: 5 }}></i>
-            <span>Phone number : </span> +1 3063514537
+            <span>Phone : </span> +1 3063514537
           </span>
         </div>
       </div>

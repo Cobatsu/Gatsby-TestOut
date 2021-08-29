@@ -53,7 +53,7 @@ Exam fees are not included in the course cost as they are paid directly to the e
 <span style='font-size:18px; color:#01937C'><strong>How will I know if I am eligible to complete an IGCSE?</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
 ---
 Mathematics is integral to applications and equipment we rely on every day. From building computers to flying a plane or even providing much-needed healthcare practices. Mathematics is an indispensable skill for an extensive range of industries.
-
+<br/><br/>
 This course enables you to develop highly sought-after logical and analytical thought processes, problem-solving abilities and good computing techniques. It will give you the foundation to pursue careers in a wide range of fields including: finance, credit risk, business intelligence, actuarial science, teaching, and research.
-
+<br/><br/>
 The contents of this course are covered over 5 modules, all of which contain an assessment upon completion to help test and cement the student’s knowledge and understanding. Therefore, this gives students the best chance of passing an IGCSE qualification in a flexible and affordable manner.

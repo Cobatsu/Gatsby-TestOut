@@ -27,20 +27,21 @@ const Footer = () => {
           <div className={styles.footer_column_header}>ABOUT US</div>
           <span style={{ color: "#F9F9F9" }}>
             <i class="fas fa-building" style={{ marginRight: 5 }}></i>
-            ADVANCED EDUCATION
+            <span>Company : </span> ADVANCED EDUCATION
           </span>
           <span style={{ color: "#F9F9F9" }}>
             <i className="fas fa-map-marker-alt" style={{ marginRight: 5 }}></i>
-            7030 Woodbine Avenue Markham, ON, Canada L3R 6G2
+            <span>Address : </span> 7030 Woodbine Avenue Markham, ON, Canada L3R
+            6G2
           </span>
           <span style={{ color: "#F9F9F9" }}>
             {" "}
             <i className="fas fa-envelope" style={{ marginRight: 5 }}></i>{" "}
-            info@richmondcollege.co.uk
+            <span>E-mail : </span>info@richmondcollege.co.uk
           </span>
           <span style={{ color: "#F9F9F9" }}>
             <i className="fas fa-phone" style={{ marginRight: 5 }}></i>
-            +1 3063514537
+            <span>Phone number : </span> +1 3063514537
           </span>
         </div>
       </div>

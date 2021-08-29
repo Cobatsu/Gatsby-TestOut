@@ -10,14 +10,14 @@
 .footer_column_holder{
     display:flex;
     justify-content: space-evenly;
-    width: 95%;
+    width: 90%;
 }
 
 .footer_column{
     display:flex;
     flex-direction: column;
     color:white;
-    font-size: 14px;
+    font-size: 13.3px;
     line-height: 25px;
     flex:.28
 }
@@ -32,7 +32,11 @@
 
 .footer_column_header {
     border-bottom: 1px solid rgb(107, 111, 124);
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     color:rgb(145, 150, 167);
     padding-bottom: 10px;
+}
+
+.footer_column span span {
+    color:rgb(145, 150, 167);
 }

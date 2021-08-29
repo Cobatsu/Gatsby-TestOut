@@ -28,6 +28,7 @@
 .logo_links{
     display:flex;
     min-height: 55px;
+    position: relative;
 }
 
 .links{

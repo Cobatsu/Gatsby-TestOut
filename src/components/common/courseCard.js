@@ -17,9 +17,9 @@ const CourseCard = ({ courseName, courseCategory }) => {
         <Link
           to={
             "/" +
-            courseCategory.split(" ").join("_") +
+            courseCategory.toLowerCase().split(" ").join("_") +
             "/" +
-            courseName.split(" ").join("_")
+            courseName.toLowerCase().split(" ").join("_")
           }
           className={styles.view_link}
         >

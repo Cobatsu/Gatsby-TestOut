@@ -13,11 +13,11 @@ const Header = () => {
         </div>
       </div>
       <div className={styles.logo_links}>
-        {/* <img
-          src="/richmond-logo.png"
-          width="150"
-          style={{ marginRight: 50 }}
-        ></img> */}
+        <img
+          src="/richmond-logo2.png"
+          width="250"
+          style={{ marginRight: 50, position: "absolute" }}
+        ></img>
         <ul className={styles.links}>
           <li style={{ padding: 0 }}>
             <Link to="/" className={styles.linkHref}>
@@ -39,7 +39,7 @@ const Header = () => {
             <span>Courses</span> <i class="fas fa-caret-down"></i>
             <ul className={styles.subLinks}>
               <li>
-                <Link className={styles.sublinkHref} to="/IGCSE-courses">
+                <Link className={styles.sublinkHref} to="/igcse-courses">
                   IGCSE Courses <i class="fas fa-chevron-right"></i>{" "}
                 </Link>
               </li>

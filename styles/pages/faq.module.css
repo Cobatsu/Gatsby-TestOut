@@ -1,6 +1,6 @@
 .inner_container{
     background-color: #fbf7ff;
-    max-width: 80%;
+    width: 80%;
     padding:20px;
     margin-bottom: 30px;
     color:#38384e;
@@ -20,9 +20,33 @@
     text-align: center;
 }
 
+.inner_container span{
+    display:none;
+    padding: 0 0 0 20px;
+}
+
 .inner_container h3 {
     color:#01937C;
     font-size: 23px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner_container h3::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: "\f0d7";
+}
+.inner_container h3:hover {
+    cursor: pointer;
 }
 
 .header_title{

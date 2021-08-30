@@ -47,7 +47,7 @@ This Module examines the way organisations use and manage resources to produce g
 <span style='font-size:18px; color:#01937C'><strong>How will I know if I am eligible to complete an IGCSE?</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
 ---
 The Business IGCSE is an internationally recognised qualification that is designed to develop a good understanding of business terminology, concepts, and ideas within different contexts, such as international markets.
-
+<br/><br/>
   <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>   The aims of this course are to provide students with an in depth understanding of business ideas, skills, and concepts, through familiarising our students with business terminology and examples of real-life scenarios which are embedded throughout the course.
   <br/><br/>
   <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>   The course provides students with a solid understanding of key business concepts, which includes: stakeholders, finance, roles within a business, production, international markets, types of businesses, expansion and innovation.

@@ -4,7 +4,7 @@ import * as styles from "../../styles/pages/course_detail.module.css";
 
 const Levels3_7Info = () => {
   return (
-    <Layout title="Assessment Info">
+    <Layout title="Levels 3-7 Explained">
       <div className={styles.detail_general_wrapper}>
         <h2 className={styles.header_title}>Levels 3-7 Explained</h2>
         <div className={styles.inner_container}>

@@ -77,10 +77,14 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                Entry Requirements <i class="fas fa-chevron-right"></i>
+                <Link className={styles.sublinkHref} to="/entry-requirements">
+                  Entry Requirements <i class="fas fa-chevron-right"></i>
+                </Link>
               </li>
               <li>
-                FAQ <i class="fas fa-chevron-right"></i>
+                <Link className={styles.sublinkHref} to="/faq">
+                  FAQ <i class="fas fa-chevron-right"></i>
+                </Link>
               </li>
             </ul>
           </li>

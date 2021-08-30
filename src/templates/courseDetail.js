@@ -10,7 +10,7 @@ const CourseDetail = ({ pageContext }) => {
         <h2 className={styles.header_title}>{node.frontmatter.courseName}</h2>
         <div className={styles.inner_container}>
           <h2> - About the course - </h2>
-          <span
+          <div
             dangerouslySetInnerHTML={{
               __html: node.html,
             }}
@@ -19,7 +19,7 @@ const CourseDetail = ({ pageContext }) => {
 
         <div className={styles.inner_container}>
           <h2> - Course Details - </h2>{" "}
-          <span
+          <div
             dangerouslySetInnerHTML={{
               __html: node.frontmatter.courseDetails,
             }}

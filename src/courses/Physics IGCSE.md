@@ -62,9 +62,9 @@ Exam fees are not included in the course cost as they are paid directly to the e
 <span style='font-size:18px; color:#01937C'><strong>How will I know if I am eligible to complete an IGCSE?</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
 ---
 The Physics IGCSE is an internationally recognised qualification designed to develop a solid understanding of physics formulae, ideas, and studies within different circumstances, such as different types of motion. The course is mapped against Pearsons Edexcel international IGCSE Physics. This IGCSE qualification is the same as you would study in school.
-
+<br/><br/>
 In this course, students will study the practical nature of physics as well as the theoretical, learning to form hypotheses and design experiments. In terms of scientific knowledge, they will learn to evaluate the benefits and drawbacks of scientific and technological developments.
-
+<br/><br/>
 Students will also become familiar with, be able to utilise correctly, essential scientific formula, and identify the different symbols used within these formulae.
-
+<br/><br/>
 The content of this course is covered in 8 modules. It includes an assessment upon completion to help test and cement the student’s knowledge and understanding. Therefore, this gives our students the best chance of an IGCSE qualification in a flexible and affordable manner.

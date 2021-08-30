@@ -72,7 +72,9 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                Levels 3-7 Explained <i class="fas fa-chevron-right"></i>
+                <Link className={styles.sublinkHref} to="/levels3-7">
+                  Levels 3-7 Explained <i class="fas fa-chevron-right"></i>
+                </Link>
               </li>
               <li>
                 Entry Requirements <i class="fas fa-chevron-right"></i>

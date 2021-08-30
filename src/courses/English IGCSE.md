@@ -53,7 +53,7 @@ Exam fees are not included in the course cost as they are paid directly to the e
 <span style='font-size:18px; color:#01937C'><strong>How will I know if I am eligible to complete an IGCSE?</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
 ---
 The English IGCSE is an internationally recognised qualification that is designed to develop a good understanding of language, punctuation, types of writing, literature, and the writer’s purpose behind writing.
-
+<br/><br/>
   <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>   The aims of this course are to provide students with a solid, in depth understanding of concepts such as language use, subject terminology, punctuation and writer’s purpose, across an array of different text types. This will familiarise students with the different types of texts and therefore should help to develop skills, such as the ability to evaluate, identify and analyse.
   <br/><br/>
   <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>   In this course the types of texts students will be faced with range from poetry, creative writing, and letters, so that they get to experience all of the different types of text they will need to know in order to pass their IGCSE exam.

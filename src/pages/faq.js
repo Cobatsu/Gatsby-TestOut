@@ -5,19 +5,20 @@ import { Link } from "gatsby";
 
 const Faq = () => {
   const enableAnswer = (e) => {
-    if (e.target.parentElement.children[1].style.display == "none") {
+    if (
+      e.target.parentElement.children[1].style.display == "none" ||
+      e.target.parentElement.children[1].style.display == "" // for some reasons it does not get the value at the first render
+    ) {
       const subTexts = document.querySelectorAll(
         "." + styles.inner_container + " span"
       );
       for (let i = 0; i < subTexts.length; i++) {
         if (subTexts[i] != e.target.parentElement.children[1]) {
           subTexts[i].style.display = "none";
-        } else {
-          subTexts[i].style.display = "block";
         }
       }
+      e.target.parentElement.children[1].style.display = "block";
     } else {
-      console.log("hey");
       e.target.parentElement.children[1].style.display = "none";
     }
   };

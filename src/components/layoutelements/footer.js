@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div className={styles.main_wrapper}>
       <div className={styles.footer_column_holder}>
+        
         <div className={styles.footer_column}>
           <div className={styles.footer_column_header}>OUR COLLABORATIONS</div>
           <img src="/richmond-logo2.png" width="150"></img>
@@ -13,6 +14,7 @@ const Footer = () => {
           <img src="/othm-logo.png" style={{ width: "150px" }}></img>
           <img src="/qualifi-logo.png" style={{ width: "150px" }}></img>
         </div>
+
         <div className={styles.footer_column}>
           <div className={styles.footer_column_header}>USEFUL LINKS</div>
           <Link to="/" style={{ color: "white" }}>

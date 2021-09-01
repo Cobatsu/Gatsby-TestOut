@@ -6,20 +6,20 @@ import { Link } from "gatsby";
 const Faq = () => {
   const enableAnswer = (e) => {
     if (
-      e.target.parentElement.children[1].style.display == "none" ||
-      e.target.parentElement.children[1].style.display == "" // for some reasons it does not get the value at the first render
+      e.target.parentElement.children[1].style.height == "0px" ||
+      e.target.parentElement.children[1].style.height == "" // for some reasons it does not get the value at the first render
     ) {
       const subTexts = document.querySelectorAll(
         "." + styles.inner_container + " span"
       );
       for (let i = 0; i < subTexts.length; i++) {
         if (subTexts[i] != e.target.parentElement.children[1]) {
-          subTexts[i].style.display = "none";
+          subTexts[i].style.height = "0px";
         }
       }
-      e.target.parentElement.children[1].style.display = "block";
+      e.target.parentElement.children[1].style.height = "200px";
     } else {
-      e.target.parentElement.children[1].style.display = "none";
+      e.target.parentElement.children[1].style.height = "0px";
     }
   };
 
@@ -131,6 +131,108 @@ const Faq = () => {
               Submissions need to be uploaded to via the dashboard, in the
               ‘Assignments’ area. Students must also provide a plagiarism report
               for all submitted assignments
+            </span>
+          </div>
+          <div>
+            <h3>How many words do I have to write for my assignments?</h3>
+            <span>
+              We recommend students write between 5000 – 8000 words for each
+              assignment. You will not be penalised for going over this word
+              count limit as long as the work is related to the assignment
+              question.
+            </span>
+          </div>
+          <div>
+            <h3>When do I receive the assignments?</h3>
+            <span>Assignments are released to students upon enrolment.</span>
+          </div>
+          <div>
+            <h3>How long does the marking process take?</h3>
+            <span>
+              After an assignment has been submitted, our markers will return
+              the results within 10 working days. Once all assignments have been
+              completed and marked, an Internal Verifier will view the work,
+              which usually takes up to 10 working days. After the Internal
+              Verification has come back and agrees with the initial marking,
+              all of the assignments are sent to ATHE for External Verification.
+              ATHE will then check all of the work to ensure it is of the
+              correct standard. This process can take up to 30 working days. In
+              total, once you have completed all assignments and had them
+              marked, it can take up to 40 working days to receive your final
+              result.
+            </span>
+          </div>
+        </div>
+        <div className={styles.inner_container}>
+          <h2> - Costs - </h2>
+          <div>
+            <h3>Is the online payment taken immediately?</h3>
+            <span>
+              Yes. Once Richmond College has received the cleared funds your
+              course material will be released to you immediately.
+            </span>
+          </div>
+          <div>
+            <h3> Is there any financial assistance available?</h3>
+            <span>
+              OBS offers an interest free payment plan so that you can pay for
+              your course over a set number of months. Contact one of our
+              student advisers for more information about this. UK students may
+              also be eligible for student loans for the university top-up
+              programme. Learners should make enquiries directly to their chosen
+              university.
+            </span>
+          </div>
+          <div>
+            <h3> Are there likely to be any additional costs?</h3>
+            <span>
+              No additional costs are levied by OBS, and all additional learning
+              resources including tutor support, e-books, games and short
+              business courses, are included in course tuition fees. For more
+              information relating to tutor support click here.
+            </span>
+          </div>
+          <div>
+            <h3>What payment options are available?</h3>
+            <span>
+              Payment can be made online through Sage Pay by credit/debit card,
+              bank transfer or PayPal through any of our international banks.
+            </span>
+          </div>
+          <div>
+            <h3>How much do assessments cost?</h3>
+            <span>Assessments are included with the course purchases.</span>
+          </div>
+        </div>
+        <div className={styles.inner_container}>
+          <h2> - Credibility - </h2>
+          <div>
+            <h3>Who are ATHE?</h3>
+            <span>
+              ATHE provides colleges with qualifications in management,
+              business, tourism and health & social care, ATHE have made a name
+              for themselves with good customer service, rewarding
+              qualifications and happy learners with progression routes to
+              university degrees. ATHE provide bespoke training support, great
+              value for money, comprehensive university progressions, dedicated
+              support from an ATHE officer, simple easy to use documents and
+              website, innovative qualifications, External Verifier support,
+              flexible delivery solutions, a global focus and a close business
+              development relationship. Please visit athe.co.uk for more
+              information
+            </span>
+          </div>
+          <div>
+            <h3> How are Universities linked to the modules?</h3>
+            <span>
+              Learners who achieve an OBS qualification are automatically mapped
+              against a standard UK Higher Education qualification framework.
+              This is a universally recognised framework of credits.
+              Universities can therefore award credits against the OBS study to
+              give exemptions from large parts of their formal programmes. OBS
+              and ATHE have pre agreed arrangements with certain universities to
+              provide credits against programmes either on campus or off campus.
+              This is termed ‘university top-up’.
             </span>
           </div>
         </div>

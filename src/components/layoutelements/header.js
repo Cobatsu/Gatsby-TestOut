@@ -39,7 +39,7 @@ const Header = () => {
             <span>Courses</span> <i class="fas fa-caret-down"></i>
             <ul className={styles.subLinks}>
               <li>
-                <Link className={styles.sublinkHref} to="/igcse-courses">
+                <Link className={styles.sublinkHref} to="/IGCSE-courses">
                   IGCSE Courses <i class="fas fa-chevron-right"></i>{" "}
                 </Link>
               </li>

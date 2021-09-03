@@ -2,6 +2,8 @@ import * as React from "react";
 import Layout from "../components/layoutelements/layout";
 import * as styles from "../../styles/pages/course_detail.module.css";
 
+
+
 const AssessmentInfoInfo = () => {
   return (
     <Layout title="Assessment Info">

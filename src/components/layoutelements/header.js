@@ -24,7 +24,7 @@ const Header = () => {
               <span>Home</span>{" "}
             </Link>
           </li>
-          <li>
+          {/* <li>
             <span>About Us</span> <i class="fas fa-caret-down"></i>{" "}
             <ul className={styles.subLinks}>
               <li>
@@ -34,7 +34,7 @@ const Header = () => {
                 Who We Are <i class="fas fa-chevron-right"></i>{" "}
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <span>Courses</span> <i class="fas fa-caret-down"></i>
             <ul className={styles.subLinks}>

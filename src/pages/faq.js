@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/layoutelements/layout";
 import * as styles from "../../styles/pages/faq.module.css";
 import { Link } from "gatsby";
+import Img from "gatsby-image"
 
 const Faq = () => {
   const enableAnswer = (e) => {

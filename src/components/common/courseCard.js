@@ -1,17 +1,19 @@
 import React from "react";
 import * as styles from "../../../styles/components/course_card.module.css";
 import { Link } from "gatsby";
+import Img from "gatsby-image"
 
-const CourseCard = ({ courseName, courseCategory }) => {
+const CourseCard = ({ courseName, courseCategory , featuredImgFluid}) => {
   return (
     <div className={styles.main_wrapper}>
-      <img
-        src="/course_ex_image.jpg"
+      <Img
+        fluid={featuredImgFluid}
         style={{
           width: "100%",
           borderRadius: "6px 6px 0 0",
+          zIndex:-10,
         }}
-      ></img>
+      ></Img>
       <div className={styles.inner_holder}>
         <span style={{ color: "#38384e", fontWeight: 600 }}> {courseName}</span>
         <Link

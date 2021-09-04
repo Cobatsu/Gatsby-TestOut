@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import Layout from "../components/layoutelements/layout";
 // styles
 const pageStyles = {
   color: "#232129",
@@ -37,7 +37,7 @@ const NotFoundPage = () => {
         </span>{" "}
         we couldn’t find what you were looking for.
         <br />
-        {process.env.NODE_ENV === "development" ? (
+          {process.env.NODE_ENV === "development" ? (
           <>
             <br />
             Try creating a page in <code style={codeStyles}>src/pages/</code>.

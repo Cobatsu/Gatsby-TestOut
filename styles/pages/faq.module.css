@@ -22,7 +22,7 @@
 
 .inner_container span{
     height: 0px;
-    display:block;
+    display:flex;
     overflow: hidden;
     padding: 0 0 0 20px;
     transition: 200ms;

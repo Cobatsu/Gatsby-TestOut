@@ -9,6 +9,17 @@ exports.createPages = async ({ graphql, actions }) => {
             courseCategory
             courseName
             courseDetails
+            featuredImage {
+              childImageSharp {
+                fluid (maxWidth: 800){
+                  base64
+                  aspectRatio
+                  src
+                  srcSet
+                  sizes
+                }
+              }
+            }
           }
           html
         }

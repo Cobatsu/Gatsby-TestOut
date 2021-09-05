@@ -21,9 +21,6 @@ const Home = (props) => {
                 <Courses allMarkdownRemark={allMarkdownRemark}
                     title="Level 3 – A level University Entry Courses"
                     type="Level 3 – A level University Entry"/>
-                <Courses allMarkdownRemark={allMarkdownRemark}
-                    title="(Level 4 & 5) University 1st and 2nd year Courses"
-                    type="Level 3 – A level University Entry"/>
             </div>
         </Layout>
     );

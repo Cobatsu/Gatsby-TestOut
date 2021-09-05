@@ -52,7 +52,7 @@ The Level 3 Foundation Diploma in IT has 6 modules and 6 written assignments. On
 <span style='font-size:15px;'><strong>The assignment unit titles that students need to complete for the Level 3 course are</strong> </span><br/><br/>
 The Level 3 Foundation Diploma in IT has 6 modules and 6 written assignments. On completion of the modules, students will be given access to the assignments. The assignments are approximately 5,000-8,000 words each. Students are provided support on the modules and assignments via the 'Tutor' section of the learning platform.
 <br/><br/>
-More information about the level 3 units can be found here: <a target='_blank' href={https://www.othm.org.uk/doc/specification-jan21/OTHM_L3_Foundation_Diploma_in_Information_Technology_spec_2021_01.pdf}>https://www.othm.org.uk/doc/specification-jan21/OTHM_L3_Foundation_Diploma_in_Information_Technology_spec_2021_01.pdf</a> "
+More information about the level 3 units can be found here: <a target='_blank' href='https://www.othm.org.uk/doc/specification-jan21/OTHM_L3_Foundation_Diploma_in_Information_Technology_spec_2021_01.pdf'>https://www.othm.org.uk/doc/specification-jan21/OTHM_L3_Foundation_Diploma_in_Information_Technology_spec_2021_01.pdf</a> "
 ---
 
 Businesses require IT to remain competitive and provide the best products and services to their customers. As more and more businesses discover ways to use technology to their benefit, demand for trained, specialised IT professionals grows. Do you want to start your career in IT? The Level 3 Foundation Diploma in IT is a 60 credit qualification (equivalent to one A Level). The objective of the course is to equip learners with the skills and knowledge required to work in the IT sector or progress to further study.

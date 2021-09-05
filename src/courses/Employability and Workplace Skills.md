@@ -35,7 +35,7 @@ courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees<
 
 <span style='font-size:18px; color:#01937C'><strong>Level 3 module listing</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
 ---
-Employability skills are the essential skills, personal qualities and values that enable you to thrive in any workplace. Our Level 3 Foundation Diploma in Employability and Workplace Skills has been developed to provide learners with a range of knowledge, understanding, personal skills and attributes essential for successful performance in working life. This course has been designed to support you successfully gaining a job, progressing in a chosen field, or prepare you for further study.The learners will:
+Employability skills are the essential skills, personal qualities and values that enable you to thrive in any workplace. Our Level 3 Foundation Diploma in Employability and Workplace Skills has been developed to provide learners with a range of knowledge, understanding, personal skills and attributes essential for successful performance in working life. This course has been designed to support you successfully gaining a job, progressing in a chosen field, or prepare you for further study.The learners will:<br/><br/>
 
   <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>    Develop a body of knowledge about workplace employment and employability in range of sectors.
   <br/><br/>

@@ -10,6 +10,7 @@
     display:flex;
     justify-content: flex-end;
     padding:14px 14px 0 6px;
+    position: relative;
 }
 .heyo {
     background-color: red;
@@ -28,7 +29,7 @@
 .logo_links{
     display:flex;
     min-height: 55px;
-    position: relative;
+    
 }
 
 .links{

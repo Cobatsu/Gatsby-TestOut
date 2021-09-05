@@ -21,7 +21,7 @@ const CourseDetail = ({pageContext}) => {
                     node.frontmatter.courseName
                 }</h2>
 
-                <Img style={{width:"82.6%",height:"400px",zIndex:-10,margin:30}} fluid={featuredImgFluid}></Img>
+                <Img style={{width:"82.6%",maxHeight:"400px",zIndex:-10,margin:30}} fluid={featuredImgFluid}></Img>
 
                 <div className={
                     styles.inner_container

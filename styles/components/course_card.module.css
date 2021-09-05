@@ -3,9 +3,11 @@
     flex-direction: column;
     align-items: center;
     width:23%;
-    margin-right: 10px;
+    min-width: 190px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 6px;
+    margin-bottom: 30px;
+    margin-right: 20px;
 }
 
 .inner_holder{
@@ -17,6 +19,10 @@
     flex:1;
     box-sizing: border-box;
     padding: 10px 10px 15px 10px;
+}
+
+.inner_holder span {
+    text-align: center;
 }
 
 .view_link{

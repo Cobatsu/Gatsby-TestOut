@@ -11,6 +11,7 @@ const CourseCard = ({ courseName, courseCategory , featuredImgFluid}) => {
         style={{
           width: "100%",
           borderRadius: "6px 6px 0 0",
+          maxHeight:"150px",
           zIndex:-10,
         }}
       ></Img>

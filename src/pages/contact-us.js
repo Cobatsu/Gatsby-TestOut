@@ -114,7 +114,10 @@ const RefferenceNumber = props => {
   setLoading(true);
 
   axios
-   .post("http://localhost:3001/api/profile/contactReport/add", finalState)
+   .post(
+    "https://study-online.herokuapp.com/api/profile/contactReport/add",
+    finalState
+   )
    .then(response => {
     const {result} = response.data;
     window.scrollTo(0, 0);

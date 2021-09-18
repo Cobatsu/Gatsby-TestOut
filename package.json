@@ -15,11 +15,19 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.0.0",
+    "axios": "^0.21.4",
+    "babel-plugin-styled-components": "^1.13.2",
+    "email-validator": "^2.0.4",
     "gatsby": "^3.6.2",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-gatsby-cloud": "^2.6.1",
     "gatsby-plugin-react-head": "^1.1.0",
     "gatsby-plugin-sharp": "^3.13.0",
+    "gatsby-plugin-styled-components": "^4.14.0",
     "gatsby-source-filesystem": "^3.6.0",
     "gatsby-source-mongodb": "^3.6.0",
     "gatsby-transformer-remark": "^4.3.0",
@@ -27,6 +35,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-head": "^3.4.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-number-format": "^4.7.3",
+    "styled-components": "^5.3.1"
   }
 }

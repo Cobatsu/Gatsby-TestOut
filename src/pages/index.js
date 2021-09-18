@@ -16,8 +16,9 @@ const Home = (props) => {
                 styles.main_wrapper
             }>
                 <Courses allMarkdownRemark={allMarkdownRemark}
-                    title="IGCSE Courses"
+                    title='IGCSE Courses'
                     type="IGCSE"/>
+
                 <Courses allMarkdownRemark={allMarkdownRemark}
                     title="Level 3 – A level University Entry Courses"
                     type="Level 3 – A level University Entry"/>

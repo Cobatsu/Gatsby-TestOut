@@ -40,3 +40,13 @@
 .footer_column span span {
  color: rgb(145, 150, 167);
 }
+
+
+@media only screen and (max-width: 700px) {
+   .footer_column_holder{
+      flex-direction: column;
+   }
+   .footer_column{
+      margin-top: 15px;
+   }
+ }

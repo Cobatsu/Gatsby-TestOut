@@ -33,8 +33,8 @@ const GeneralWrapper = styled.div`
 `;
 
 const FormBox = styled.form`
- min-width: 350px;
- min-height: 500px;
+ min-width: 430px;
+ min-height: 680px;
  border-radius: 6px;
  display: flex;
 
@@ -94,6 +94,7 @@ const initialState = {
  e_mail: "",
  phoneNumber: "(___) ___-____",
  region: "",
+ message: "",
 };
 
 const RefferenceNumber = props => {
@@ -109,15 +110,13 @@ const RefferenceNumber = props => {
    relatedPersonPhoneNumber: contactForm.phoneNumber,
    relatedPersonEmail: contactForm.e_mail,
    region: contactForm.region,
+   message: contactForm.message,
   };
 
   setLoading(true);
 
   axios
-   .post(
-    "https://study-online.herokuapp.com/api/profile/contactReport/add",
-    finalState
-   )
+   .post("http://localhost:3000/api/profile/contactReport/add", finalState)
    .then(response => {
     const {result} = response.data;
     window.scrollTo(0, 0);
@@ -133,7 +132,7 @@ const RefferenceNumber = props => {
  };
 
  let isPhoneNumberFilled = checkPhoneNumber(contactForm["phoneNumber"]);
-
+ console.log(contactForm);
  let isEmailCorrect = validator.validate(contactForm["e_mail"]);
 
  let result = Object.keys(contactForm).every(key => {
@@ -203,7 +202,7 @@ const RefferenceNumber = props => {
    <GeneralWrapper>
     <h5 style={{color: "#01937c"}}>
      {" "}
-     We will be in contact with you with in 24 hours after filling up the form
+     We will be in contact with you within 24 hours after filling up the form
      below{" "}
     </h5>
     <FormBox onSubmit={Submit}>
@@ -254,6 +253,17 @@ const RefferenceNumber = props => {
         </MenuItem>
        ))}
       </TextField>
+
+      <TextField
+       style={{width: "100%", marginTop: 7}}
+       value={contactForm["message"]}
+       label='Your Message'
+       onChange={OnchangeHandler("message")}
+       id='select'
+       multiline
+       rows={8}
+       rowsMax={10}
+      />
      </InputBox>
 
      <SubmitButton disabled={!result || loading}>

@@ -15,9 +15,7 @@ const Home = props => {
     <div className={styles.banner}>
      <div className={styles.layer}>
       <div className={styles.text}>
-       <span style={{color: "white", fontSize: "3rem"}}>
-        Study for a degree or MBA from UK Universities
-       </span>
+       <span>Study for a degree or MBA from UK Universities</span>
       </div>
       <div className={styles.logo_holder}>
        {" "}

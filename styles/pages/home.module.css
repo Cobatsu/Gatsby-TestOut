@@ -6,7 +6,7 @@
 }
 .banner {
  width: 90%;
- height: 600px;
+ height: 37rem;
  background: url("/banner.jpg") no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -31,10 +31,32 @@
 
 .inner_holder {
  display: flex;
- justify-content: flex-start;
+ justify-content: center;
  flex-wrap: wrap;
  margin-top: 40px;
 }
 .outer_wrapper {
  width: 80%;
 }
+
+.logo_holder{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text{
+   padding: 60px;
+   text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+   .logo_holder {
+     justify-content: center;
+   }
+   .banner{
+      width: 98%;
+   }
+   .text{
+      padding: 20;
+   }
+ }

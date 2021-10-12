@@ -9,7 +9,7 @@ export const Courses = ({allMarkdownRemark, type, title}) => (
     style={{
      textAlign: "center",
      color: "#01937C",
-     fontSize: 30,
+     fontSize: "1.7rem",
     }}
    >
     {title}

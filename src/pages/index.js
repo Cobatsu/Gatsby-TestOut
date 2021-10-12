@@ -14,16 +14,16 @@ const Home = props => {
    <div className={styles.main_wrapper}>
     <div className={styles.banner}>
      <div className={styles.layer}>
-      <div style={{paddingLeft: 60}}>
-       <span style={{color: "white", fontSize: 60}}>
+      <div className={styles.text}>
+       <span style={{color: "white", fontSize: "3rem"}}>
         Study for a degree or MBA from UK Universities
        </span>
       </div>
-      <div style={{display: "flex", justifyContent: "flex-end"}}>
+      <div className={styles.logo_holder}>
        {" "}
-       <img src='/athe-logo.png' style={{height: "75px"}}></img>
-       <img src='/othm-logo.png' style={{height: "75px"}}></img>
-       <img src='/qualifi-logo.png' style={{height: "75px"}}></img>
+       <img src='/athe-logo.png' style={{height: "4rem"}}></img>
+       <img src='/othm-logo.png' style={{height: "4rem"}}></img>
+       <img src='/qualifi-logo.png' style={{height: "4rem"}}></img>
       </div>
      </div>
     </div>

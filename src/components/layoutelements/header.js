@@ -46,23 +46,19 @@ const subMenu = [
 ];
 
 export const useViewport = () => {
- const [width, setWidth] = React.useState(
-  typeof window != "undefined" && window.innerWidth
- );
+ const [width, setWidth] = React.useState(window.innerWidth);
 
  React.useEffect(() => {
-  if (typeof window != "undefined") {
-   const handleWindowResize = () => setWidth(window.innerWidth);
-   window.addEventListener("resize", handleWindowResize);
-   return () => window.removeEventListener("resize", handleWindowResize);
-  }
+  const handleWindowResize = () => setWidth(window.innerWidth);
+  window.addEventListener("resize", handleWindowResize);
+  return () => window.removeEventListener("resize", handleWindowResize);
  }, []);
 
  return {width};
 };
 
 const Header = () => {
- const {width} = useViewport();
+ const {width} = typeof window != "undefined" ? useViewport() : {};
  const breakPoint = 1030;
  return width < breakPoint ? (
   <Responsive_Nav subMenu={subMenu} />

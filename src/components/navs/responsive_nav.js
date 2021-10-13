@@ -116,12 +116,26 @@ const ResponsiveNav = ({subMenu}) => {
     >
      <i style={{color: "white"}} className='fas fa-bars'></i>
     </SideBarMenuIconWrapper>
+
     <img
      src='/richmond-logo2.png'
      style={{
       height: "30px",
      }}
     ></img>
+    <div
+     className={styles.contact_buttons_item}
+     style={{padding: 0, marginRight: 8}}
+    >
+     <Link
+      to='/contact-us'
+      className={styles.linkHref}
+      style={{color: "#464660", padding: "7px 9px"}}
+     >
+      <span style={{marginRight: 6, fontSize: 11}}>Contact Us</span>
+      <i class='fas fa-paper-plane'></i>
+     </Link>
+    </div>
    </NavWrapper>
 
    <SideBar

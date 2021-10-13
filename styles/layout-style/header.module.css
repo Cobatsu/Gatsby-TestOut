@@ -123,7 +123,7 @@ ul {
 .Non_Responsive_Nav {
    display: block;
 }
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 800px) {
    .ResponsiveNav {
       display: block;
    }

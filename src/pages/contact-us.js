@@ -28,13 +28,12 @@ const GeneralWrapper = styled.div`
  margin-top: 20px;
  flex-direction: column;
  align-items: center;
-
  justify-content: center;
 `;
 
 const FormBox = styled.form`
- min-width: 430px;
- min-height: 680px;
+ min-width: 30rem;
+ min-height: 40rem;
  border-radius: 6px;
  display: flex;
 
@@ -200,7 +199,7 @@ const RefferenceNumber = props => {
     </ErrorCapsule>
    )}
    <GeneralWrapper>
-    <h5 style={{color: "#01937c"}}>
+    <h5 style={{color: "#01937c", fontSize: "1rem", width: "28rem"}}>
      {" "}
      We will be in contact with you within 24 hours after filling up the form
      below{" "}
@@ -213,25 +212,25 @@ const RefferenceNumber = props => {
 
      <InputBox>
       <TextField
-       style={{width: "100%"}}
+       style={{width: "100%", marginBottom: 10}}
        onChange={OnchangeHandler("name")}
        label='Name'
       />
 
       <TextField
-       style={{width: "100%"}}
+       style={{width: "100%", marginBottom: 10}}
        onChange={OnchangeHandler("surname")}
        label='Surname'
       />
 
       <TextField
-       style={{width: "100%"}}
+       style={{width: "100%", marginBottom: 10}}
        onChange={OnchangeHandler("e_mail")}
        label='E-mail Address'
       />
 
       <NumberFormat
-       style={{width: "100%"}}
+       style={{width: "100%", marginBottom: 10}}
        onChange={OnchangeHandler("phoneNumber")}
        customInput={TextField}
        format='(###) ###-####'
@@ -240,7 +239,7 @@ const RefferenceNumber = props => {
        mask='_'
       />
       <TextField
-       style={{width: "100%"}}
+       style={{width: "100%", marginBottom: 10}}
        value={contactForm["region"]}
        onChange={OnchangeHandler("region")}
        id='select'

@@ -100,8 +100,11 @@ const InnerItemText = styled.span`
 
 const ResponsiveNav = ({subMenu}) => {
  const [sideBarStatus, setSideBarStatus] = useState(false);
- if (sideBarStatus) document.body.style.overflowY = "hidden";
- else document.body.style.overflowY = "scroll";
+ if (typeof window != "undefined") {
+  if (sideBarStatus) document.body.style.overflowY = "hidden";
+  else document.body.style.overflowY = "scroll";
+ }
+
  return (
   <React.Fragment>
    <Holder />

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import styled from "styled-components";
-import {Link} from "gatsby";
+import {Link, navigate} from "gatsby";
 import * as styles from "../../../styles/layout-style/header.module.css";
 
 const NavWrapper = styled.div`
@@ -118,6 +118,9 @@ const ResponsiveNav = ({subMenu}) => {
     </SideBarMenuIconWrapper>
 
     <img
+     onClick={() => {
+      navigate("/");
+     }}
      src='/richmond-logo2.png'
      style={{
       height: "30px",

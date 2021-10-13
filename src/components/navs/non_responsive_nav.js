@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import * as styles from "../../../styles/layout-style/header.module.css";
-import {Link} from "gatsby";
+import {Link, navigate} from "gatsby";
 const InvisibleStaticDiv = () => {
  return <div style={{minHeight: 98, width: "100%"}}></div>;
 };
@@ -22,6 +22,10 @@ const None_Responsive_Nav = () => (
 
    <div className={styles.logo_links}>
     <img
+     className={styles.header_company_logo}
+     onClick={() => {
+      navigate("/");
+     }}
      src='/richmond-logo2.png'
      style={{
       marginRight: 50,

@@ -36,7 +36,7 @@ courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees<
 <span style='font-size:18px; color:#01937C'><strong>Level 3 module listing</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
 ---
 The Level 3 University Foundation Programme is a 120 credit qualification (equivalent to two A levels) that helps students learn key concepts and a range of management procedures required to work within a business. It has been specifically developed to provide the knowledge required for students to work effectively, both as individuals and in teams within business. Being able to develop good business management skills is crucial for any company.
-
+<br/><br/>
 The Level 3 Diploma Business Management is made up of 6 modules and 6 written assignments; each module consists of approximately 40 guided learning hours. While completing the Diploma, students will have access to various study resources, such as tutor support and webinars, a social learning forum, and additional materials to complete their graduate business course.
-
+<br/><br/>
 Upon completion of this course, students receive an ATHE Level 3 Business Management qualification which is fully regulated by Ofqual. Students will then have the opportunity to apply for admission onto a full Undergraduate Degree programme from a range of UK universities. Alternatively, students can opt to study our Level 4/5 Extended Diploma in Management and then complete an Undergraduate Top Up at a range of UK universities.

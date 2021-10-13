@@ -56,7 +56,7 @@ More information about the level 3 units can be found here: <a target='_blank' h
 ---
 
 Businesses require IT to remain competitive and provide the best products and services to their customers. As more and more businesses discover ways to use technology to their benefit, demand for trained, specialised IT professionals grows. Do you want to start your career in IT? The Level 3 Foundation Diploma in IT is a 60 credit qualification (equivalent to one A Level). The objective of the course is to equip learners with the skills and knowledge required to work in the IT sector or progress to further study.
-
+<br/><br/>
 This qualification is designed to ensure that each learner has an opportunity to build sector knowledge and learn current skills and practices in computer systems, networks, coding, website development, mobile communications, cyber security and social media for business.
-
+<br/><br/>
 The Level 3 course is made up of 6 modules and 6 written assignments. Each module consists of 40 guided learning hours of material with an additional 30-50 hours worth of optional materials that comprise of recommended exercises, recommended readings, Internet resources, and self-testing exercises.

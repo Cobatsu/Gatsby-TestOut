@@ -116,7 +116,9 @@ ul {
 .subLinks li:hover {
  background-color: #464660;
 }
-
+.header_company_logo:hover{
+   cursor: pointer;
+}
 .ResponsiveNav {
    display: none;
 }

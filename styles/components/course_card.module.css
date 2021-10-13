@@ -8,6 +8,7 @@
     border-radius: 6px;
     margin-bottom: 30px;
     margin-right: 20px;
+    position:relative;
 }
 
 @media only screen and (max-width: 600px) {
@@ -44,7 +45,17 @@
     transition: 150ms;
     margin-top: 10px;
 }
+.card_title{
+    color:#38384e;
+    font-weight: 600;
+    font-size: 1rem;
+}
 
+@media only screen and (max-width: 700px) {
+    .card_title{
+        font-size:1.4rem
+    }
+}
 .view_link:hover{
     background: #01937C;
 }

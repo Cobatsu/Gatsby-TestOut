@@ -5,13 +5,13 @@
  align-items: center;
 }
 .banner {
+   position: relative;
  width: 90%;
- height: 37rem;
+ height: 30rem;
  background: url("/banner.jpg") no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
-
  background-size: cover;
 }
 

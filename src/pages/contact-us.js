@@ -115,7 +115,7 @@ const RefferenceNumber = props => {
   setLoading(true);
 
   axios
-   .post("http://localhost:3000/api/profile/contactReport/add", finalState)
+   .post("http://richmondcollege.ca/api/profile/contactReport/add", finalState)
    .then(response => {
     const {result} = response.data;
     window.scrollTo(0, 0);

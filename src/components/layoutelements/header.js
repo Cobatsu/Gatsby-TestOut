@@ -39,10 +39,10 @@ const subMenu = [
    {title: "FAQ", link: "faq"},
   ],
  },
- {
-  type: "Our Hubs",
-  link: "/hubs",
- },
+ //  {
+ //   type: "Our Hubs",
+ //   link: "/hubs",
+ //  },
 ];
 
 export const useViewport = () => {
@@ -58,12 +58,11 @@ export const useViewport = () => {
 };
 
 const Header = () => {
- const {width} = typeof window != "undefined" ? useViewport() : {};
- const breakPoint = 1030;
- return width < breakPoint ? (
-  <Responsive_Nav subMenu={subMenu} />
- ) : (
-  <Non_Responsive_Nav />
+ return (
+  <React.Fragment>
+   <Responsive_Nav subMenu={subMenu} />
+   <Non_Responsive_Nav />
+  </React.Fragment>
  );
 };
 

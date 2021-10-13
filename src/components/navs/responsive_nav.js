@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import styled from "styled-components";
 import {Link} from "gatsby";
+import * as styles from "../../../styles/layout-style/header.module.css";
 
 const NavWrapper = styled.div`
  display: flex;
@@ -106,7 +107,7 @@ const ResponsiveNav = ({subMenu}) => {
  }
 
  return (
-  <React.Fragment>
+  <div className={styles.ResponsiveNav}>
    <Holder />
 
    <NavWrapper>
@@ -128,7 +129,7 @@ const ResponsiveNav = ({subMenu}) => {
     subMenu={subMenu}
     setSideBarStatus={setSideBarStatus}
    />
-  </React.Fragment>
+  </div>
  );
 };
 

@@ -5,7 +5,7 @@ const InvisibleStaticDiv = () => {
  return <div style={{minHeight: 98, width: "100%"}}></div>;
 };
 const None_Responsive_Nav = () => (
- <React.Fragment>
+ <div className={styles.Non_Responsive_Nav}>
   <header className={styles.main_wrapper}>
    <div className={styles.contact_buttons}>
     <div className={styles.contact_buttons_item} style={{padding: 0}}>
@@ -118,7 +118,7 @@ const None_Responsive_Nav = () => (
    </div>
   </header>
   <InvisibleStaticDiv />
- </React.Fragment>
+ </div>
 );
 
 export default None_Responsive_Nav;

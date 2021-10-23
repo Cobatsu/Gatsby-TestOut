@@ -39,17 +39,20 @@ const subMenu = [
    {title: "FAQ", link: "faq"},
   ],
  },
- //  {
- //   type: "Our Hubs",
- //   link: "/hubs",
- //  },
+ {
+  type: "About Us",
+  props: [
+   {title: "Who we are", link: "who-we-are"},
+   {title: "Our Credentials", link: "our-credentials"},
+  ],
+ },
 ];
 
 const Header = () => {
  return (
   <React.Fragment>
    <Responsive_Nav subMenu={subMenu} />
-   <Non_Responsive_Nav />
+   <Non_Responsive_Nav subMenu={subMenu} />
   </React.Fragment>
  );
 };

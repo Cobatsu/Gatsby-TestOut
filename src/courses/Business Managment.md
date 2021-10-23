@@ -1,8 +1,11 @@
 ---
 courseName: Business Management (120 Credits)
 courseCategory: Level 3 – A level University Entry
+subTitle: Level 3 (120 Credits) Course - £4600
+
 featuredImage: ../images/business-managment.jpg
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the level 3 course is £1800. Students can make payment using one of the following methods<br/><ul style='margin-top:10px'>
+courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the level 3 course is £4600
+. Students can make payment using one of the following methods<br/><ul style='margin-top:10px'>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Credit or debit card</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Interest free monthly instalments</li>

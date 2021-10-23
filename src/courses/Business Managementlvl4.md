@@ -2,7 +2,8 @@
 courseName: Business Management, University 1st and 2nd Year (Level 4 and 5)
 courseCategory: Level 4 & 5 – University 1st and 2nd year
 featuredImage: ../images/business-managment-lvl4.jpg
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the level 4 and level 5 courses together is £5600. Alternatively students can enrol onto a single level (level 4 or 5) for £2760 each.<br/><ul style='margin-top:10px'>
+subTitle: £4600 per level or £5600 for two levels together
+courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the level 4 and level 5 courses together is £5600. Alternatively students can enrol onto a single level (level 4 or 5) for £4600 each.<br/><ul style='margin-top:10px'>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Credit or debit card</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Interest free monthly instalments</li>

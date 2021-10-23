@@ -38,7 +38,7 @@ const Home = props => {
     />
     <Courses
      allMarkdownRemark={allMarkdownRemark}
-     title='Level 4 & 5 – University 1st and 2nd year'
+     title='Level 4 & 5 – University 1st and 2nd year Courses'
      type='Level 4 & 5 – University 1st and 2nd year'
     />
    </div>

@@ -2,7 +2,8 @@
 courseName: English IGCSE
 courseCategory: IGCSE
 featuredImage: ../images/english-IGCSE.jpg
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> This course comes as part of a package where access to 4 IGCSEs is given for the price of £1500, these include English, Physics, Maths and Business Studies. Students can make payment using one of the following methods<br/><ul style='margin-top:10px'>
+subTitle: English IGCSE - £4600
+courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> This course comes as part of a package where access to 4 IGCSEs is given for the price of £4600, these include English, Physics, Maths and Business Studies. Students can make payment using one of the following methods<br/><ul style='margin-top:10px'>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Credit or debit card</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Interest free monthly instalments</li>

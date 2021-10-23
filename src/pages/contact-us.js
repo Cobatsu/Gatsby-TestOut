@@ -123,7 +123,7 @@ const RefferenceNumber = props => {
     const {result} = response.data;
     window.scrollTo(0, 0);
     setResponseResult(result);
-    setTimeout(setResponseResult, 4500, "");
+    setTimeout(setResponseResult, 10000, "");
     setLoading(false);
    })
    .catch(error => {

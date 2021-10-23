@@ -17,8 +17,10 @@ const CourseCard = ({courseName, courseCategory, featuredImgFluid}) => {
    ></Img>
 
    <div className={styles.inner_holder}>
-    <img src='/discount-removebg-preview.png' style={{height: "5rem"}}></img>
-    <span className={styles.card_title}> {courseName}</span>
+    <span className={styles.card_title} style={{padding: 10}}>
+     {" "}
+     {courseName}
+    </span>
     <Link
      to={
       "/" +

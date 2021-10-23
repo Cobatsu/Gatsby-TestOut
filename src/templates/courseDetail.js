@@ -51,8 +51,12 @@ const CourseDetail = ({pageContext}) => {
 
     <Img className={styles.course_banner} fluid={featuredImgFluid}></Img>
 
-    <div className={styles.inner_container}>
-     <h2>- About the course -</h2>
+    <div className={styles.inner_container} style={{position: "relative"}}>
+     <i
+      style={{position: "absolute", top: 0, right: 10, fontSize: 40}}
+      class='fas fa-bookmark'
+     ></i>
+     <h2>About the course</h2>
 
      <div
       className={styles.content}
@@ -60,8 +64,15 @@ const CourseDetail = ({pageContext}) => {
      />
     </div>
 
-    <div className={styles.inner_container + " " + styles.content}>
-     <h2>- Course Details -</h2>{" "}
+    <div
+     className={styles.inner_container + " " + styles.content}
+     style={{position: "relative"}}
+    >
+     <i
+      style={{position: "absolute", top: 0, right: 10, fontSize: 40}}
+      class='fas fa-bookmark'
+     ></i>
+     <h2> Course Details </h2>{" "}
      <div dangerouslySetInnerHTML={{__html: node.frontmatter.courseDetails}} />
     </div>
    </div>

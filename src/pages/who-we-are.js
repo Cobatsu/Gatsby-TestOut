@@ -8,12 +8,12 @@ const whoWeAre = () => {
    <div className={styles.detail_general_wrapper}>
     <h2 className={styles.header_title}>Who We Are</h2>
     <div className={styles.inner_container}>
-     <span>
-      <h3>
-       {" "}
-       Affordable study programmes with exclusive online modules fast tracking
-       learners to a University qualification.{" "}
-      </h3>
+     <h3>
+      {" "}
+      Affordable study programmes with exclusive online modules fast tracking
+      learners to a University qualification.{" "}
+     </h3>
+     <span className={styles.content} style={{lineHeight: 1.6}}>
       Richmond College delivers online university pathway programmes with full
       Undergraduate and Postgraduate Diploma Awards to learners from all corners
       of the world. Learners can fast track their way through to a UK University

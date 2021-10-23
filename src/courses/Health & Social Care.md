@@ -30,67 +30,44 @@ courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees<
 <span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the level 4 course, you must be at least 18 and have a full secondary education. Before enrolling onto the level 5 course, you must have attained a level 4 or equivalent.
 <br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Level 4 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Managing business operations</strong></span> <br/><br/>
-This module aims to introduce learners to key aspects of all businesses and how they operate within the
-wider business environment as well as internally. Learners will gain knowledge and understanding of key business functions and their importance to business success.<br/><br/>
-<span style='font-size:15px;'><strong>Business environment</strong> </span> <br/><br/>
-This module aims to develop the learner’s knowledge of the business environment and its impact on organisations. This includes factors that shape the internal environment and other external influences. Using this knowledge, learners will be able to develop approaches for managing change.<br/><br/>
-<span style='font-size:15px;'><strong>Personal effectiveness</strong> </span><br/><br/>
-This module explores the skills of different approaches to learning and examines the significance of time management. It investigates the skills managers need to develop to solve problems and to make decisions, as well as discussing the issue of management stress.
+<span style='font-size:18px; color:#01937C'><strong>Level 4 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Academic study skills
+</strong></span> <br/><br/>
+The aim of this module is to enable learners to develop the necessary skills and understanding to study effectively within higher education. This will enable learners to acquire the necessary reflective and critical thinking skills required to achieve individual learning potential.<br/><br/>
+<span style='font-size:15px;'><strong>Communicating in health and social care</strong> </span> <br/><br/>
+The aim of this module is to develop the learner’s awareness of different forms of communication used in health and social care settings and its importance for effective service delivery.<br/><br/>
+<span style='font-size:15px;'><strong>An introduction to healthcare policy</strong> </span><br/><br/>
+The aim of this module is to develop the learners awareness of different influences on healthcare and their effect on the development of policy. Evaluation of healthcare policy will allow learners to examine what are the key contemporary issues for those making policy, providers and those receiving support.
 <br/><br/>
-<span style='font-size:15px;'><strong>The entrepreneurial manager</strong> </span><br/><br/>
-This module aims to identify competing perspectives on the nature of entrepreneurial management as both a function and a process supporting the process of organisational change and development.
+<span style='font-size:15px;'><strong>Reflective practice</strong> </span><br/><br/>
+This module is designed to introduce the learner to reflective practice in all its forms. Reflections on practice and in practice are important concepts in health and social care and feed into the idea of self -development linking theory to practice.
 <br/><br/>
-<span style='font-size:15px;'><strong>Business planning and goal setting</strong> </span><br/><br/>
-This module aims to identify mechanisms for the setting of organisational goals and their achievement as part of the process of business planning.
+<span style='font-size:15px;'><strong>Managing people in health and social care</strong> </span><br/><br/>
+The aim of this module is to enable learners to understand the processes involved in the recruitment, management and development of people in the health and social care workplace. In this module learners will investigate the processes involved in the management of individuals in the health and social care workplace and how to facilitate change in the organisation.
 <br/><br/>
-<span style='font-size:15px;'><strong>The manager’s toolkit</strong> </span><br/><br/>
-This module provides a selection of the most useful tools used in management and explores some of the uses of each. It aims to provide sufficient information to understand the principles behind each tool and enable them to be used with confidence. The module aims to help learners analyse situations within the organisation; develop solutions to organisational problems; evaluate an organisation’s position in its operating and competitive environment; and develop elements of an effective organisational strategy.
-<br/><br/>
-<span style='font-size:15px;'><strong>Managing and using finance</strong> </span><br/><br/>
-This module aims to develop knowledge of marketing as key management tool. This includes understanding the marketing planning process and the role of internal as well as external marketing. Using this knowledge, learners will be able to understand the value of marketing activities to an organisation.
-<br/><br/>
-<span style='font-size:15px;'><strong>Psychology of entrepreneurship</strong> </span><br/><br/>
-This module aims to introduce the fundamental principles of the science of psychology, relating them to the entrepreneurial perspective of business management.
-<br/><br/>
-<span style='font-size:15px;'><strong>Innovation and creativity</strong> </span><br/><br/>
-This module describes the role of innovation and creativity for organisations. It considers models used to help understand and recognise their importance, as well as techniques to facilitate their use as part of strategic development.
+<span style='font-size:15px;'><strong>Sociology: concepts in health and ill health</strong> </span><br/><br/>
+The aim of this module is for learners to gain an understanding of sociological concepts of health and ill health and their application to care practice in health and social care. It will enable learners to gain an understanding of the nature of contemporary society and its influences on the perception of health and ill health. Learners will explore how society is structured in terms of age, gender, ethnicity, social class, family and households and its impact on health and well-being.
 <br/><br/>
 
 
-<span style='font-size:18px; color:#01937C'><strong>Level 5 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>The entrepreneurial manager</strong></span> <br/><br/>
-What is an Entrepreneur? Examine the skills and qualities of entrepreneurship..<br/><br/>
-<span style='font-size:15px;'><strong>Organisation structures</strong> </span> <br/><br/>
-Why are organisations structured in the way they are? What determines the optimum structure and how does it differ between organisations? In this module, learners will look at the numerous models and theories that make up organisational structure.<br/><br/>
-<span style='font-size:15px;'><strong>Practical accounting analysis</strong> </span><br/><br/>
-Learners will complete exercises in accounts throughout this module to understand what they are telling us and the actions that analysis can precipitate.
+<span style='font-size:18px; color:#01937C'><strong>Level 5 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Principles underpinning health and social care</strong></span> <br/><br/>
+All health and social care professionals have professional codes of conduct. The aim of this module is to develop understanding of the values, theories and policies underpinning health and social care practice and the mechanisms that exist to promote good practice within the sector.<br/><br/>
+<span style='font-size:15px;'><strong>The management of quality in health and social care</strong> </span> <br/><br/>
+Quality is an essential component of health and social care services and a concept with many different interpretations and perspectives. The aim of this module is for learners to develop an understanding of different perspectives on health and social care service quality and how it is evaluated in order to empower and involve users of services.<br/><br/>
+<span style='font-size:15px;'><strong>Research project</strong> </span><br/><br/>
+This module aims to develop the learner’s skills of independent enquiry and critical analysis by undertaking a small pilot investigation of direct relevance to their higher education programme or professional development.
 <br/><br/>
-<span style='font-size:15px;'><strong>Business planning and goal setting</strong> </span><br/><br/>
-What is the business trying to achieve? What will it do? How will it do it? This module focuses on the creation of clear goals and clear plans to achieve a clear objective.
+<span style='font-size:15px;'><strong>Partnership working in health and social care</strong> </span><br/><br/>
+The aim of this module is to enable learners to develop an understanding of the importance of working positively in partnership with others in health and social care. Learners will explore the nature of partnership on three levels. First, they will examine partnerships with users of services that empower individuals to make informed decisions and encourage independence. Second, they will consider partnerships between different professionals within health and social care and explore inter-agency working. Finally, learners will investigate organisational partnerships and examine different ways of joint working.
 <br/><br/>
-<span style='font-size:15px;'><strong>Politics and business</strong> </span><br/><br/>
-Impact of politics on business and how it may help or hinder business. This module will educate learners on economic impact, exports and government support.
+<span style='font-size:15px;'><strong>Working with service users with complex needs</strong> </span><br/><br/>
+The aim of this unit is to help learners to understand issues of health, disability and illness and how health care professionals can empower those with complex physical and mental health needs to determine their own care.
 <br/><br/>
-<span style='font-size:15px;'><strong>Business law</strong> </span><br/><br/>
-Explore the statutory responsibilities of managers as learners look into the legalities of business and business executives.
-<br/><br/>
-<span style='font-size:15px;'><strong>Managing in today’s world</strong> </span><br/><br/>
-Business in the modern world. This module focuses on governance and equality as a means to do right in business.
-<br/><br/>
-<span style='font-size:15px;'><strong>Performance management</strong> </span><br/><br/>
-Understanding how your people and your business can continually improve together, learners will review reward structures, CPD, training and development to ensure high performance in business.
-<br/><br/>
-<span style='font-size:15px;'><strong>Marketing and sales planning</strong> </span><br/><br/>
-Learners will analyse how markets, customers, competitors and products can come together in a cohesive plan.
-<br/><br/>
-<span style='font-size:15px;'><strong>Quantitative skills</strong> </span><br/><br/>
-On successful completion of this module, learners will have knowledge of numeric exercises and will understand their use within the context of the business.
-<br/><br/>
+
 
 <span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Successful completion of the full Level 4/5 Health & Social Care course and final year of an accredited Undergraduate Degree programme will act as a springboard to a professional career in health & social care services. The course pulls together theory and practice for those who wish to work with people in a caring environment.
 <br/><br/>
 A Health & Social Care degree covers a range of issues and helps you develop the skills to follow a career in health, social care, leisure or education. Here is a list of possible career paths you may take after completing the full degree:<br/><br/>
--Community development worker<br/>
+- Community development worker<br/>
 - Further education teacher<br/>
 - Health improvement practitioner<br/>
 - Health service manager<br/>

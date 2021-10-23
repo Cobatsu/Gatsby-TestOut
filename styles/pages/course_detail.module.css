@@ -22,8 +22,8 @@
 
 .inner_container h3 {
     color:#01937C;
-    font-size: 23px;
-  
+    font-size: 1.8rem;
+   
 }
 
 .header_title{
@@ -40,7 +40,12 @@
     margin: 20px;
 }
 .content{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+.content span{
+    font-size: 1.23rem !important;
+  
 }
 
 @media only screen and (max-width: 800px) {

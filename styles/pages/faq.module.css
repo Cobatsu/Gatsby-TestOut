@@ -30,7 +30,7 @@
 
 .inner_container h3 {
     color:#01937C;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding:15px;
     margin:10px 0;
@@ -52,7 +52,10 @@
 .inner_container h3:hover {
     cursor: pointer;
 }
-
+.content{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
 .header_title{
     width: calc(80% + 20px);
     color:#38384e;

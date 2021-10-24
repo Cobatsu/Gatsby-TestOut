@@ -110,7 +110,7 @@ const Home = props => {
  React.useEffect(() => {
   const sliderInterval = setInterval(() => {
    setSlideNumber(prev => (prev == banners.length - 1 ? 0 : prev + 1));
-  }, 8000);
+  }, 7000);
   return () => clearInterval(sliderInterval); //clears interval before every useEffect func call
  }, [slideNumber]);
  return (

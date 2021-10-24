@@ -5,10 +5,9 @@
     width:23%;
     min-width: 190px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 6px;
+    border-radius: 10px;
     margin-bottom: 30px;
     margin-right: 20px;
-    position:relative;
 }
 
 @media only screen and (max-width: 600px) {
@@ -24,6 +23,7 @@
     align-items: center;
     justify-content: space-around;
     flex:1;
+    background-color: #fff;
     box-sizing: border-box;
     padding: 10px 10px 15px 10px;
 }
@@ -44,9 +44,10 @@
     border-radius: 6px;
     transition: 150ms;
     margin-top: 10px;
+   
 }
 .card_title{
-    color:#38384e;
+    color:rgb(83, 83, 83);
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -58,6 +59,8 @@
 }
 .view_link:hover{
     background: #FEC618;
+    color: #2B2B2B;
+  
 }
 .view_link i{
     transition: 200ms;

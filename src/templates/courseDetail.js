@@ -26,7 +26,7 @@ const CourseDetail = ({pageContext}) => {
      className={styles.header_title}
      style={{
       fontSize: 25,
-      color: "#01937C",
+      color: "#FEC618",
       padding: 0,
       display: "flex",
       alignItems: "center",
@@ -39,7 +39,7 @@ const CourseDetail = ({pageContext}) => {
      className={styles.header_title}
      style={{
       fontSize: 22,
-      color: "#5c5c85",
+      color: "#2B2B2B",
       padding: 10,
       display: "flex",
       alignItems: "center",

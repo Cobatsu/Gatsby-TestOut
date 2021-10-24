@@ -14,9 +14,6 @@ const Home = props => {
    <div className={styles.main_wrapper}>
     <div className={styles.banner}>
      <div className={styles.layer}>
-      <div className={styles.text}>
-       <span>Study for a degree or MBA from UK Universities</span>
-      </div>
       <div className={styles.logo_holder}>
        {" "}
        <img src='/athe-logo.png' style={{height: "4rem"}}></img>

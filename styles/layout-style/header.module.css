@@ -3,7 +3,7 @@
  flex-direction: column;
  width: 100%;
  box-sizing: border-box;
- background-color: #464660;
+ background-color: #2B2B2B;
  position: fixed;
  z-index: 1000;
 }
@@ -19,7 +19,7 @@
 .contact_buttons_item {
  padding: 8px 10px;
  background-color: white;
- color: #533081;
+ color: white;
  border-radius: 6px;
  display: flex;
  justify-content: center;
@@ -52,6 +52,7 @@ ul {
  justify-content: center;
  align-items: center;
  flex-shrink: 0;
+ font-weight: 600;
  color: white;
  padding: 6px 30px;
  transition: 140ms;
@@ -59,7 +60,8 @@ ul {
 }
 .links li:hover {
  cursor: pointer;
- background-color: #01937c;
+ background-color: #FEC618;
+ color: #2B2B2B;
 }
 
 .linkHref {
@@ -69,14 +71,16 @@ ul {
  width: 100%;
  justify-content: center;
  align-items: center;
- color: white;
+ color:white;
 }
-
+.linkHref:hover{
+   color:#2B2B2B;
+}
 .links li:hover ul {
  display: block;
 }
 .links li span {
- font-size: 14px;
+ font-size: 16px;
  text-align: center;
 }
 .links li i {
@@ -85,7 +89,7 @@ ul {
 
 .subLinks {
  position: absolute;
- background: #01937c;
+ background: #2B2B2B;
  display: none;
  top: 100%;
  left: 0;
@@ -114,7 +118,10 @@ ul {
 }
 
 .subLinks li:hover {
- background-color: #464660;
+ background-color: #FEC618;
+}
+.subLinks li:hover .sublinkHref{
+   color: #2B2B2B;
 }
 .header_company_logo:hover{
    cursor: pointer;

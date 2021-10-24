@@ -1,5 +1,5 @@
 .main_wrapper {
- background-color: #464660;
+ background-color: #2B2B2B;
  padding: 20px 0px;
  display: flex;
  flex-direction: column;
@@ -22,23 +22,27 @@
  flex: 0.28;
 }
 
-.footer_column a:hover {
- color: #ffc947 !important;
-}
 
+.footer_link{
+font-weight: 600;
+color: white;
+}
+.footer_link:hover{
+   color: #FEC618;
+}
 .footer_column i {
- color: #ffe459;
+ color: #FEC618;
 }
 
 .footer_column_header {
- border-bottom: 1px solid rgb(107, 111, 124);
+ border-bottom: 1px solid #FEC618;
  margin-bottom: 14px;
- color: rgb(145, 150, 167);
+ color: #FEC618;
  padding-bottom: 10px;
 }
 
 .footer_column span span {
- color: rgb(145, 150, 167);
+ color: rgb(177, 176, 176);
 }
 
 

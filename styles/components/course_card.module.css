@@ -40,7 +40,7 @@
     align-items: center;
     color: white;
     width: 80%;
-    background: #38384e;
+    background: #2B2B2B;
     border-radius: 6px;
     transition: 150ms;
     margin-top: 10px;
@@ -57,7 +57,7 @@
     }
 }
 .view_link:hover{
-    background: #01937C;
+    background: #FEC618;
 }
 .view_link i{
     transition: 200ms;

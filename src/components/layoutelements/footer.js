@@ -16,42 +16,42 @@ const Footer = () => {
 
     <div className={styles.footer_column}>
      <div className={styles.footer_column_header}>USEFUL LINKS</div>
-     <Link to='/' style={{color: "white"}}>
+     <Link to='/' className={styles.footer_link}>
       Home
      </Link>
-     <Link to='/who-we-are' style={{color: "white"}}>
+     <Link to='/who-we-are' className={styles.footer_link}>
       Who we are
      </Link>
-     <Link to='/our-credentials' style={{color: "white"}}>
+     <Link to='/our-credentials' className={styles.footer_link}>
       Our Credentials
      </Link>
-     <Link to='/entry-requirements' style={{color: "white"}}>
+     <Link to='/entry-requirements' className={styles.footer_link}>
       Entry Requirements
      </Link>
-     <Link to='/faq' style={{color: "white"}}>
+     <Link to='/faq' className={styles.footer_link}>
       FAQ
      </Link>
-     <Link to='/contact-us' style={{color: "white"}}>
+     <Link to='/contact-us' className={styles.footer_link}>
       Contact Us
      </Link>
     </div>
 
     <div className={styles.footer_column}>
      <div className={styles.footer_column_header}>ABOUT US</div>
-     <span style={{color: "#F9F9F9"}}>
+     <span style={{color: "white"}}>
       <i class='fas fa-building' style={{marginRight: 5}}></i>
-      <span>Company : </span> RICHMOND COLLEGE
+      <span>Company :</span> RICHMOND COLLEGE
      </span>
-     <span style={{color: "#F9F9F9"}}>
+     <span style={{color: "white"}}>
       <i className='fas fa-map-marker-alt' style={{marginRight: 5}}></i>
       <span>Address : </span> 7030 Woodbine Avenue Markham, ON, Canada L3R 6G2
      </span>
-     <span style={{color: "#F9F9F9"}}>
+     <span style={{color: "white"}}>
       {" "}
       <i className='fas fa-envelope' style={{marginRight: 5}}></i>{" "}
       <span>E-mail : </span>admission@richmondcollege.co.uk
      </span>
-     <span style={{color: "#F9F9F9"}}>
+     <span style={{color: "white"}}>
       <i className='fas fa-phone' style={{marginRight: 5}}></i>
       <span>Phone : </span> +1 3063514537
      </span>

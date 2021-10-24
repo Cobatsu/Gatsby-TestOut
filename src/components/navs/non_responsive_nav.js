@@ -12,7 +12,7 @@ const None_Responsive_Nav = ({subMenu}) => (
      <Link
       to='/contact-us'
       className={styles.linkHref}
-      style={{color: "#464660", padding: "6px 10px"}}
+      style={{padding: "6px 10px", color: "#2B2B2B"}}
      >
       <span style={{marginRight: 6}}>Contact Us</span>
       <i class='fas fa-paper-plane'></i>
@@ -26,13 +26,14 @@ const None_Responsive_Nav = ({subMenu}) => (
      onClick={() => {
       navigate("/");
      }}
-     src='/richmond-logo2.png'
+     src='/richmon_logo-removebg-preview.png'
      style={{
       marginRight: 50,
       position: "absolute",
-      top: 12,
-      left: 5,
-      width: "15rem",
+      background: "#f4eee1e3",
+      top: 0,
+      left: 0,
+      height: "6rem",
      }}
     ></img>
     <ul className={styles.links}>

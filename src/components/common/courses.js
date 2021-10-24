@@ -8,7 +8,7 @@ export const Courses = ({allMarkdownRemark, type, title}) => (
    <h2
     style={{
      textAlign: "center",
-     color: "#01937C",
+     color: "#2B2B2B",
      fontSize: "1.7rem",
     }}
    >

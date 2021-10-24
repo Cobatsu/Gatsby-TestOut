@@ -53,7 +53,13 @@ const CourseDetail = ({pageContext}) => {
 
     <div className={styles.inner_container} style={{position: "relative"}}>
      <i
-      style={{position: "absolute", top: 0, right: 10, fontSize: 40}}
+      style={{
+       position: "absolute",
+       top: 0,
+       right: 10,
+       fontSize: 40,
+       color: "#2B2B2B",
+      }}
       class='fas fa-bookmark'
      ></i>
      <h2>About the course</h2>
@@ -69,7 +75,13 @@ const CourseDetail = ({pageContext}) => {
      style={{position: "relative"}}
     >
      <i
-      style={{position: "absolute", top: 0, right: 10, fontSize: 40}}
+      style={{
+       position: "absolute",
+       top: 0,
+       right: 10,
+       fontSize: 40,
+       color: "#2B2B2B",
+      }}
       class='fas fa-bookmark'
      ></i>
      <h2> Course Details </h2>{" "}

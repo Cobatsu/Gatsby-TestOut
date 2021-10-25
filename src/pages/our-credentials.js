@@ -4,7 +4,7 @@ import * as styles from "../../styles/pages/course_detail.module.css";
 
 const OurCredentials = () => {
  return (
-  <Layout title='Entry Requirements'>
+  <Layout title='Our Credentials'>
    <div className={styles.detail_general_wrapper}>
     <h2 className={styles.header_title}>Our Credentials</h2>
     <div className={styles.inner_container}>

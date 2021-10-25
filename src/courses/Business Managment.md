@@ -2,7 +2,6 @@
 courseName: Business Management (120 Credits)
 courseCategory: Level 3 – A level University Entry
 subTitle: Level 3 (120 Credits) Course - £4600
-
 featuredImage: ../images/business-managment.jpg
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the level 3 course is £4600
 . Students can make payment using one of the following methods<br/><ul style='margin-top:10px'>
@@ -49,7 +48,7 @@ BSc (Hons) Business Accountancy, fees £9,000 (UK or EU) or £12,000 (internatio
 <span style='font-size:18px; color:#01937C'><strong>Course overview</strong></span><br/><br/> The level 3 course is made up of 6 modules and 6 written assignments. Each module consists of 40 guided learning hours of material with an additional 30-50 hours worth of optional materials that comprise of recommended exercises, recommended readings, Internet resources, and self-testing exercises.
 <br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this progamm?</strong></span><br/><br/> This course is most suited to individuals who are at least 16 years old, have a high school education and wish to progress onto a degree at university, or the Undergraduate Level 4/5 Extended Diploma in Management with Online Business School.
+<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this progamm?</strong></span><br/><br/> This course is most suited to individuals who are at least 16 years old, have a high school education and wish to progress onto a degree at university, or the Undergraduate Level 4/5 Extended Diploma in Management with Richmond College.
 <br/><br/> 
 
 <span style='font-size:18px; color:#01937C'><strong>Level 3 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Managing business operations</strong></span> <br/><br/>

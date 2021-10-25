@@ -22,7 +22,7 @@
 
 .inner_container h3 {
     color:#01937C;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
    
 }
 
@@ -40,11 +40,11 @@
     margin: 20px;
 }
 .content{
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     line-height: 1.6;
 }
 .content span{
-    font-size: 1.23rem !important;
+    font-size: 1.2rem !important;
   
 }
 

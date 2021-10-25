@@ -54,14 +54,14 @@ const Faq = () => {
       <h3> Do I need any previous experience and qualifications? </h3>
       <span className={styles.content} style={{lineHeight: 1.6}}>
        You will need to have an IELTS score of Level 5.5 or above on completion
-       of the OBS course. You can study an English course alongside the OBS
-       course. At Level 4/5, you will require a full secondary education to be
-       eligible to enrol onto the course, and universities will require a
-       minimum age before embarking on the university top-up programme. At Level
-       7, you will require 5 years of managerial experience if you do not have a
-       BA degree. This may vary for various University partners. However, we
-       will look at every application individually and some exceptions may be
-       made.
+       of the Richmond College course. You can study an English course alongside
+       the Richmond College course. At Level 4/5, you will require a full
+       secondary education to be eligible to enrol onto the course, and
+       universities will require a minimum age before embarking on the
+       university top-up programme. At Level 7, you will require 5 years of
+       managerial experience if you do not have a BA degree. This may vary for
+       various University partners. However, we will look at every application
+       individually and some exceptions may be made.
       </span>
      </div>
      <div>
@@ -113,14 +113,9 @@ const Faq = () => {
        particularly key areas that students need to be aware of.
        <br />
        <br />
-       In addition to this, students have access to tutors who work with Online
-       Business School. The tutor details are available via the Dashboard and
-       will show which areas they specialise in and when they are available. If
-       a student wishes to arrange a session, they can do so directly from the
-       Dashboard, specify which topic they need assistance with, or contact our
-       support team at studentsupport@onlinebusinessschool.com. Further
-       information is available in the Student Handbook and the relevant course
-       information packs.
+       In addition to this, students have access to tutors who work with
+       Richmond College. The tutor details are available via the Dashboard and
+       will show which areas they specialise in and when they are available.
       </span>
      </div>
      <div>
@@ -172,20 +167,20 @@ const Faq = () => {
      <div>
       <h3> Is there any financial assistance available?</h3>
       <span className={styles.content} style={{lineHeight: 1.6}}>
-       OBS offers an interest free payment plan so that you can pay for your
-       course over a set number of months. Contact one of our student advisers
-       for more information about this. UK students may also be eligible for
-       student loans for the university top-up programme. Learners should make
-       enquiries directly to their chosen university.
+       Richmond College offers an interest free payment plan so that you can pay
+       for your course over a set number of months. Contact one of our student
+       advisers for more information about this. UK students may also be
+       eligible for student loans for the university top-up programme. Learners
+       should make enquiries directly to their chosen university.
       </span>
      </div>
      <div>
       <h3> Are there likely to be any additional costs?</h3>
       <span className={styles.content} style={{lineHeight: 1.6}}>
-       No additional costs are levied by OBS, and all additional learning
-       resources including tutor support, e-books, games and short business
-       courses, are included in course tuition fees. For more information
-       relating to tutor support click here.
+       No additional costs are levied by Richmond College, and all additional
+       learning resources including tutor support, e-books, games and short
+       business courses, are included in course tuition fees. For more
+       information relating to tutor support click here.
       </span>
      </div>
      <div>
@@ -221,13 +216,14 @@ const Faq = () => {
      <div>
       <h3> How are Universities linked to the modules?</h3>
       <span className={styles.content} style={{lineHeight: 1.6}}>
-       Learners who achieve an OBS qualification are automatically mapped
-       against a standard UK Higher Education qualification framework. This is a
-       universally recognised framework of credits. Universities can therefore
-       award credits against the OBS study to give exemptions from large parts
-       of their formal programmes. OBS and ATHE have pre agreed arrangements
-       with certain universities to provide credits against programmes either on
-       campus or off campus. This is termed ‘university top-up’.
+       Learners who achieve an Richmond College qualification are automatically
+       mapped against a standard UK Higher Education qualification framework.
+       This is a universally recognised framework of credits. Universities can
+       therefore award credits against the Richmond College study to give
+       exemptions from large parts of their formal programmes. Richmond College
+       and ATHE have pre agreed arrangements with certain universities to
+       provide credits against programmes either on campus or off campus. This
+       is termed ‘university top-up’.
       </span>
      </div>
     </div>

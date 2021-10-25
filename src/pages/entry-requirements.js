@@ -42,9 +42,9 @@ const EntryRequiretments = () => {
       There may be an IELTS or TOEFL English language requirement or equivalent.
       Please note specific university requirements will differ between
       universities. Normally, universities will accept the 240 credits offered
-      by the Online Business School programme at Level 4/5 for final year
-      completion, but Students should check with their chosen university for
-      specific entry requirements before enroling with OBS.
+      by the Richmond College programme at Level 4/5 for final year completion,
+      but Students should check with their chosen university for specific entry
+      requirements before enroling with Richmond College.
      </span>
      <h3> Graduate Level 6 Programme Requirements</h3>
      <span className={styles.content} style={{lineHeight: 1.6}}>

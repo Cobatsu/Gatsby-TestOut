@@ -49,7 +49,7 @@ Edexcel publish a list of exam centres that accept private candidates. This wonâ
 Exam fees are not included in the course cost as they are paid directly to the exam centre. They will vary depending on which centre you choose.
 <br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Upon completion of this course, students will have the foundations and fundamental knowledge needed in order to study A levels or a Level 3 qualification with Online Business School.
+<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Upon completion of this course, students will have the foundations and fundamental knowledge needed in order to study A levels or a Level 3 qualification with Richmond College.
 <br/><br/>
 
 <span style='font-size:18px; color:#01937C'><strong>How will I know if I am eligible to complete an IGCSE?</strong></span><br/><br/> The typical age at which people choose to complete the IGCESâ€™s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."

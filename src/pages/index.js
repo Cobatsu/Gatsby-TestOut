@@ -70,6 +70,7 @@ const banners = [
   className={styles.banner}
   style={{
    backgroundImage: "url('/banner-3.jpg')",
+   backgroundPosition: "center",
   }}
  >
   <span
@@ -133,6 +134,7 @@ const Home = props => {
       className={styles.slider_wrapper}
       style={{
        transform: `translateX(calc(${slideNumber}*-${100 / banners.length}%))`,
+       width: `${banners.length * 100}%`,
       }}
      >
       {banners}

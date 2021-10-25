@@ -6,8 +6,8 @@
 }
 
 .banner_holder {
-   width: 90%;
-   height: 36rem;
+   width: 100%;
+   height: 40rem;
    overflow-x: hidden;
    overflow-y: hidden;
    position: relative;
@@ -17,7 +17,9 @@
   position: relative;
   width: 100%;
   height: 100%;
+ 
   background: no-repeat center center;
+  background-position: 0 -71px;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;

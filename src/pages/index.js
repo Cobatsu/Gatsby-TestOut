@@ -17,7 +17,7 @@ const banners = [
  <div
   className={styles.banner}
   style={{
-   backgroundImage: "url('/new-banner.png')",
+   backgroundImage: "url('/Artboard 1@4x-100.jpg')",
   }}
  >
   <div className={styles.layer}>
@@ -110,7 +110,7 @@ const Home = props => {
  React.useEffect(() => {
   const sliderInterval = setInterval(() => {
    setSlideNumber(prev => (prev == banners.length - 1 ? 0 : prev + 1));
-  }, 7000);
+  }, 6000);
   return () => clearInterval(sliderInterval); //clears interval before every useEffect func call
  }, [slideNumber]);
  return (

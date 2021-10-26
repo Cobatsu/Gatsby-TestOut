@@ -144,20 +144,20 @@ const Home = props => {
      style={{
       width: "80%",
       marginBottom: 10,
-      padding: 20,
-      paddingBottom: 30,
+      padding: 10,
+      marginTop: 20,
      }}
     >
      <h2
       style={{
        paddingBottom: 20,
-       marginBottom: 5,
+       marginBottom: 1,
        display: "flex",
        alignItems: "center",
       }}
      >
       <i
-       style={{fontSize: 13, marginRight: 10}}
+       style={{fontSize: 10, marginRight: 10}}
        class='fas fa-circle-notch'
       ></i>{" "}
       40% Discount On All Courses !{" "}
@@ -178,14 +178,14 @@ const Home = props => {
      <h2
       style={{
        paddingBottom: 20,
-       marginBottom: 5,
+       marginBottom: 1,
        display: "flex",
        alignItems: "center",
       }}
      >
       <i
        class='fas fa-circle-notch'
-       style={{fontSize: 13, marginRight: 10}}
+       style={{fontSize: 10, marginRight: 10}}
       ></i>{" "}
       Affordable Distance Learning Courses at Richmond College{" "}
      </h2>
@@ -217,6 +217,11 @@ const Home = props => {
      allMarkdownRemark={allMarkdownRemark}
      title='Level 4 & 5 – University 1st and 2nd year Courses'
      type='Level 4 & 5 – University 1st and 2nd year'
+    />
+    <Courses
+     allMarkdownRemark={allMarkdownRemark}
+     title='Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA) Courses'
+     type='Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA)'
     />
    </div>
   </Layout>

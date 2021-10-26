@@ -143,7 +143,7 @@ const Home = props => {
     <div
      style={{
       width: "80%",
-      margin: 60,
+      marginBottom: 10,
       padding: 20,
       paddingBottom: 30,
      }}
@@ -151,22 +151,56 @@ const Home = props => {
      <h2
       style={{
        paddingBottom: 20,
-       marginBottom: 20,
-       borderBottom: "3px solid #FEC618",
+       marginBottom: 5,
+       display: "flex",
+       alignItems: "center",
       }}
      >
+      <i
+       style={{fontSize: 13, marginRight: 10}}
+       class='fas fa-circle-notch'
+      ></i>{" "}
+      40% Discount On All Courses !{" "}
+     </h2>
+     <span style={{lineHeight: "1.6", fontSize: "1.2rem"}}>
+      NOW! There is an 40% discount on all courses. Don't miss that chance and
+      Register Now !
+     </span>
+    </div>
+    <div
+     style={{
+      width: "80%",
+      marginBottom: 10,
+      padding: 20,
+      paddingBottom: 30,
+     }}
+    >
+     <h2
+      style={{
+       paddingBottom: 20,
+       marginBottom: 5,
+       display: "flex",
+       alignItems: "center",
+      }}
+     >
+      <i
+       class='fas fa-circle-notch'
+       style={{fontSize: 13, marginRight: 10}}
+      ></i>{" "}
       Affordable Distance Learning Courses at Richmond College{" "}
      </h2>
      <span style={{lineHeight: "1.6", fontSize: "1.2rem"}}>
-      The 100% online Undergraduate and Postgraduate Diploma courses at Richmond
-      College provide students an affordable pathway to earning an undergraduate
-      or postgraduate degree from a choice of respected UK universities. Whether
-      you pursue a qualification in Hotel and Hospitality, Computing, or
-      Business Management, the courses offered through Richmond College will
-      allow you the option to continue your education and pursue a top up to an
+      The 100% online Undergraduate and Postgraduate Diploma courses at{" "}
+      <span style={{color: "#FEC618"}}>Richmond College</span> provide students
+      an affordable pathway to earning an undergraduate or postgraduate degree
+      from a choice of respected UK universities. Whether you pursue a
+      qualification in Hotel and Hospitality, Computing, or Business Management,
+      the courses offered through{" "}
+      <span style={{color: "#FEC618"}}>Richmond College</span> will allow you
+      the option to continue your education and pursue a top up to an
       undergraduate degree or MBA through one of our partner universities. Take
       the next step towards your education by exploring the programmes offered
-      by Richmond College below:
+      by <span style={{color: "#FEC618"}}>Richmond College</span> below:
      </span>
     </div>
     <Courses

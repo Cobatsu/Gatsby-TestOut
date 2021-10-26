@@ -32,7 +32,7 @@ courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees<
 
 <span style='font-size:18px; color:#01937C'><strong>Level 4 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Computer systems and software
 </strong></span> <br/><br/>
-This module will develop learners’ understanding of the integration of hardware and software components.br/><br/>
+This module will develop learners’ understanding of the integration of hardware and software components.<br/><br/>
 <span style='font-size:15px;'><strong>Computer programming</strong> </span> <br/><br/>
 Learners will use different tools and techniques to design, implement and test programs, following the system life cycle.<br/><br/>
 <span style='font-size:15px;'><strong>Relational database systems</strong> </span><br/><br/>

@@ -26,7 +26,7 @@ const subMenu = [
    },
    {
     title: "Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA) Courses",
-    link: "level6-courses",
+    link: "level6_7-courses",
    },
   ],
  },

@@ -1,8 +1,9 @@
 .inner_container{
     background-color: #fbf7ff;
     width: 87%;
-    padding:20px;
+    padding:30px;
     margin-bottom: 30px;
+    box-sizing: border-box;
     color:#38384e;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -34,7 +35,7 @@
     margin: 0;
 }
 .course_banner{
-    width:89%;
+    width:87%;
     max-height: 400px;
     z-index: -10;
     margin: 20px;

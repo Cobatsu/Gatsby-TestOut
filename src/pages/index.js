@@ -156,10 +156,6 @@ const Home = props => {
        alignItems: "center",
       }}
      >
-      <i
-       style={{fontSize: 10, marginRight: 10}}
-       class='fas fa-circle-notch'
-      ></i>{" "}
       40% Discount On All Courses !{" "}
      </h2>
      <span style={{lineHeight: "1.6", fontSize: "1.2rem"}}>
@@ -183,10 +179,6 @@ const Home = props => {
        alignItems: "center",
       }}
      >
-      <i
-       class='fas fa-circle-notch'
-       style={{fontSize: 10, marginRight: 10}}
-      ></i>{" "}
       Affordable Distance Learning Courses at Richmond College{" "}
      </h2>
      <span style={{lineHeight: "1.6", fontSize: "1.2rem"}}>

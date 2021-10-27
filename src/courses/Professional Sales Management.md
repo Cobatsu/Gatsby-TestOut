@@ -3,7 +3,7 @@ courseName: Professional Sales Management (Level 6)
 courseCategory: Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA)
 featuredImage: ../images/professionals-sales-and-management.jpg
 subTitle: "Level 6 Course - £5600 (Progress onto a University MBA or a Level 7 course)"
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enrolling onto the level 4 and level 5 courses together is £5600. Alternatively students can enrol onto a single level (level 4 or 5) for £4600 each.<br/><ul style='margin-top:10px'>
+courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The Level 6 Professional Sales Management course is £5600.<br/><ul style='margin-top:10px'>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Credit or debit card</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Interest free monthly instalments</li>
@@ -27,7 +27,7 @@ courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees<
 
 
 
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the level 4 course, you must be at least 18 and have a full secondary education. Before enrolling onto the level 5 course, you must have attained a level 4 or equivalent.
+<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the Level 6 programme, you must be 18+ years old and have at least 1 year of sales experience.
 <br/><br/>
 
 <span style='font-size:18px; color:#01937C'><strong>Level 6 module listing</strong></span><br/><br/> <span>

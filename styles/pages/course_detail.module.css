@@ -63,6 +63,18 @@
     .detail_general_wrapper{
         padding:5px
     }
+    
+    .credentials_wrapper {
+  
+      flex-direction: column !important;
+      justify-content: center !important;;
+      align-items: center !important;;
+
+    }
+    .credentials_wrapper div{
+        width: 90% !important;;
+    }
+
     h2{
         text-align: center;
     }   

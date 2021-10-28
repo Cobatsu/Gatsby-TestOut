@@ -3,12 +3,10 @@ courseName: Mathematics IGCSE
 courseCategory: IGCSE
 featuredImage: ../images/mathematics-IGCSE.jpg
 subTitle: Mathematics IGCSE - £4600
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> This course comes as part of a package where access to 4 IGCSEs is given for the price of £4600, these include English, Physics, Maths and Business Studies. Students can make payment using one of the following methods<br/><ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Credit or debit card</li>
+courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> This course comes as part of a package where access to 4 IGCSEs is given for the price of £4600, these include English, Physics, Maths and Business Studies. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
+
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Interest free monthly instalments</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Paypal</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Western Union</li>
+
 </ul> 
 <br/>
 
@@ -30,13 +28,11 @@ This module prepares students for exams by providing exam papers for students to
 <span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
 <ul style='margin-top:10px'>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and past exam papers.</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Personal tutor support with 1-2-1 Skype sessions</li>
+
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  FREE NUS Extra card worth £19.90</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i> FREE laptop</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i> Free CV writing help on completion of the course.</li>
+
 </ul> 
 <br/>
 

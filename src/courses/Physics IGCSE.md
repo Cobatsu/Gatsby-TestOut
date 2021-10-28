@@ -39,13 +39,11 @@ The physics of forces and motion can also be applied to the bigger, and more unk
 <span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
 <ul style='margin-top:10px'>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and past exam papers.</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Personal tutor support with 1-2-1 Skype sessions</li>
+
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  FREE NUS Extra card worth £19.90</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i> FREE laptop</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i> Free CV writing help on completion of the course.</li>
+
 </ul> 
 <br/>
 

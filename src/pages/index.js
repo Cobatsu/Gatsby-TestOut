@@ -142,7 +142,7 @@ const Home = props => {
     </div>
     <div
      style={{
-      width: "80%",
+      width: "85%",
       marginBottom: 10,
       padding: 10,
       marginTop: 20,
@@ -165,7 +165,7 @@ const Home = props => {
     </div>
     <div
      style={{
-      width: "80%",
+      width: "85%",
       marginBottom: 10,
       padding: 20,
       paddingBottom: 30,

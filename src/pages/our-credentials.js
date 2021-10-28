@@ -14,6 +14,7 @@ const OurCredentials = () => {
       provided to its students is of the highest quality. Below is a list of
       Corporate bodies we belong to and associations we are a part of:
       <div
+       className={styles.credentials_wrapper}
        style={{
         display: "flex",
         flexWrap: "wrap",

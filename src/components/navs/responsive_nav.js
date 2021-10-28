@@ -5,7 +5,7 @@ import * as styles from "../../../styles/layout-style/header.module.css";
 
 const NavWrapper = styled.div`
  display: flex;
- background: #464660;
+ background: #2b2b2b;
  width: 100%;
  justify-content: space-between;
  align-items: center;
@@ -27,7 +27,7 @@ const SideBarWrapper = styled.div`
  transition: 400ms;
  background: white;
  position: fixed;
- z-index: 5;
+ z-index: 999999999999;
  top: 45.4px;
  overflow: hidden;
  left: 0;
@@ -44,8 +44,8 @@ const SideBarElement = styled.div`
  display: flex;
  padding: 10px;
  justify-content: space-between;
- background: ${({selected}) => (selected ? "#01937c" : "none")};
- color: ${({selected}) => (selected ? "white" : "#464660")};
+ background: ${({selected}) => (selected ? "#2b2b2b" : "none")};
+ color: ${({selected}) => (selected ? "white" : "#2b2b2b")};
  font-weight: 600;
  font-size: 13px;
 `;
@@ -56,7 +56,7 @@ const SideBarMenuIconWrapper = styled.div`
  font-size: 25px;
  justify-content: center;
  flex: 0.5;
- background: #464660;
+ background: #2b2b2b;
  max-width: 50px;
 `;
 
@@ -77,7 +77,7 @@ const InnerGeneralWrapper = styled.div`
 const SubLinks = styled.ul`
  height: ${({selected, factor}) => (selected ? factor * 38 + "px" : "0")};
  transition: 300ms;
- background: #01937c;
+ background: #2b2b2b;
  margin-botttom: 5px;
  overflow: hidden;
  margin: 0;
@@ -85,8 +85,8 @@ const SubLinks = styled.ul`
 `;
 
 const SubLinkItem = styled.li`
- &:hover {
-  background: #464660;
+ &:hover a {
+  background: #fec618;
  }
 `;
 const IconDropDown = styled.span``;
@@ -114,16 +114,16 @@ const ResponsiveNav = ({subMenu}) => {
     <SideBarMenuIconWrapper
      onClick={() => setSideBarStatus(prevState => !prevState)}
     >
-     <i style={{color: "white"}} className='fas fa-bars'></i>
+     <i style={{color: "#FEC618"}} className='fas fa-bars'></i>
     </SideBarMenuIconWrapper>
 
     <img
      onClick={() => {
       navigate("/");
      }}
-     src='/richmond-logo2.png'
+     src='/richmond_logo.jpg'
      style={{
-      height: "30px",
+      width: "95px",
      }}
     ></img>
     <div

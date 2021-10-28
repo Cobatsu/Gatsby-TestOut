@@ -6,7 +6,7 @@
 }
 
 .banner_holder {
-   width: 100%;
+   width: 85%;
    height: 38rem;
    overflow-x: hidden;
    overflow-y: hidden;
@@ -82,7 +82,7 @@
  margin-top: 40px;
 }
 .outer_wrapper {
- width: 80%;
+   width: 85%;
 }
 
 

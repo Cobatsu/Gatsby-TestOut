@@ -8,7 +8,6 @@ const Footer = () => {
    <div className={styles.footer_column_holder}>
     <div className={styles.footer_column}>
      <div className={styles.footer_column_header}>OUR COLLABORATIONS</div>
-     <img src='/richmond-logo2.png' width='150'></img>
      <img src='/athe-logo.png' style={{width: "150px"}}></img>
      <img src='/othm-logo.png' style={{width: "150px"}}></img>
      <img src='/qualifi-logo.png' style={{width: "150px"}}></img>

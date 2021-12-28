@@ -117,7 +117,7 @@ const Home = props => {
  return (
   <Layout title='Richmond College'>
    <div className={styles.main_wrapper}>
-    <div className={styles.banner_holder}>
+    {/* <div className={styles.banner_holder}>
      {" "}
      <div className={styles.dot_holder}>
       {banners.map((_, index) => (
@@ -139,61 +139,192 @@ const Home = props => {
      >
       {banners}
      </div>
+    </div> */}
+    <div className={styles.intro}>
+     <div style={{width: "30%"}}>
+      <span style={{color: "#191970", fontSize: "3.2rem", fontWeight: "bold"}}>
+       Online University Education
+      </span>
+      <div style={{display: "flex", flexDirection: "column", marginTop: 15}}>
+       <span
+        style={{
+         fontSize: "1.5rem",
+         color: "#191970",
+         marginBottom: 15,
+         fontWeight: "600",
+        }}
+       >
+        {" "}
+        Get Your Degree From The UK
+       </span>
+       <span style={{fontSize: "1.2rem", lineHeight: "2rem"}}>
+        The 100% online Undergraduate and Postgraduate Diploma courses at
+        Richmond College provide students an affordable pathway to earning an
+        undergraduate or postgraduate degree from a choice of respected UK
+        universities.
+       </span>
+      </div>
+     </div>
+     <img src='./Courses Section 1.png' style={{width: "35rem"}} />
     </div>
+
+    <div className={styles.outer_mid_body}>
+     <div className={styles.mid_body + " " + styles.wrap}>
+      <div style={{width: "40%", marginBottom: 50}}>
+       <div style={{marginBottom: 16, fontSize: "1.2rem"}}>
+        <i style={{fontSize: "1.8rem"}} className='fas fa-graduation-cap'></i>
+        <span style={{marginLeft: 16, fontWeight: 600}}>
+         UK Certified Diploma
+        </span>
+       </div>
+
+       <span style={{lineHeight: 1.6}}>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout.
+       </span>
+      </div>
+
+      <div style={{width: "40%", marginBottom: 50}}>
+       <div style={{marginBottom: 16, fontSize: "1.2rem"}}>
+        <i style={{fontSize: "1.8rem"}} className='fas fa-globe'></i>
+        <span style={{marginLeft: 16, fontWeight: 600}}>
+         Full Online Access
+        </span>
+       </div>
+
+       <span style={{lineHeight: 1.6}}>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout.
+       </span>
+      </div>
+
+      <div style={{width: "40%", marginBottom: 50}}>
+       <div style={{marginBottom: 16, fontSize: "1.2rem"}}>
+        <i style={{fontSize: "1.8rem"}} className='far fa-play-circle'></i>
+        <span style={{marginLeft: 16, fontWeight: 600}}>Video Lectures</span>
+       </div>
+
+       <span style={{lineHeight: 1.6}}>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout.
+       </span>
+      </div>
+
+      <div style={{width: "40%", marginBottom: 50}}>
+       <div style={{marginBottom: 16, fontSize: "1.2rem"}}>
+        <i style={{fontSize: "1.8rem"}} className='fas fa-question'></i>
+        <span style={{marginLeft: 16, fontWeight: 600}}>Get Support</span>
+       </div>
+
+       <span style={{lineHeight: 1.6}}>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout.
+       </span>
+      </div>
+     </div>
+    </div>
+
     <div
      style={{
-      width: "85%",
-      marginBottom: 10,
-      padding: 10,
-      marginTop: 20,
+      display: "flex",
+      justifyContent: "center",
+      width: "100%",
+      padding: "80px 0",
      }}
     >
-     <h2
-      style={{
-       paddingBottom: 20,
-       marginBottom: 1,
-       display: "flex",
-       alignItems: "center",
-      }}
-     >
-      40% Discount On All Courses !{" "}
-     </h2>
-     <span style={{lineHeight: "1.6", fontSize: "1.2rem"}}>
-      NOW! There is an 40% discount on all courses. Don't miss that chance and
-      Register Now !
-     </span>
+     <div className={styles.body_richmond_college}>
+      <div style={{marginBottom: "5.3rem"}}>
+       <div
+        style={{
+         fontSize: "1.55rem",
+         textAlign: "Center",
+         marginBottom: "1.2rem",
+        }}
+       >
+        Learn About <span style={{fontWeight: 600}}>Richmond College</span>
+        <br />
+        <span style={{textDecoration: "underline", fontSize: "1.1rem"}}>
+         Your Access to The Best Education{" "}
+        </span>
+       </div>
+       <span style={{lineHeight: 1.6, fontSize: "1.1rem"}}>
+        The 100% online Undergraduate and Postgraduate Diploma courses at
+        Richmond College provide students an affordable pathway to earning an
+        undergraduate or postgraduate degree from a choice of respected UK
+        universities. Whether you pursue a qualification in Hotel and
+        Hospitality, Computing, or Business Management, the courses offered
+        through Richmond College will allow you the option to continue your
+        education and pursue a top up to an undergraduate degree or MBA through
+        one of our partner universities
+       </span>
+      </div>
+
+      <div
+       style={{display: "flex", justifyContent: "space-between"}}
+       className={styles.wrap}
+      >
+       <img
+        src='./Certification-cuate 1.png'
+        style={{height: "35rem", marginRight: 30}}
+       ></img>
+       <div>
+        <div
+         style={{
+          fontSize: "1.55rem",
+          textAlign: "Center",
+          marginBottom: "1rem",
+         }}
+        >
+         <span style={{fontWeight: 600}}>Undergraduate</span> and{" "}
+         <span style={{fontWeight: 600}}>Graduate Degree Programs</span>
+         <br />
+         in Richmond College
+        </div>
+        <span style={{lineHeight: 1.6, fontSize: "1.1rem"}}>
+         The 100% online Undergraduate and Postgraduate Diploma courses at
+         Richmond College provide students an affordable pathway to earning an
+         undergraduate or postgraduate degree from a choice of respected UK
+         universities. Whether you pursue a qualification in Hotel and
+         Hospitality, Computing, or Business Management, the courses offered
+         through Richmond College will allow you the option to continue your
+         education and pursue a top up to an undergraduate degree or MBA through
+         one of our partner universities
+        </span>
+       </div>
+      </div>
+     </div>
     </div>
-    <div
-     style={{
-      width: "85%",
-      marginBottom: 10,
-      padding: 20,
-      paddingBottom: 30,
-     }}
-    >
-     <h2
-      style={{
-       paddingBottom: 20,
-       marginBottom: 1,
-       display: "flex",
-       alignItems: "center",
-      }}
-     >
-      Affordable Distance Learning Courses at Richmond College{" "}
-     </h2>
-     <span style={{lineHeight: "1.6", fontSize: "1.2rem"}}>
-      The 100% online Undergraduate and Postgraduate Diploma courses at{" "}
-      <span style={{color: "#FEC618"}}>Richmond College</span> provide students
-      an affordable pathway to earning an undergraduate or postgraduate degree
-      from a choice of respected UK universities. Whether you pursue a
-      qualification in Hotel and Hospitality, Computing, or Business Management,
-      the courses offered through{" "}
-      <span style={{color: "#FEC618"}}>Richmond College</span> will allow you
-      the option to continue your education and pursue a top up to an
-      undergraduate degree or MBA through one of our partner universities. Take
-      the next step towards your education by exploring the programmes offered
-      by <span style={{color: "#FEC618"}}>Richmond College</span> below:
-     </span>
+    <div className={styles.where_to_start_outer}>
+     <div className={styles.where_to_start_inner + " " + styles.wrap}>
+      <div style={{display: "flex", flexDirection: "column", width: "50%"}}>
+       {" "}
+       <span style={{fontSize: "1.8rem", fontWeight: 600, marginBottom: 10}}>
+        Where to Start ?
+       </span>
+       <span
+        style={{
+         textDecoration: "underline",
+         fontSize: "1.1rem",
+         marginBottom: 10,
+        }}
+       >
+        {" "}
+        Your Roadmap to Diploma
+       </span>
+       <span style={{lineHeight: 1.6, fontSize: "1.1rem"}}>
+        The 100% online Undergraduate and Postgraduate Diploma courses at
+        Richmond College provide students an affordable pathway to earning an
+        undergraduate or postgraduate degree from a choice of respected UK
+        universities. Whether you pursue a qualification in Hotel and
+        Hospitality, Computing, or Business Management, the courses offered
+        through Richmond College will allow you the option to continue your
+        education and pursue a top up to an undergraduate degree or MBA through
+        one of our partner universities
+       </span>
+      </div>
+
+      <img src='./On the way-cuate 1.png' style={{width: "25rem"}} />
+     </div>
     </div>
     <Courses
      allMarkdownRemark={allMarkdownRemark}

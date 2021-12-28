@@ -26,14 +26,12 @@ const None_Responsive_Nav = ({subMenu}) => (
      onClick={() => {
       navigate("/");
      }}
-     src='/richmon_logo-removebg-preview.png'
+     src='/Logo (1).png'
      style={{
       marginRight: 50,
-      position: "absolute",
+      width: 340,
+      height: 52,
       background: "#fff",
-      top: 0,
-      left: 0,
-      height: "6rem",
      }}
     ></img>
     <ul className={styles.links}>

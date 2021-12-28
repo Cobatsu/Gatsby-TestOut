@@ -3,9 +3,10 @@
  flex-direction: column;
  width: 100%;
  box-sizing: border-box;
- background-color: #2B2B2B;
+ background-color: #FBFBFB;
  position: fixed;
  z-index: 1000;
+ padding:10px
 }
 .contact_buttons {
  display: flex;
@@ -32,13 +33,12 @@
 }
 .logo_links {
  display: flex;
+ justify-content: space-around;
  min-height: 55px;
 }
 
 .links {
  display: flex;
- justify-content: center;
- width: 100%;
 }
 
 ul {
@@ -53,7 +53,7 @@ ul {
  align-items: center;
  flex-shrink: 0;
  font-weight: 600;
- color: white;
+ color: #191970;
  padding: 6px 30px;
  transition: 140ms;
  position: relative;
@@ -71,7 +71,7 @@ ul {
  width: 100%;
  justify-content: center;
  align-items: center;
- color:white;
+ color:#191970;
 }
 .linkHref:hover{
    color:#2B2B2B;

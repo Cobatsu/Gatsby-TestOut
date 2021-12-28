@@ -1,7 +1,7 @@
 .main_wrapper {
  display: flex;
  flex-direction: column;
- 
+ align-items: center;
 }
 
 .banner_holder {
@@ -132,7 +132,7 @@
    width: 100%;
    display: flex;
    justify-content: center;
-   padding:30px;
+   padding:2rem 0;
    background-color: #37474F;
    color:#FFFFFF
 }
@@ -154,13 +154,16 @@
  width: 100%;
  display: flex;
  justify-content: center;
- padding:4rem 0;
+ padding:3rem 0;
 }
 
 .accreditation{
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-top: 2rem;
+   background: #E5E5E5;
+   padding:3rem 0
 }
 
 
@@ -192,6 +195,15 @@
    display:flex;
    justify-content: center;
    align-items: center;
+}
+
+.course_list_item{
+ transition: 150ms;
+}
+
+.course_list_item:hover{
+  cursor: pointer;
+  transform: translateX(10px);
 }
 
 .inner_holder {

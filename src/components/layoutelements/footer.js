@@ -7,13 +7,6 @@ const Footer = () => {
   <div className={styles.main_wrapper}>
    <div className={styles.footer_column_holder}>
     <div className={styles.footer_column}>
-     <div className={styles.footer_column_header}>OUR COLLABORATIONS</div>
-     <img src='/athe-logo.png' style={{width: "150px"}}></img>
-     <img src='/othm-logo.png' style={{width: "150px"}}></img>
-     <img src='/qualifi-logo.png' style={{width: "150px"}}></img>
-    </div>
-
-    <div className={styles.footer_column}>
      <div className={styles.footer_column_header}>USEFUL LINKS</div>
      <Link to='/' className={styles.footer_link}>
       Home
@@ -36,21 +29,21 @@ const Footer = () => {
     </div>
 
     <div className={styles.footer_column}>
-     <div className={styles.footer_column_header}>ABOUT US</div>
-     <span style={{color: "white"}}>
+     <img src='/Logo (2).png' style={{marginBottom: 20}} />
+     <span>
       <i class='fas fa-building' style={{marginRight: 5}}></i>
       <span>Company :</span> RICHMOND COLLEGE
      </span>
-     <span style={{color: "white"}}>
+     <span>
       <i className='fas fa-map-marker-alt' style={{marginRight: 5}}></i>
       <span>Address : </span> 7030 Woodbine Avenue Markham, ON, Canada L3R 6G2
      </span>
-     <span style={{color: "white"}}>
+     <span>
       {" "}
       <i className='fas fa-envelope' style={{marginRight: 5}}></i>{" "}
       <span>E-mail : </span>admission@richmondcollege.co.uk
      </span>
-     <span style={{color: "white"}}>
+     <span>
       <i className='fas fa-phone' style={{marginRight: 5}}></i>
       <span>Phone : </span> +1 3063514537
      </span>

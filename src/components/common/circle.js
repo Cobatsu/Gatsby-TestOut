@@ -19,7 +19,7 @@ const RotatingCircle = styled.div`
  top: ${({top}) => top + "%"};
  z-index: 4;
 `;
-
+//
 const Circle = React.memo(
  ({Load, left, top, position, marginTop, width, height, marginBot}) => {
   const [a, b] = useState(0);

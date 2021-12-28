@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import * as styles from "../../../styles/layout-style/header.module.css";
 import {Link, navigate} from "gatsby";
 const InvisibleStaticDiv = () => {
- return <div style={{minHeight: 95, width: "100%"}}></div>;
+ return <div style={{minHeight: 140, width: "100%"}}></div>;
 };
 const None_Responsive_Nav = ({subMenu}) => (
  <div className={styles.Non_Responsive_Nav}>

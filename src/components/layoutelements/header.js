@@ -11,24 +11,7 @@ const subMenu = [
  },
  {
   type: "Courses",
-  props: [
-   {
-    title: "IGCSE courses",
-    link: "IGCSE-courses",
-   },
-   {
-    title: "(Level 3) A level University entry Courses",
-    link: "level3-courses",
-   },
-   {
-    title: "(Level 4 & 5) University 1st and 2nd year Courses",
-    link: "level4_5-courses",
-   },
-   {
-    title: "Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA) Courses",
-    link: "level6_7-courses",
-   },
-  ],
+  link: "/courses",
  },
  {
   type: "How You Will Learn",

@@ -3,7 +3,7 @@ import {graphql} from "gatsby";
 import "../../styles/global.css";
 import Layout from "../components/layoutelements/layout";
 import * as styles from "../../styles/pages/home.module.css";
-import {Courses} from "../components/common/courses";
+import {navigate} from "gatsby";
 
 function usePrevious(value) {
  const ref = React.useRef();
@@ -101,9 +101,7 @@ const banners = [
 const Home = props => {
  const [slideNumber, setSlideNumber] = React.useState(0);
  const prevSlideNumber = usePrevious(slideNumber);
- const {
-  data: {allMarkdownRemark},
- } = props;
+
  console.log(
   `slideNumber:${slideNumber}`,
   `prevSlideNumber:${prevSlideNumber}`
@@ -268,12 +266,15 @@ const Home = props => {
       </div>
 
       <div
-       style={{display: "flex", justifyContent: "space-between"}}
+       style={{
+        display: "flex",
+        justifyContent: "space-between",
+       }}
        className={styles.wrap}
       >
        <img
         src='./Certification-cuate 1.png'
-        style={{height: "35rem", marginRight: 30}}
+        style={{height: "30rem", marginRight: "4rem"}}
        ></img>
        <div>
         <div
@@ -354,7 +355,14 @@ const Home = props => {
         the printing and typesetting industry. Lorem Ipsum has been the
         industry's standard dummy text ever since the 1500s, 0% See Courses
        </span>
-       <button className={styles.classic_button}>See Courses</button>
+       <button
+        onClick={() => {
+         navigate("/IGCSE-courses");
+        }}
+        className={styles.classic_button}
+       >
+        See Courses
+       </button>
       </div>
 
       <div className={styles.course_background_image}>
@@ -382,7 +390,14 @@ const Home = props => {
         the printing and typesetting industry. Lorem Ipsum has been the
         industry's standard dummy text ever since the 1500s, 0% See Courses
        </span>
-       <button className={styles.classic_button}>See Courses</button>
+       <button
+        onClick={() => {
+         navigate("/level3-courses");
+        }}
+        className={styles.classic_button}
+       >
+        See Courses
+       </button>
       </div>
 
       <div className={styles.course_background_image}>
@@ -413,7 +428,14 @@ const Home = props => {
         the printing and typesetting industry. Lorem Ipsum has been the
         industry's standard dummy text ever since the 1500s, 0% See Courses
        </span>
-       <button className={styles.classic_button}>See Courses</button>
+       <button
+        onClick={() => {
+         navigate("/level4_5-courses");
+        }}
+        className={styles.classic_button}
+       >
+        See Courses
+       </button>
       </div>
 
       <div className={styles.course_background_image}>
@@ -444,7 +466,14 @@ const Home = props => {
         the printing and typesetting industry. Lorem Ipsum has been the
         industry's standard dummy text ever since the 1500s, 0% See Courses
        </span>
-       <button className={styles.classic_button}>See Courses</button>
+       <button
+        onClick={() => {
+         navigate("/level6_7-courses");
+        }}
+        className={styles.classic_button}
+       >
+        See Courses
+       </button>
       </div>
 
       <div className={styles.course_background_image}>
@@ -478,27 +507,5 @@ const Home = props => {
   </Layout>
  );
 };
-
-export const query = graphql`
- query getAllPosts {
-  allMarkdownRemark {
-   nodes {
-    frontmatter {
-     courseName
-     courseCategory
-     featuredImage {
-      childImageSharp {
-       fluid(maxWidth: 800) {
-        ...GatsbyImageSharpFluid
-       }
-      }
-     }
-    }
-    id
-    html
-   }
-  }
- }
-`;
 
 export default Home;

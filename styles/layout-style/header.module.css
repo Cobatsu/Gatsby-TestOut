@@ -6,7 +6,8 @@
  background-color: #FBFBFB;
  position: fixed;
  z-index: 1000;
- padding:10px
+ padding:10px 0 20px 0;
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 5px;
 }
 .contact_buttons {
  display: flex;
@@ -61,7 +62,7 @@ ul {
 .links li:hover {
  cursor: pointer;
  background-color: #FEC618;
- color: #2B2B2B;
+ color: #191970;
 }
 
 .linkHref {
@@ -74,7 +75,7 @@ ul {
  color:#191970;
 }
 .linkHref:hover{
-   color:#2B2B2B;
+   color:#191970;
 }
 .links li:hover ul {
  display: block;
@@ -89,7 +90,7 @@ ul {
 
 .subLinks {
  position: absolute;
- background: #2B2B2B;
+ background: #37474F;
  display: none;
  top: 100%;
  left: 0;
@@ -104,7 +105,7 @@ ul {
  padding: 0px;
 }
 .sublinkHref i {
- transition: 150ms;
+ transition: 50ms;
 }
 .sublinkHref:hover i {
  transform: translate(5px);
@@ -121,7 +122,7 @@ ul {
  background-color: #FEC618;
 }
 .subLinks li:hover .sublinkHref{
-   color: #2B2B2B;
+   color: #191970;
 }
 .header_company_logo:hover{
    cursor: pointer;

@@ -140,12 +140,19 @@ const Home = props => {
       {banners}
      </div>
     </div> */}
-    <div className={styles.intro}>
+    <div className={styles.intro + " " + styles.wrap}>
      <div style={{width: "30%"}}>
       <span style={{color: "#191970", fontSize: "3.2rem", fontWeight: "bold"}}>
        Online University Education
       </span>
-      <div style={{display: "flex", flexDirection: "column", marginTop: 15}}>
+      <div
+       style={{
+        display: "flex",
+        flexDirection: "column",
+        marginTop: 15,
+        marginBottom: 15,
+       }}
+      >
        <span
         style={{
          fontSize: "1.5rem",
@@ -164,6 +171,7 @@ const Home = props => {
         universities.
        </span>
       </div>
+      <button className={styles.classic_button}>Apply Now</button>
      </div>
      <img src='./Courses Section 1.png' style={{width: "35rem"}} />
     </div>
@@ -272,13 +280,16 @@ const Home = props => {
          style={{
           fontSize: "1.55rem",
           textAlign: "Center",
-          marginBottom: "1rem",
+          marginBottom: "1.5rem",
          }}
         >
          <span style={{fontWeight: 600}}>Undergraduate</span> and{" "}
          <span style={{fontWeight: 600}}>Graduate Degree Programs</span>
          <br />
-         in Richmond College
+         in Richmond College <br />
+         <span style={{textDecoration: "underline", fontSize: "1.1rem"}}>
+          Type of Diploma You Will Recieve
+         </span>
         </div>
         <span style={{lineHeight: 1.6, fontSize: "1.1rem"}}>
          The 100% online Undergraduate and Postgraduate Diploma courses at
@@ -305,7 +316,7 @@ const Home = props => {
         style={{
          textDecoration: "underline",
          fontSize: "1.1rem",
-         marginBottom: 10,
+         marginBottom: 30,
         }}
        >
         {" "}
@@ -326,26 +337,143 @@ const Home = props => {
       <img src='./On the way-cuate 1.png' style={{width: "25rem"}} />
      </div>
     </div>
-    <Courses
-     allMarkdownRemark={allMarkdownRemark}
-     title='IGCSE Courses'
-     type='IGCSE'
-    />
-    <Courses
-     allMarkdownRemark={allMarkdownRemark}
-     title='Level 3 – A level University Entry Courses'
-     type='Level 3 – A level University Entry'
-    />
-    <Courses
-     allMarkdownRemark={allMarkdownRemark}
-     title='Level 4 & 5 – University 1st and 2nd year Courses'
-     type='Level 4 & 5 – University 1st and 2nd year'
-    />
-    <Courses
-     allMarkdownRemark={allMarkdownRemark}
-     title='Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA) Courses'
-     type='Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA)'
-    />
+
+    <div className={styles.courses_wrapper}>
+     <div className={styles.course}>
+      <div className={styles.course_inner}>
+       <span style={{fontSize: "2rem", fontWeight: 600, marginBottom: 15}}>
+        IGCSE Courses
+       </span>
+       <span style={{textDecoration: "underline", marginBottom: 30}}>
+        Short Courses
+       </span>
+       <span style={{lineHeight: 1.6, marginBottom: 30}}>
+        Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,m Ipsum is simply dummy text of
+        the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, 0% See Courses
+       </span>
+       <button className={styles.classic_button}>See Courses</button>
+      </div>
+
+      <div className={styles.course_background_image}>
+       <img src='./Vector.png' style={{position: "absolute", width: "13rem"}} />
+       <span style={{color: "#191970", fontSize: "2rem", fontWeight: 600}}>
+        0%
+       </span>
+      </div>
+     </div>
+    </div>
+
+    <div className={styles.courses_wrapper + " " + styles.top_border}>
+     <div className={styles.course}>
+      <div className={styles.course_inner}>
+       <span style={{fontSize: "2rem", fontWeight: 600, marginBottom: 10}}>
+        Level 3
+       </span>
+       <span style={{textDecoration: "underline", marginBottom: 30}}>
+        University Entry Courses
+       </span>
+       <span style={{lineHeight: 1.6, marginBottom: 30}}>
+        Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,m Ipsum is simply dummy text of
+        the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, 0% See Courses
+       </span>
+       <button className={styles.classic_button}>See Courses</button>
+      </div>
+
+      <div className={styles.course_background_image}>
+       <img
+        src='./Vector35.png'
+        style={{position: "absolute", width: "13rem"}}
+       />
+       <span style={{color: "#191970", fontSize: "2rem", fontWeight: 600}}>
+        35%
+       </span>
+      </div>
+     </div>
+    </div>
+
+    <div className={styles.courses_wrapper + " " + styles.top_border}>
+     <div className={styles.course}>
+      <div className={styles.course_inner}>
+       <span style={{fontSize: "2rem", fontWeight: 600, marginBottom: 10}}>
+        Level 4 & 5
+       </span>
+       <span style={{textDecoration: "underline", marginBottom: 30}}>
+        University 1st and 2nd year Courses
+       </span>
+       <span style={{lineHeight: 1.6, marginBottom: 30}}>
+        Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,m Ipsum is simply dummy text of
+        the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, 0% See Courses
+       </span>
+       <button className={styles.classic_button}>See Courses</button>
+      </div>
+
+      <div className={styles.course_background_image}>
+       <img
+        src='./Vector75.png'
+        style={{position: "absolute", width: "13rem"}}
+       />
+       <span style={{color: "#191970", fontSize: "2rem", fontWeight: 600}}>
+        75%
+       </span>
+      </div>
+     </div>
+    </div>
+
+    <div className={styles.courses_wrapper + " " + styles.top_border}>
+     <div className={styles.course}>
+      <div className={styles.course_inner}>
+       <span style={{fontSize: "2rem", fontWeight: 600, marginBottom: 10}}>
+        Level 6 & Level 7
+       </span>
+       <span style={{textDecoration: "underline", marginBottom: 30}}>
+        Undergrad Final Year and Masters/MBA Courses
+       </span>
+       <span style={{lineHeight: 1.6, marginBottom: 30}}>
+        Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,m Ipsum is simply dummy text of
+        the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, 0% See Courses
+       </span>
+       <button className={styles.classic_button}>See Courses</button>
+      </div>
+
+      <div className={styles.course_background_image}>
+       <img
+        src='./Vector100.png'
+        style={{position: "absolute", width: "13rem"}}
+       />
+       <span style={{color: "#191970", fontSize: "3rem", fontWeight: 600}}>
+        <i class='fas fa-graduation-cap'></i>
+       </span>
+      </div>
+     </div>
+    </div>
+
+    <div className={styles.accreditation}>
+     <div className={styles.classic_text} style={{textAlign: "center"}}>
+      Accreditation of Our Diplomas
+     </div>
+     <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
+      <img src='/othm-logo.png' />
+      <img src='/athe-logo.png' />
+      <img src='/qualifi-logo.png' />
+      <img src='/coventry-logo.png' />
+      <img src='/ersa-logo.png' />
+      <img src='/matrix-logo.png' />
+      <img src='/bcs-logo.png' />
+      <img src='/instute-logo.png' />
+     </div>
+    </div>
    </div>
   </Layout>
  );

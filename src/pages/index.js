@@ -140,7 +140,7 @@ const Home = props => {
     </div> */}
     <div className={styles.intro + " " + styles.wrap}>
      <div style={{width: "30%"}}>
-      <span style={{color: "#191970", fontSize: "3.2rem", fontWeight: "bold"}}>
+      <span style={{color: "#191970", fontSize: "2.6rem", fontWeight: "bold"}}>
        Online University Education
       </span>
       <div

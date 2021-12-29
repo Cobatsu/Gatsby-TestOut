@@ -1,6 +1,6 @@
 ---
 courseName: Professional Sales Management (Level 6)
-courseCategory: level 6
+courseCategory: Level 6
 featuredImage: ../images/professionals-sales-and-management.jpg
 subTitle: "Level 6 Course - £5600 (Progress onto a University MBA or a Level 7 course)"
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The Level 6 Professional Sales Management course is £5600.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>

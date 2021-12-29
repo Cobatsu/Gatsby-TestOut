@@ -13,22 +13,22 @@ const subMenu = [
   type: "Courses",
   link: "/courses",
  },
- {
-  type: "How You Will Learn",
-  props: [
-   {title: "How Will I Be Assessed", link: "assessment-info"},
-   {title: "Levels 3-7 Explained", link: "levels3-7"},
-   {title: "Entry Requirements", link: "entry-requirements"},
-   {title: "FAQ", link: "faq"},
-  ],
- },
- {
-  type: "About Us",
-  props: [
-   {title: "Who we are", link: "who-we-are"},
-   {title: "Our Credentials", link: "our-credentials"},
-  ],
- },
+ //  {
+ //   type: "How You Will Learn",
+ //   props: [
+ //    {title: "How Will I Be Assessed", link: "assessment-info"},
+ //    {title: "Levels 3-7 Explained", link: "levels3-7"},
+ //    {title: "Entry Requirements", link: "entry-requirements"},
+ //    {title: "FAQ", link: "faq"},
+ //   ],
+ //  },
+ //  {
+ //   type: "About Us",
+ //   props: [
+ //    {title: "Who we are", link: "who-we-are"},
+ //    {title: "Our Credentials", link: "our-credentials"},
+ //   ],
+ //  },
 ];
 
 const Header = () => {

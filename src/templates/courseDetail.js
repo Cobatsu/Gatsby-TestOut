@@ -1,6 +1,7 @@
 import React from "react";
 import * as styles from "../../styles/pages/course_detail.module.css";
 import Layout from "../components/layoutelements/layout";
+import OptionCard from "../components/common/courseOptionCard";
 import Img from "gatsby-image";
 
 const CourseDetail = ({pageContext}) => {
@@ -14,18 +15,50 @@ const CourseDetail = ({pageContext}) => {
  switch (node.frontmatter.courseCategory) {
   case "Level 3":
    subTitle = "Pre-University Module";
+   courseOptions = [
+    {
+     level: "Level 3",
+     fee: "2760",
+    },
+   ];
    break;
 
   case "Level 4-5":
    subTitle = "Undergraduate - Year 1-2";
+   courseOptions = [
+    {
+     level: "Level 4",
+     fee: "2760",
+    },
+    {
+     level: "Level 5",
+     fee: "2760",
+    },
+    {
+     level: "Level 4 + Level 5",
+     fee: "3360",
+    },
+   ];
    break;
 
   case "Level 5":
    subTitle = "Undergraduate - Year 2";
+   courseOptions = [
+    {
+     level: "Level 5",
+     fee: "2760",
+    },
+   ];
    break;
 
   case "Level 6":
    subTitle = "Undergraduate - Final Year";
+   courseOptions = [
+    {
+     level: "Level 6",
+     fee: "2760",
+    },
+   ];
    break;
  }
  const discountedFees = node.frontmatter.subTitle
@@ -83,7 +116,9 @@ const CourseDetail = ({pageContext}) => {
      {
       // about the course
      }
-     <div style={{display: "flex", flexDirection: "column"}}>
+     <div
+      style={{display: "flex", flexDirection: "column", marginBottom: "3rem"}}
+     >
       <span
        style={{
         color: "#191970",
@@ -102,7 +137,28 @@ const CourseDetail = ({pageContext}) => {
      {
       // course options
      }
-     <div></div>
+     <div>
+      <div
+       style={{
+        color: "#191970",
+        fontWeight: "bolder",
+        fontSize: "1.5em",
+        marginBottom: 40,
+       }}
+      >
+       Course Options
+      </div>
+      <div style={{display: "flex", justifyContent: "space-around"}}>
+       {courseOptions.map(option => {
+        return (
+         <OptionCard
+          {...option}
+          courseName={node.frontmatter.courseName.split(", ")[0]}
+         />
+        );
+       })}
+      </div>
+     </div>
     </div>
 
     {/* <h2 className={styles.header_title}>{node.frontmatter.courseName}</h2>

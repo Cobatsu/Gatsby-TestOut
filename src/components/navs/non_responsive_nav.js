@@ -8,14 +8,33 @@ const None_Responsive_Nav = ({subMenu}) => (
  <div className={styles.Non_Responsive_Nav}>
   <header className={styles.main_wrapper}>
    <div className={styles.contact_buttons}>
+    <div style={{display: "flex", alignItems: "center"}}>
+     <div style={{display: "flex", alignItems: "center", marginRight: 20}}>
+      <i
+       style={{color: "#FFFFFF", fontSize: "10px", marginRight: 7}}
+       className='fas fa-phone-alt'
+      ></i>
+      <span style={{color: "#FFFFFF", fontSize: "10px"}}>+1 3063514537</span>
+     </div>
+     <div style={{display: "flex", alignItems: "center"}}>
+      <i
+       style={{color: "#FFFFFF", fontSize: "10px", marginRight: 7}}
+       className='far fa-envelope'
+      ></i>
+      <span style={{color: "#FFFFFF", fontSize: "10px"}}>
+       admission@richmondcollege.co.uk
+      </span>
+     </div>
+    </div>
+
     <div className={styles.contact_buttons_item} style={{padding: 0}}>
      <Link
       to='/contact-us'
       className={styles.linkHref}
-      style={{padding: "6px 10px", color: "#2B2B2B"}}
+      style={{padding: "3px", color: "white"}}
      >
-      <span style={{marginRight: 6}}>Contact Us</span>
-      <i class='fas fa-paper-plane'></i>
+      <span style={{marginRight: 6, fontSize: "10px"}}>Contact Us</span>
+      <i style={{fontSize: "10px"}} class='fas fa-paper-plane'></i>
      </Link>
     </div>
    </div>

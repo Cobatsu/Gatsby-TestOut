@@ -4,18 +4,18 @@ import * as styles from "../../styles/pages/home.module.css";
 import {graphql} from "gatsby";
 import Layout from "../components/layoutelements/layout";
 
-const IGCSECourses = props => {
+const Level4_5Courses = props => {
  const {
   data: {allMarkdownRemark},
  } = props;
  return (
-  <Layout title='A level University Entry Courses'>
+  <Layout title='Level 6 Courses'>
    <div className={styles.main_wrapper}>
     <Courses
      allMarkdownRemark={allMarkdownRemark}
-     title='Level 3 Courses'
-     type='Level 3'
-     subTitle='Pre-University Module'
+     title='Level 6 Courses'
+     subTitle='Undergraduate - Final Year'
+     type='Level 6'
     />
    </div>
   </Layout>
@@ -23,7 +23,7 @@ const IGCSECourses = props => {
 };
 
 export const query = graphql`
- query getAllPosts2 {
+ query getAllPosts6 {
   allMarkdownRemark {
    nodes {
     frontmatter {
@@ -44,4 +44,4 @@ export const query = graphql`
  }
 `;
 
-export default IGCSECourses;
+export default Level4_5Courses;

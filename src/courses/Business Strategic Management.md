@@ -1,6 +1,6 @@
 ---
-courseName: Business Strategic Management, MBA Advanced Entry (Level 7)
-courseCategory: Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA)
+courseName: Business Strategic Management
+courseCategory: Level 7
 featuredImage: ../images/business-strategic-managment.jpg
 subTitle: "Level 7 Course - £7000 (Progress onto the final stages of a University MBA)"
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The Level 7 Human Resource Management course is £7000.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>

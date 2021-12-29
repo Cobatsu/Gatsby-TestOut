@@ -32,8 +32,8 @@
    border-radius: 5px;
    padding:10px 20px;
    font-weight: 600;
-   box-shadow: 0 8px 0px #bb9625;
-   transition: all 150ms;
+   box-shadow: 0 5px 0px #bb9625;
+   transition: all 120ms;
 }
 .classic_button:hover{
    cursor: pointer;
@@ -41,7 +41,7 @@
 
 .classic_button:active{
    box-shadow:none;
-   transform: translateY(8px);
+   transform: translateY(5px);
 }
 
 .logo_holder{
@@ -96,10 +96,11 @@
 
 .intro{
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    align-items: center;
    margin-bottom: 5rem;
-   margin-top: 5rem;
+   margin-top: 1rem;
+   width: 73%;
 }
 
 .outer_mid_body{
@@ -111,9 +112,9 @@
    background: rgba(25, 25, 112, 0.9);
 }
 .mid_body{
-   width: 80%;
+   width: 70%;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
    color:#FFFFFF;
    flex-wrap: wrap;
@@ -125,7 +126,7 @@
    align-items:center;
    justify-content: space-around;
    color:#191970;
-   width: 77%;
+   width: 70%;
 }
 
 .where_to_start_outer{
@@ -138,7 +139,7 @@
 }
 
 .where_to_start_inner{
-   width: 80%;
+   width: 70%;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -162,7 +163,6 @@
    flex-direction: column;
    align-items: center;
    margin-top: 2rem;
-   background: #E5E5E5;
    padding:3rem 0
 }
 
@@ -177,7 +177,7 @@
    display:flex;
    justify-content: space-between;
    align-items: center;
-   width: 80%;
+   width: 70%;
 }
 
 .course_inner{
@@ -191,7 +191,7 @@
 }
 
 .course_background_image{
-   flex:0.5;
+   flex:0.3;
    display:flex;
    justify-content: center;
    align-items: center;

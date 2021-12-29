@@ -23,12 +23,7 @@ const CourseCard = ({courseName, courseCategory, featuredImgFluid}) => {
      {courseName}
     </span>
     <Link
-     to={
-      "/" +
-      courseCategory.toLowerCase().split(" ").join("_") +
-      "/" +
-      courseName.toLowerCase().split(" ").join("_")
-     }
+     to={"/" + courseCategory + "/" + courseName}
      className={styles.view_link}
     >
      <span>View Details</span>{" "}

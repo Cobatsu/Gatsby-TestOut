@@ -1,6 +1,6 @@
 ---
 courseName: People and Organisations (60 Credits)
-courseCategory: Level 3 – A level University Entry
+courseCategory: Level 3
 subTitle: People and Organisations - £4600
 featuredImage: ../images/people-and-orgranization.jpg
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the Level 3 course is £4600. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>

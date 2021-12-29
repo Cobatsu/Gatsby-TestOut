@@ -3,26 +3,30 @@
  flex-direction: column;
  width: 100%;
  box-sizing: border-box;
+ align-items: center;
  background-color: #FBFBFB;
  position: fixed;
  z-index: 1000;
- padding:10px 0 20px 0;
- box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 5px;
+ padding:0 0 20px 0;
+
 }
 .contact_buttons {
  display: flex;
- justify-content: flex-end;
- padding: 14px 14px 0 6px;
+ justify-content: space-between;
+ align-items: center;
+ padding: 3px 14px;
  position: relative;
+ background-color: #191970;
+ margin-bottom: 30px;
+ width: 82%;
+ border-radius: 0 0 5px 5px ;
 }
 .heyo {
  background-color: red;
 }
 .contact_buttons_item {
- padding: 8px 10px;
- background-color: white;
+ padding: 5px 10px;
  color: white;
- border-radius: 6px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -34,8 +38,9 @@
 }
 .logo_links {
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  min-height: 55px;
+ width: 73%;
 }
 
 .links {

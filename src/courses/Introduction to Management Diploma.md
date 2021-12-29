@@ -1,6 +1,6 @@
 ---
 courseName: Introduction to Management Diploma (Level 3 – 60 Credits)
-courseCategory: Level 3 – A level University Entry
+courseCategory: Level 3
 featuredImage: ../images/introduction-to-managment.jpg
 subTitle: Diploma (Level 3 - 60 credits) - £4600
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the Level 3 course is £4600. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>

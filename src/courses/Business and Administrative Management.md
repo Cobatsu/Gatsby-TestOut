@@ -1,6 +1,6 @@
 ---
-courseName: Business and Administrative Management ( Level 6 Postgraduate MBA entry)
-courseCategory: Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA)
+courseName: Business and Administrative Management
+courseCategory: Level 6
 featuredImage: ../images/business-adminstirative-managment_.jpg
 subTitle: "Level 6 Course - £5600 (Progress onto a University MBA or a Level 7 course)"
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enrolling onto the level 6 course is £5600. Students can make payment using one of the following methods:<br/><ul style='margin-top:10px'>

@@ -35,9 +35,9 @@ exports.createPages = async ({graphql, actions}) => {
  allMarkdownRemark.nodes.forEach(node => {
   actions.createPage({
    path:
-    node.frontmatter.courseCategory.toLowerCase().split(" ").join("_") +
+    node.frontmatter.courseCategory.split(" ").join("-") +
     "/" +
-    node.frontmatter.courseName.toLowerCase().split(" ").join("_"),
+    node.frontmatter.courseName.split(",")[0].split(" ").join("-"),
    component: path.resolve("./src/templates/courseDetail.js"),
    context: {node},
   });

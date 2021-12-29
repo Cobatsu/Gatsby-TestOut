@@ -4,17 +4,18 @@ import * as styles from "../../styles/pages/home.module.css";
 import {graphql} from "gatsby";
 import Layout from "../components/layoutelements/layout";
 
-const Level4_5Courses = props => {
+const Level5Courses = props => {
  const {
   data: {allMarkdownRemark},
  } = props;
  return (
-  <Layout title='Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA) Courses'>
+  <Layout title='Level 5 Courses'>
    <div className={styles.main_wrapper}>
     <Courses
      allMarkdownRemark={allMarkdownRemark}
-     title='Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA) Courses'
-     type='Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA)'
+     title='Level 5 Courses'
+     subTitle='Undergraduate - Final Year 2'
+     type='Level 4-5,Level 5'
     />
    </div>
   </Layout>
@@ -22,7 +23,7 @@ const Level4_5Courses = props => {
 };
 
 export const query = graphql`
- query getAllPosts6 {
+ query getAllPosts15 {
   allMarkdownRemark {
    nodes {
     frontmatter {
@@ -43,4 +44,4 @@ export const query = graphql`
  }
 `;
 
-export default Level4_5Courses;
+export default Level5Courses;

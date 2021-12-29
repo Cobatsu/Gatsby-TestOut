@@ -1,6 +1,6 @@
 ---
 courseName: Human Resource Management (Level 7)
-courseCategory: Level 6 (Undergrad Final Year) and Level 7 (Masters/MBA)
+courseCategory: Level 7
 featuredImage: ../images/human-resource-management-level7.jpg
 subTitle: "Level 7 Course - £7000 (Progress onto the final stages of a University MBA)"
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The Level 7 Human Resource Management course is £7000.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>

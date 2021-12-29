@@ -338,7 +338,7 @@ const Home = props => {
       <img src='./On the way-cuate 1.png' style={{width: "25rem"}} />
      </div>
     </div>
-
+    {/* 
     <div className={styles.courses_wrapper}>
      <div className={styles.course}>
       <div className={styles.course_inner}>
@@ -372,7 +372,7 @@ const Home = props => {
        </span>
       </div>
      </div>
-    </div>
+    </div> */}
 
     <div className={styles.courses_wrapper + " " + styles.top_border}>
      <div className={styles.course}>
@@ -381,7 +381,7 @@ const Home = props => {
         Level 3
        </span>
        <span style={{textDecoration: "underline", marginBottom: 30}}>
-        University Entry Courses
+        Pre-University Module
        </span>
        <span style={{lineHeight: 1.6, marginBottom: 30}}>
         Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
@@ -393,6 +393,41 @@ const Home = props => {
        <button
         onClick={() => {
          navigate("/level3-courses");
+        }}
+        className={styles.classic_button}
+       >
+        See Courses
+       </button>
+      </div>
+
+      <div className={styles.course_background_image}>
+       <img src='./Vector.png' style={{position: "absolute", width: "13rem"}} />
+       <span style={{color: "#191970", fontSize: "2rem", fontWeight: 600}}>
+        0%
+       </span>
+      </div>
+     </div>
+    </div>
+
+    <div className={styles.courses_wrapper + " " + styles.top_border}>
+     <div className={styles.course}>
+      <div className={styles.course_inner}>
+       <span style={{fontSize: "2rem", fontWeight: 600, marginBottom: 10}}>
+        Level 4
+       </span>
+       <span style={{textDecoration: "underline", marginBottom: 30}}>
+        Undergraduate - Year 1
+       </span>
+       <span style={{lineHeight: 1.6, marginBottom: 30}}>
+        Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,m Ipsum is simply dummy text of
+        the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, 0% See Courses
+       </span>
+       <button
+        onClick={() => {
+         navigate("/level4-courses");
         }}
         className={styles.classic_button}
        >
@@ -416,10 +451,10 @@ const Home = props => {
      <div className={styles.course}>
       <div className={styles.course_inner}>
        <span style={{fontSize: "2rem", fontWeight: 600, marginBottom: 10}}>
-        Level 4 & 5
+        Level 5
        </span>
        <span style={{textDecoration: "underline", marginBottom: 30}}>
-        University 1st and 2nd year Courses
+        Undergraduate - Year 2
        </span>
        <span style={{lineHeight: 1.6, marginBottom: 30}}>
         Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
@@ -430,7 +465,7 @@ const Home = props => {
        </span>
        <button
         onClick={() => {
-         navigate("/level4_5-courses");
+         navigate("/level5-courses");
         }}
         className={styles.classic_button}
        >
@@ -440,11 +475,11 @@ const Home = props => {
 
       <div className={styles.course_background_image}>
        <img
-        src='./Vector75.png'
+        src='./Vector70.png'
         style={{position: "absolute", width: "13rem"}}
        />
        <span style={{color: "#191970", fontSize: "2rem", fontWeight: 600}}>
-        75%
+        70%
        </span>
       </div>
      </div>
@@ -454,10 +489,10 @@ const Home = props => {
      <div className={styles.course}>
       <div className={styles.course_inner}>
        <span style={{fontSize: "2rem", fontWeight: 600, marginBottom: 10}}>
-        Level 6 & Level 7
+        Level 6
        </span>
        <span style={{textDecoration: "underline", marginBottom: 30}}>
-        Undergrad Final Year and Masters/MBA Courses
+        Undergrad Final Year
        </span>
        <span style={{lineHeight: 1.6, marginBottom: 30}}>
         Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
@@ -468,7 +503,7 @@ const Home = props => {
        </span>
        <button
         onClick={() => {
-         navigate("/level6_7-courses");
+         navigate("/level6-courses");
         }}
         className={styles.classic_button}
        >
@@ -492,7 +527,14 @@ const Home = props => {
      <div className={styles.classic_text} style={{textAlign: "center"}}>
       Accreditation of Our Diplomas
      </div>
-     <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
+     <div
+      style={{
+       display: "flex",
+       flexWrap: "wrap",
+       justifyContent: "space-between",
+       width: "70%",
+      }}
+     >
       <img src='/othm-logo.png' />
       <img src='/athe-logo.png' />
       <img src='/qualifi-logo.png' />

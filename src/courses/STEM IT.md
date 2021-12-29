@@ -1,6 +1,6 @@
 ---
 courseName: STEM IT (60 Credits)
-courseCategory: Level 3 – A level University Entry
+courseCategory: Level 3
 featuredImage: ../images/stemIT.jpg
 subTitle: Diploma In IT - £4600
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the Level 3 course is £1700. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>

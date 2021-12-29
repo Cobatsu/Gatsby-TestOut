@@ -6,7 +6,28 @@ import Img from "gatsby-image";
 const CourseDetail = ({pageContext}) => {
  const {node} = pageContext;
  const featuredImgFluid = node.frontmatter.featuredImage.childImageSharp.fluid;
- console.log(node);
+
+ var subTitle = "";
+ var courseOptions = [];
+
+ console.log(node.frontmatter.courseCategory);
+ switch (node.frontmatter.courseCategory) {
+  case "Level 3":
+   subTitle = "Pre-University Module";
+   break;
+
+  case "Level 4-5":
+   subTitle = "Undergraduate - Year 1-2";
+   break;
+
+  case "Level 5":
+   subTitle = "Undergraduate - Year 2";
+   break;
+
+  case "Level 6":
+   subTitle = "Undergraduate - Final Year";
+   break;
+ }
  const discountedFees = node.frontmatter.subTitle
   ?.split(" ")
   .map(item => {
@@ -17,10 +38,74 @@ const CourseDetail = ({pageContext}) => {
   })
   .join(" ");
 
+ console.log(subTitle);
+
  return (
   <Layout title={node.frontmatter.courseName}>
    <div className={styles.detail_general_wrapper}>
-    <h2 className={styles.header_title}>{node.frontmatter.courseName}</h2>
+    <div style={{width: "73%"}}>
+     {
+      // course title and image
+     }
+     <div
+      style={{
+       display: "flex",
+       justifyContent: "space-between",
+       alignItems: "center",
+      }}
+     >
+      <div style={{display: "flex", flexDirection: "column"}}>
+       <span
+        style={{
+         color: "#191970",
+         fontWeight: 700,
+         fontSize: "2rem",
+         marginBottom: 10,
+        }}
+       >
+        {node.frontmatter.courseName.split(", ")[0]}
+       </span>
+       <span
+        style={{
+         color: "#191970",
+         textDecoration: "underline",
+         fontSize: "1rem",
+         fontWeight: 600,
+        }}
+       >
+        {subTitle}
+       </span>
+      </div>
+      <div>
+       <img src='/Presentation-bro 1.png' />
+      </div>
+     </div>
+     {
+      // about the course
+     }
+     <div style={{display: "flex", flexDirection: "column"}}>
+      <span
+       style={{
+        color: "#191970",
+        fontWeight: "bolder",
+        fontSize: "1.5em",
+        marginBottom: 40,
+       }}
+      >
+       About The Course
+      </span>
+      <div
+       className={styles.content}
+       dangerouslySetInnerHTML={{__html: node.html}}
+      />
+     </div>
+     {
+      // course options
+     }
+     <div></div>
+    </div>
+
+    {/* <h2 className={styles.header_title}>{node.frontmatter.courseName}</h2>
 
     <h2
      className={styles.header_title}
@@ -86,7 +171,7 @@ const CourseDetail = ({pageContext}) => {
      ></i>
      <h2> Course Details </h2>{" "}
      <div dangerouslySetInnerHTML={{__html: node.frontmatter.courseDetails}} />
-    </div>
+    </div> */}
    </div>
   </Layout>
  );

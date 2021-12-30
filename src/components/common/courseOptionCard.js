@@ -21,8 +21,15 @@ const OptionCard = ({level, fee, courseName}) => (
    <span></span>
   </div>
   <div>
-   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+   <ul
+    style={{
+     listStyleType: "circle",
+    }}
+   >
+    <li>Lorem Ipsum is simply dummy text of</li>
+    <li>Lorem Ipsum has the industry's 1500s</li>
+    <li>software like Aldus PageMaker</li>
+   </ul>
   </div>
   <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
    <span

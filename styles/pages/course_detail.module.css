@@ -41,7 +41,7 @@
     margin: 20px;
 }
 .content{
-    font-size: 1.15rem;
+    font-size: 1rem;
     line-height: 1.6;
 }
 .content span{
@@ -49,33 +49,14 @@
   
 }
 
+.option_card_holder{
+    flex-wrap: wrap;
+}
 
-@media only screen and (max-width: 800px) {
-    .inner_container {
-        max-width: 100%;
-    }
-    .content{
-        font-size: 1.25rem;
-    }
-    .content span > strong{
-        font-size: 1.2rem !important;
-    }
-    .detail_general_wrapper{
-        padding:5px
-    }
+.classic_text{
+    color: #191970;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
     
-    .credentials_wrapper {
-  
-      flex-direction: column !important;
-      justify-content: center !important;;
-      align-items: center !important;;
-
-    }
-    .credentials_wrapper div{
-        width: 90% !important;;
-    }
-
-    h2{
-        text-align: center;
-    }   
 }

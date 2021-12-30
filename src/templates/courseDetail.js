@@ -71,8 +71,6 @@ const CourseDetail = ({pageContext}) => {
   })
   .join(" ");
 
- console.log(subTitle);
-
  return (
   <Layout title={node.frontmatter.courseName}>
    <div className={styles.detail_general_wrapper}>
@@ -89,12 +87,8 @@ const CourseDetail = ({pageContext}) => {
      >
       <div style={{display: "flex", flexDirection: "column"}}>
        <span
-        style={{
-         color: "#191970",
-         fontWeight: 700,
-         fontSize: "2rem",
-         marginBottom: 10,
-        }}
+        className={styles.classic_text}
+        style={{marginBottom: "10px", fontSize: "2rem"}}
        >
         {node.frontmatter.courseName.split(", ")[0]}
        </span>
@@ -116,19 +110,10 @@ const CourseDetail = ({pageContext}) => {
      {
       // about the course
      }
-     <div
-      style={{display: "flex", flexDirection: "column", marginBottom: "3rem"}}
-     >
-      <span
-       style={{
-        color: "#191970",
-        fontWeight: "bolder",
-        fontSize: "1.5em",
-        marginBottom: 40,
-       }}
-      >
+     <div style={{marginBottom: "5rem"}}>
+      <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
        About The Course
-      </span>
+      </div>
       <div
        className={styles.content}
        dangerouslySetInnerHTML={{__html: node.html}}
@@ -137,18 +122,14 @@ const CourseDetail = ({pageContext}) => {
      {
       // course options
      }
-     <div>
-      <div
-       style={{
-        color: "#191970",
-        fontWeight: "bolder",
-        fontSize: "1.5em",
-        marginBottom: 40,
-       }}
-      >
+     <div style={{marginBottom: "5rem"}}>
+      <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
        Course Options
       </div>
-      <div style={{display: "flex", justifyContent: "space-around"}}>
+      <div
+       className={styles.option_card_holder}
+       style={{display: "flex", justifyContent: "space-around"}}
+      >
        {courseOptions.map(option => {
         return (
          <OptionCard
@@ -157,6 +138,28 @@ const CourseDetail = ({pageContext}) => {
          />
         );
        })}
+      </div>
+     </div>
+     {
+      // course curriculum
+     }
+     <div style={{marginBottom: "5rem"}}>
+      {" "}
+      <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
+       Course Curriculum
+      </div>
+      <div
+       className={styles.content}
+       dangerouslySetInnerHTML={{__html: node.frontmatter.courseDetails}}
+      />
+     </div>
+     {
+      // University top-up
+     }
+     <div>
+      {" "}
+      <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
+       University top-up
       </div>
      </div>
     </div>

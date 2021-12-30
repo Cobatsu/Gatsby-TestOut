@@ -163,7 +163,6 @@ const Home = props => {
         Get Your Degree From The UK
        </span>
        <span style={{fontSize: "1.2rem", lineHeight: "2rem"}}>
-        The 100% online Undergraduate and Postgraduate Diploma courses at
         Richmond College provide students an affordable pathway to earning an
         undergraduate or postgraduate degree from a choice of respected UK
         universities.
@@ -242,7 +241,7 @@ const Home = props => {
       <div style={{marginBottom: "5.3rem"}}>
        <div
         style={{
-         fontSize: "1.55rem",
+         fontSize: "1.5rem",
          textAlign: "Center",
          marginBottom: "1.2rem",
         }}
@@ -253,7 +252,7 @@ const Home = props => {
          Your Access to The Best Education{" "}
         </span>
        </div>
-       <span style={{lineHeight: 1.6, fontSize: "1.1rem"}}>
+       <span style={{lineHeight: 1.6}}>
         The 100% online Undergraduate and Postgraduate Diploma courses at
         Richmond College provide students an affordable pathway to earning an
         undergraduate or postgraduate degree from a choice of respected UK
@@ -272,10 +271,7 @@ const Home = props => {
        }}
        className={styles.wrap}
       >
-       <img
-        src='./Certification-cuate 1.png'
-        style={{height: "30rem", marginRight: "4rem"}}
-       ></img>
+       <img src='./Certification-cuate 1.png' style={{height: "30rem"}}></img>
        <div>
         <div
          style={{
@@ -292,7 +288,7 @@ const Home = props => {
           Type of Diploma You Will Recieve
          </span>
         </div>
-        <span style={{lineHeight: 1.6, fontSize: "1.1rem"}}>
+        <span style={{lineHeight: 1.6}}>
          The 100% online Undergraduate and Postgraduate Diploma courses at
          Richmond College provide students an affordable pathway to earning an
          undergraduate or postgraduate degree from a choice of respected UK
@@ -323,7 +319,7 @@ const Home = props => {
         {" "}
         Your Roadmap to Diploma
        </span>
-       <span style={{lineHeight: 1.6, fontSize: "1.1rem"}}>
+       <span style={{lineHeight: 1.6}}>
         The 100% online Undergraduate and Postgraduate Diploma courses at
         Richmond College provide students an affordable pathway to earning an
         undergraduate or postgraduate degree from a choice of respected UK
@@ -516,7 +512,7 @@ const Home = props => {
         src='./Vector100.png'
         style={{position: "absolute", width: "13rem"}}
        />
-       <span style={{color: "#191970", fontSize: "3rem", fontWeight: 600}}>
+       <span style={{color: "#191970", fontSize: "2rem", fontWeight: 600}}>
         <i class='fas fa-graduation-cap'></i>
        </span>
       </div>

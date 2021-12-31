@@ -3,32 +3,8 @@ courseName: Human Resource Management, University 1st and 2nd Year (Level 4 and 
 courseCategory: Level 4-5
 featuredImage: ../images/human-resources.jpg
 subTitle: £4600 per level or £5600 for two levels together
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enrolling onto the level 4 and level 5 courses together is £5600. Alternatively students can enrol onto a single level (level 4 or 5) for £4600 each.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the level 4 course, you must be at least 18 and have a full secondary education. Before enrolling onto the level 5 course, you must have attained a level 4 or equivalent.
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Level 4 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Culture and the organisation
-</strong></span> <br/><br/>
-Develop an understanding of what is meant by “organisational culture” and its various influences on the operation of the organisation itself.br/><br/>
+curriculum_1: "<span style='font-size:15px;'><strong>Culture and the organisation </strong></span> <br/><br/>
+Develop an understanding of what is meant by “organisational culture” and its various influences on the operation of the organisation itself.<br/><br/>
 <span style='font-size:15px;'><strong>Developing interpersonal skills</strong> </span> <br/><br/>
 Come to understand the interpersonal skills that are required by managers and leaders in different managerial responsibilities. Learn how to develop these skills for improved performance.<br/><br/>
 <span style='font-size:15px;'><strong>Managing and rewarding performance</strong> </span><br/><br/>
@@ -51,10 +27,8 @@ Learn about the importance of strategic HRM in an organisation. Develop knowledg
 <br/><br/>
 <span style='font-size:15px;'><strong>Working in teams</strong> </span><br/><br/>
 Develop an understanding of the core principles that underpin an effective team, both in terms of team membership and team leadership.
-<br/><br/>
-
-
-<span style='font-size:18px; color:#01937C'><strong>Level 5 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>The entrepreneurial manager</strong></span> <br/><br/>
+<br/><br/>"
+curriculum_2: "<span style='font-size:15px;'><strong>The entrepreneurial manager</strong></span> <br/><br/>
 What is an Entrepreneur? Examine the skills and qualities of entrepreneurship.<br/><br/>
 <span style='font-size:15px;'><strong>Organisation structures</strong> </span> <br/><br/>
 Why are organisations structured in the way they are? What determines the optimum structure and how does it differ between organisations? In this module, learners will look at the numerous models and theories that make up organisational structure.<br/><br/>
@@ -81,12 +55,6 @@ Learners will analyse how markets, customers, competitors and products can come 
 <br/><br/>
 <span style='font-size:15px;'><strong>Quantitative skills</strong> </span><br/><br/>
 On successful completion of this module, learners will have knowledge of numeric exercises and will understand their use within the context of the business.
-<br/><br/>
-
-
-
-
-<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Successful completion of The Undergraduate Level 4 (Human Resource Management course) and Level 5 (Extended Diploma in Management) and the final year of an accredited Undergraduate Degree programme, students will have attained the right credentials to go on and apply for a job in management, HR, strategic business management or business consultancy.
 <br/><br/>
 "
 ---

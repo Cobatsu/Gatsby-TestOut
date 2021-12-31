@@ -3,33 +3,35 @@ courseName: Engineering (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/engineering.jpg
 subTitle: Diploma in Engineering - £4600
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the Level 3 course is £4600. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online 
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>University Progression</strong></span><br/><br/> On completion of this course, students will have the opportunity to apply for admission onto a full BA degree programme from a range of UK universities.
+curriculum_1: " <span ><strong>Engineering Principles</strong></span> <br/><br/> Understand applications of SI units and measurement.<br/>
+Know how to perform engineering calculations.<br/>
+Know how to interpret engineering information. <br/><br/>
+<span ><strong>Design Technology</strong> </span> <br/><br/>
+Demonstrate knowledge and understanding of engineering products and design.<br/>
+Understand how to apply a systems approach to electrical design.<br/>
+Be able to produce 2D CAD drawings.<br/><br/>
+<span ><strong>Electricity</strong> </span><br/><br/>
+Understand the functions of basic electrical components within circuits.<br/>
+Be able to apply AC and DC circuit theory to circuit design.<br/>
+Understand power supplies and power system protection.
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Course overview</strong></span><br/><br/> The level 3 course is made up of 6 modules and 6 written assignments. Each module consists of 40 guided learning hours of material with an additional 30-50 hours worth of optional materials that comprise of recommended exercises, recommended readings, Internet resources, and self-testing exercises.
+<span ><strong>Mechanics</strong> </span><br/><br/>
+Understand the motion of objects in mathematical terms.<br/>
+Understand energy changes in a system.<br/>
+Understand energy transfer, forces and elasticity.
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this progamm?</strong></span><br/><br/> This course is most suited to individuals who are at least 16 years old, have a high school education and wish to progress onto a degree at university.
+<span ><strong>Introducing Statistics
+</strong> </span><br/><br/>
+Understand the underpinning concepts relating to the analysis of statistics.<br/>
+Understand a range of data types and their representation.<br/>
+Be able to calculate and interpret statistical diagrams and measures.
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Level 3 module listing</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
+<span ><strong>Mathematics</strong> </span><br/><br/>
+Understand the application of algebra relevant to engineering problems.<br/>
+Be able to use geometry and graphs in the context of engineering problems.<br/>
+Understand exponentials, logarithms and trigonometry related to engineering problems.<br/>
+Understand calculus relevant to engineering problems.
+"
 ---
 The Level 3 University Foundation Programme is a 120 credit qualification (equivalent to two A levels) that helps students learn key concepts and a range of management procedures required to work within a business. It has been specifically developed to provide the knowledge required for students to work effectively, both as individuals and in teams within business. Being able to develop good business management skills is crucial for any company.
 

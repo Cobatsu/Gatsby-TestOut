@@ -10,21 +10,22 @@ const CourseDetail = ({pageContext}) => {
 
  var subTitle = "";
  var courseOptions = [];
+ var courseCurriculum = [];
 
- console.log(node.frontmatter.courseCategory);
  switch (node.frontmatter.courseCategory) {
   case "Level 3":
-   subTitle = "Pre-University Module";
+   subTitle = "Level 3 - Pre-University Module";
    courseOptions = [
     {
      level: "Level 3",
      fee: "2760",
     },
    ];
+   courseCurriculum = [{content: node.frontmatter.curriculum_1, level: "3"}];
    break;
 
   case "Level 4-5":
-   subTitle = "Undergraduate - Year 1-2";
+   subTitle = " Level 4 & 5 - Undergraduate - Year 1-2";
    courseOptions = [
     {
      level: "Level 4",
@@ -39,26 +40,32 @@ const CourseDetail = ({pageContext}) => {
      fee: "3360",
     },
    ];
+   courseCurriculum = [
+    {content: node.frontmatter.curriculum_1, level: "4"},
+    {content: node.frontmatter.curriculum_2, level: "5"},
+   ];
    break;
 
   case "Level 5":
-   subTitle = "Undergraduate - Year 2";
+   subTitle = "Level 5 - Undergraduate Year 2";
    courseOptions = [
     {
      level: "Level 5",
      fee: "2760",
     },
    ];
+   courseCurriculum = [{content: node.frontmatter.curriculum_1, level: "5"}];
    break;
 
   case "Level 6":
-   subTitle = "Undergraduate - Final Year";
+   subTitle = "Level 6 - Undergraduate Final Year ";
    courseOptions = [
     {
      level: "Level 6",
      fee: "2760",
     },
    ];
+   courseCurriculum = [{content: node.frontmatter.curriculum_1, level: "6"}];
    break;
  }
  const discountedFees = node.frontmatter.subTitle
@@ -104,13 +111,13 @@ const CourseDetail = ({pageContext}) => {
        </span>
       </div>
       <div>
-       <img src='/Presentation-bro 1.png' />
+       <img src='/Presentation-bro 1.png' style={{width: "25rem"}} />
       </div>
      </div>
      {
       // about the course
      }
-     <div style={{marginBottom: "5rem"}}>
+     <div style={{marginBottom: "4rem"}}>
       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
        About The Course
       </div>
@@ -122,7 +129,7 @@ const CourseDetail = ({pageContext}) => {
      {
       // course options
      }
-     <div style={{marginBottom: "5rem"}}>
+     <div style={{marginBottom: "4rem"}}>
       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
        Course Options
       </div>
@@ -143,25 +150,57 @@ const CourseDetail = ({pageContext}) => {
      {
       // course curriculum
      }
-     <div style={{marginBottom: "5rem"}}>
+     <div style={{marginBottom: "4rem"}}>
       {" "}
       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
        Course Curriculum
       </div>
       <div
-       className={styles.content}
-       dangerouslySetInnerHTML={{__html: node.frontmatter.courseDetails}}
-      />
+       style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+       }}
+      >
+       {courseCurriculum.map(item => {
+        return (
+         <div>
+          <button
+           className={styles.classic_button}
+           style={{marginBottom: "1.6rem"}}
+           onClick={e => {
+            console.log(e.target.parentElement.children[1]);
+            var value = e.target.parentElement.children[1].style.display;
+            var element = e.target.parentElement.children[1];
+            if (value == "none") {
+             element.style.display = "block";
+            } else {
+             element.style.display = "none";
+            }
+           }}
+          >
+           {node.frontmatter.courseName.split(", ")[0]} Course Curriculum -
+           Level
+           {" " + item.level}
+          </button>
+          <div
+           style={{display: "none", marginLeft: "1.5rem", lineHeight: "1.6"}}
+           dangerouslySetInnerHTML={{__html: item.content}}
+          />
+         </div>
+        );
+       })}
+      </div>
      </div>
      {
       // University top-up
      }
-     <div>
+     {/* <div>
       {" "}
       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
        University top-up
       </div>
-     </div>
+     </div> */}
     </div>
 
     {/* <h2 className={styles.header_title}>{node.frontmatter.courseName}</h2>

@@ -17,6 +17,31 @@
       padding:30px;
 }
 
+div span strong{
+ color:#191970 !important
+}
+
+.classic_button{
+    background-color:#FBC933;
+    color:#191970;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding:0.7rem 1.4rem;
+    box-shadow: 0 5px 0px #bb9625;
+    transition: all 120ms;
+}
+
+.classic_button:hover{
+    cursor: pointer;
+ }
+ 
+ .classic_button:active{
+    box-shadow:none;
+    transform: translateY(5px);
+ }
+ 
+
 .inner_container h2{
     text-align: center;
 }
@@ -41,7 +66,6 @@
     margin: 20px;
 }
 .content{
-    font-size: 1rem;
     line-height: 1.6;
 }
 .content span{

@@ -45,11 +45,10 @@ const None_Responsive_Nav = ({subMenu}) => (
      onClick={() => {
       navigate("/");
      }}
-     src='/Logo (1).png'
+     src='/New Logo.png'
      style={{
       marginRight: 50,
-      width: 340,
-      height: 52,
+      width: "22rem",
       background: "#fff",
      }}
     ></img>

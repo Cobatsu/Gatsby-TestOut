@@ -3,28 +3,7 @@ courseName: Business and Administrative Management
 courseCategory: Level 6
 featuredImage: ../images/business-adminstirative-managment_.jpg
 subTitle: "Level 6 Course - £5600 (Progress onto a University MBA or a Level 7 course)"
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enrolling onto the level 6 course is £5600. Students can make payment using one of the following methods:<br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> The Level 6 programme is for non-university graduate mature students (age 25 or older) who have five years managerial work experience and want to study for an MBA.
-<br/><br/>
-
-
-<span style='font-size:18px; color:#01937C'><strong>Level 6 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>IT in business
+curriculum_1: "<span style='font-size:15px;'><strong>IT in business
 </strong></span> <br/><br/>
 There is clear evidence that information technology provides competitive advantage, whatever the business sphere an organisation operates it, this module will assess pros and cons of using information technology within business.<br/><br/>
 <span style='font-size:15px;'><strong>Effective communications</strong> </span> <br/><br/>

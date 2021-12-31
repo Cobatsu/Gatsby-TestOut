@@ -3,15 +3,7 @@ courseName: English IGCSE
 courseCategory: IGCSE
 featuredImage: ../images/english-IGCSE.jpg
 subTitle: English IGCSE - £4600
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> This course comes as part of a package where access to 4 IGCSEs is given for the price of £4600, these include English, Physics, Maths and Business Studies. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Credit or debit card</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Interest free monthly instalments</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Paypal</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Western Union</li>
-</ul> 
-<br/>
-
+curriculum_1: "
 <span style='font-size:18px; color:#01937C'><strong>Module listing</strong></span><br/><br/>
 <span style='font-size:15px;'><strong>English core skills</strong></span> <br/><br/>
 The module covers the basic English skills that you will need in order to complete the rest of the course successfully. There are no specific questions on spelling and punctuation in the examination, but you will be expected to punctuate and spell correctly, as well as write good, grammatical English<br/><br/>
@@ -27,30 +19,7 @@ Reviews come in all shapes and sizes and these days, and online reviews can even
 This module covers some specific formats involved in transactional writing including instructions, reports, letters, reviews, blogs, articles and leaflets.
 <br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and past exam papers.</li>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>How do I sit the IGCSE Exam?</strong></span><br/><br/> Approximately 6 months before an exam date, Students should book their place at an exam centre to take the English (Specification B Paper 1 Paper code: 4EB1/01) exam.
-
-The exam centre could be a be a private exam centre or a school or college that is also submitting its own students for the exam.
-
-Edexcel publish a list of exam centres that accept private candidates. This won’t cover every available centre, so if there’s nothing shown in your area, we recommend contacting local schools and colleges directly.
-
-Exam fees are not included in the course cost as they are paid directly to the exam centre. They will vary depending on which centre you choose.
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Upon completion of this course, students will have the foundations and fundamental knowledge needed in order to study A levels or a Level 3 qualification with Richmond College.
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>How will I know if I am eligible to complete an IGCSE?</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
+"
 ---
 The English IGCSE is an internationally recognised qualification that is designed to develop a good understanding of language, punctuation, types of writing, literature, and the writer’s purpose behind writing.
 <br/><br/>

@@ -6,9 +6,9 @@
    padding: 2.3rem 1.4rem;
    background-color: #F1F1F1;
    color:#191970;
-   min-height: 330px;
+   min-height: 300px;
    font-size: 0.9rem;
-   min-width: 17rem;
+   max-width: 270px;
    margin-bottom: 30px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

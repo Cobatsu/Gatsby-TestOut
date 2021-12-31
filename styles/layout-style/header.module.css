@@ -39,7 +39,7 @@
 .logo_links {
  display: flex;
  justify-content: space-between;
- min-height: 55px;
+ min-height: 30px;
  width: 73%;
  
 }
@@ -56,6 +56,7 @@ ul {
 
 .links li {
  display: flex;
+ margin:0;
  justify-content: center;
  align-items: center;
  flex-shrink: 0;
@@ -65,17 +66,19 @@ ul {
  transition: 140ms;
  position: relative;
 }
-.links li:hover {
+.links li a:hover{
  cursor: pointer;
  background-color: #FEC618;
  color: #191970;
 }
 
 .linkHref {
- padding: 6px 30px;
+ padding: 2px 25px;
  display: flex;
- height: 100%;
+ border-radius: 5px;
+ height: 50%;
  width: 100%;
+ transition: all 100ms;
  justify-content: center;
  align-items: center;
  color:#191970;

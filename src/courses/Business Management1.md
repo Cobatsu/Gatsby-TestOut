@@ -3,34 +3,22 @@ courseName: Business Management (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/business-managment1.jpg
 subTitle: Level 3 (60 credits) Course - £4600
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the Level 3 course is £4600. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>University Progression</strong></span><br/><br/> On completion of this course, students will have the opportunity to apply for admission onto a full BA degree programme from a range of UK universities.
+curriculum_1: " <span ><strong>An introduction to marketing</strong></span> <br/><br/> Marketing is a key business function covering a wide range of activities and employing many people. This module develops the knowledge necessary to understand key concepts of the marketing mix, marketing planning and marketing research. As an introduction to marketing, it explains the strategic purpose of the marketing function and how it contributes to business success.<br/><br/>
+<span ><strong>An introduction to the business environment</strong> </span> <br/><br/>
+This module will explain different types of business and their ownership exist in an economy. Learners will understand role of owner and stakeholders to fulfil purpose of business. The module will help learners to understand how businesses are organised to achieve their targets. This module will also help to understand the way in which the economic, political, legal and social environment can impact on businesses giving the learner an understanding of the range of businesses.<br/><br/>
+<span ><strong>Business communication</strong> </span><br/><br/>
+Effective communication is a key area in terms of its contribution to business success. When studying this module, learners will gain a thorough understanding of the types of business information used both internally and externally by organisations and the methods used to communicate information to different audiences. In this module, learners will have the opportunity to develop, analyse and evaluate a range of methods used to communicate different types of business information and will understand the purpose of such communication. They will also produce and evaluate different types of business communication of their own.
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Course overview</strong></span><br/><br/> The level 3 course is made up of 6 modules and 6 written assignments. Each module consists of 40 guided learning hours of material with an additional 30-50 hours worth of optional materials that comprise of recommended exercises, recommended readings, Internet resources, and self-testing exercises.
+<span ><strong>Business resources</strong> </span><br/><br/>
+The module will explain how a range of resources, including human, physical, technological and financial resources, are used and managed within business. This module will help the learner to have an understanding of how human resources are managed and of the employability and personal skills required of personnel in an organisation. Learners will gain an understanding of the purpose of managing resources effectively, not only in relation to human resources but also in terms of physical and technological resources.
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this progamm?</strong></span><br/><br/> This course is most suited to individuals who are at least 16 years old, have a high school education and wish to progress onto a degree at university.
+<span ><strong>Human resource management</strong> </span><br/><br/>
+This module will describe as the most valuable resource of any organisation, its human capital. All resources, especially the most valuable, need to be managed in order to obtain the greatest value from them. The module provides an overview of some of the key areas that fall within the remit of the human resources function. By the end of this module learners will gain an understanding of the factors that are taken into account by organisations when planning their human resource management. They will also learn how organisations gain employee motivation and employee commitment.
 <br/><br/>
+<span ><strong>Recruitment and selection in business</strong> </span><br/><br/>
+This module is about how an organisation recruits and selects staff. Learners will gain knowledge and understanding of the process that a business has to go through when recruiting staff. Learners will prepare documents necessary to help select the right person for the job and plan to take part in a selection interview. They will have a broad understanding of the legislation surrounding recruitment and selection and be able to explain how these laws affect a business. As part of this, learners will consider the role of the Human Resource department. This will help them understand the vital role that the HR department plays in helping an organisation achieve its business objectives and will help them in the future when attending a job interview or participating in a selection panel.
+<br/><br/>"
 
-<span style='font-size:18px; color:#01937C'><strong>Level 3 module listing</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
 ---
 The Level 3 University Foundation Programme is a 120 credit qualification (equivalent to two A levels) that helps students learn key concepts and a range of management procedures required to work within a business. It has been specifically developed to provide the knowledge required for students to work effectively, both as individuals and in teams within business. Being able to develop good business management skills is crucial for any company.
 <br/><br/>

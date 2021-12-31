@@ -29,7 +29,7 @@ const Footer = () => {
     </div>
 
     <div className={styles.footer_column}>
-     <img src='/Logo (2).png' style={{marginBottom: 20}} />
+     <img src='/New Logo.png' style={{marginBottom: 20, width: "20rem"}} />
      <span>
       <i class='fas fa-building' style={{marginRight: 5}}></i>
       <span>Company :</span> RICHMOND COLLEGE

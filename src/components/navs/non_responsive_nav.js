@@ -49,7 +49,6 @@ const None_Responsive_Nav = ({subMenu}) => (
      style={{
       marginRight: 50,
       width: "22rem",
-      background: "#fff",
      }}
     ></img>
     <ul className={styles.links}>

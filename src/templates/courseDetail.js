@@ -4,15 +4,46 @@ import Layout from "../components/layoutelements/layout";
 import OptionCard from "../components/common/courseOptionCard";
 import Img from "gatsby-image";
 
+const images = ["A day off-bro.svg"];
+
 const CourseDetail = ({pageContext}) => {
  const {node} = pageContext;
- const featuredImgFluid = node.frontmatter.featuredImage.childImageSharp.fluid;
-
- var subTitle = "";
+ var courseName = node.frontmatter.courseName.split(", ")[0];
  var courseOptions = [];
  var courseCurriculum = [];
+ var courseDetailBanner = "";
+ var subTitle = "";
+
+ if (courseName.includes("IT")) {
+  courseDetailBanner = "Website Creator-bro.svg";
+ } else if (
+  courseName == "Entrepreneurship-and-Management" ||
+  courseName == "Leadership and Teamwork"
+ ) {
+  courseDetailBanner = "Team work-bro.svg";
+ } else if (courseName == "Sales and Marketing") {
+  courseDetailBanner = "Online ads-bro.svg";
+ } else if (courseName == "Hotel and Hospitality") {
+  courseDetailBanner = "A day off-bro.svg";
+ } else if (courseName.includes("IGCSE")) {
+  courseDetailBanner = "Online learning-bro.svg";
+ } else {
+  courseDetailBanner = "Presentation-bro 1.png";
+ }
 
  switch (node.frontmatter.courseCategory) {
+  case "IGCSE":
+   subTitle = "IGCSE Preparation";
+   courseOptions = [
+    {
+     level: "IGCSE",
+     fee: "6500",
+    },
+   ];
+   courseCurriculum = [
+    {content: node.frontmatter.curriculum_1, level: "IGCSE"},
+   ];
+   break;
   case "Level 3":
    subTitle = "Level 3 - Pre-University Module";
    courseOptions = [
@@ -79,7 +110,7 @@ const CourseDetail = ({pageContext}) => {
   .join(" ");
 
  return (
-  <Layout title={node.frontmatter.courseName}>
+  <Layout title={courseName}>
    <div className={styles.detail_general_wrapper}>
     <div style={{width: "73%"}}>
      {
@@ -97,7 +128,7 @@ const CourseDetail = ({pageContext}) => {
         className={styles.classic_text}
         style={{marginBottom: "10px", fontSize: "2rem"}}
        >
-        {node.frontmatter.courseName.split(", ")[0]}
+        {courseName}
        </span>
        <span
         style={{
@@ -111,7 +142,7 @@ const CourseDetail = ({pageContext}) => {
        </span>
       </div>
       <div>
-       <img src='/Presentation-bro 1.png' style={{width: "25rem"}} />
+       <img src={`/${courseDetailBanner}`} style={{width: "25rem"}} />
       </div>
      </div>
      {

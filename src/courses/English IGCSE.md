@@ -3,9 +3,7 @@ courseName: English IGCSE
 courseCategory: IGCSE
 featuredImage: ../images/english-IGCSE.jpg
 subTitle: English IGCSE - £4600
-curriculum_1: "
-<span style='font-size:18px; color:#01937C'><strong>Module listing</strong></span><br/><br/>
-<span style='font-size:15px;'><strong>English core skills</strong></span> <br/><br/>
+curriculum_1: " <span style='font-size:18px; color:#01937C'><strong>Module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>English core skills</strong></span> <br/><br/>
 The module covers the basic English skills that you will need in order to complete the rest of the course successfully. There are no specific questions on spelling and punctuation in the examination, but you will be expected to punctuate and spell correctly, as well as write good, grammatical English<br/><br/>
 <span style='font-size:15px;'><strong>Reading comprehension</strong> </span> <br/><br/>
 This module covers questions that are designed to assess reading comprehension (AO1: the ability to read with understanding and select information in an appropriate way from the passages). Questions will be asked on passages which are linked by their theme or subject matter.<br/><br/>

@@ -17,18 +17,25 @@ const OptionCard = ({level, fee, courseName}) => (
    >
     {courseName}
    </span>
-   <span style={{fontWeight: "bolder"}}>{level}</span>
+   {!courseName.includes("IGCSE") && (
+    <span style={{fontWeight: "bolder"}}>{level}</span>
+   )}
    <span></span>
   </div>
   <div>
    <ul
     style={{
      listStyleType: "circle",
+     lineHeight: "1rem",
     }}
    >
-    <li>Lorem Ipsum is simply dummy text of</li>
-    <li>Lorem Ipsum has the industry's 1500s</li>
-    <li>software like Aldus PageMaker</li>
+    <li>
+     Access to full curriculum of{" "}
+     {level == "Level 4 + Level 5" ? level.split("+").join("and") : level}{" "}
+    </li>
+    <li>Access to Assignments </li>
+    <li>Access to Examination</li>
+    <li>Diploma</li>
    </ul>
   </div>
   <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>

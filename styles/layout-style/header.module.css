@@ -14,7 +14,8 @@
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 3px 14px;
+ font-size: 12px;
+ padding: 5px 14px;
  position: relative;
  background-color: #191970;
  margin-bottom: 30px;
@@ -63,13 +64,8 @@ ul {
  font-weight: 600;
  color: #191970;
  padding: 6px 30px;
- transition: 140ms;
+ 
  position: relative;
-}
-.links li a:hover{
- cursor: pointer;
- background-color: #FEC618;
- color: #191970;
 }
 
 .linkHref {
@@ -78,11 +74,18 @@ ul {
  border-radius: 5px;
  height: 50%;
  width: 100%;
- transition: all 100ms;
  justify-content: center;
  align-items: center;
  color:#191970;
 }
+
+.linkHref:hover{
+   cursor: pointer;
+   background-color: #FEC618;
+   color: #191970;
+}
+
+
 .linkHref:hover{
    color:#191970;
 }
@@ -101,12 +104,13 @@ ul {
  position: absolute;
  background: #37474F;
  display: none;
- top: 100%;
+ top: 85%;
  left: 0;
  font-size: 14px;
  white-space: nowrap;
  min-width: 100%;
  z-index: 1000;
+ border-radius: 5px;
 }
 
 .subLinks li {

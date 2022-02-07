@@ -4,6 +4,8 @@ import {Link} from "gatsby";
 import Responsive_Nav from "../navs/responsive_nav";
 import Non_Responsive_Nav from "../navs/non_responsive_nav";
 
+//courses section will expand and contain graduate, undergraduate and IGCSE courses
+
 const subMenu = [
  {
   type: "Home",
@@ -11,17 +13,20 @@ const subMenu = [
  },
  {
   type: "Courses",
-  link: "/courses",
+  props: [
+   {title: "IGCSE Courses", link: "IGCSE-courses"},
+   {title: "Undergraduate Courses", link: "courses"},
+  ],
  },
- //  {
- //   type: "How You Will Learn",
- //   props: [
- //    {title: "How Will I Be Assessed", link: "assessment-info"},
- //    {title: "Levels 3-7 Explained", link: "levels3-7"},
- //    {title: "Entry Requirements", link: "entry-requirements"},
- //    {title: "FAQ", link: "faq"},
- //   ],
- //  },
+ {
+  type: "How You Will Learn",
+  props: [
+   {title: "How Will I Be Assessed", link: "assessment-info"},
+   {title: "Levels 3-7 Explained", link: "levels3-7"},
+   {title: "Entry Requirements", link: "entry-requirements"},
+   {title: "FAQ", link: "faq"},
+  ],
+ },
  //  {
  //   type: "About Us",
  //   props: [

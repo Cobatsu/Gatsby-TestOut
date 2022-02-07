@@ -3,7 +3,14 @@ import CourseCard from "./courseCard";
 import * as styles from "../../../styles/pages/home.module.css";
 import {navigate} from "gatsby";
 
-export const Courses = ({allMarkdownRemark, type, title, subTitle, circle}) => (
+export const Courses = ({
+ allMarkdownRemark,
+ type,
+ title,
+ subTitle,
+ circle,
+ content,
+}) => (
  <React.Fragment>
   <div className={styles.courses_wrapper}>
    <div className={styles.course} style={{width: "65%"}}>
@@ -16,13 +23,7 @@ export const Courses = ({allMarkdownRemark, type, title, subTitle, circle}) => (
      >
       {subTitle}
      </span>
-     <span style={{lineHeight: 1.6, marginBottom: 30}}>
-      Level 3 Pre-University Module Lorem Ipsum is simply dummy text of the
-      printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s,m Ipsum is simply dummy text of
-      the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, 0% See Courses
-     </span>
+     <span style={{lineHeight: 1.6, marginBottom: 30}}>{content}</span>
      <ul>
       {allMarkdownRemark.nodes.map(node =>
        node.frontmatter.courseCategory == type.split(",")[0] ||

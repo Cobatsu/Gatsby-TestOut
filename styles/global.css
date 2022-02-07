@@ -3,6 +3,10 @@
  font-size: 1.02rem;
 }
 
+span{
+  text-align: justify
+}
+
 a{
   text-decoration: none;
 }

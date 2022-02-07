@@ -96,11 +96,11 @@
 
 .intro{
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
    margin-bottom: 5rem;
    margin-top: 0rem;
-   width: 73%;
+   padding:30px 0;
 }
 
 .outer_mid_body{
@@ -111,6 +111,7 @@
    width: 100%;
    background: rgba(25, 25, 112, 0.9);
 }
+
 .mid_body{
    width: 70%;
    display: flex;
@@ -155,7 +156,7 @@
  width: 100%;
  display: flex;
  justify-content: center;
- padding:3rem 0;
+ margin: 4.4rem 0;
 }
 
 .accreditation{
@@ -195,6 +196,10 @@
    display:flex;
    justify-content: center;
    align-items: center;
+}
+
+.home_credentials img{
+   min-height:13rem ;
 }
 
 .course_list_item{

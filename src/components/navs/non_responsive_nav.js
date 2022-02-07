@@ -11,19 +11,17 @@ const None_Responsive_Nav = ({subMenu}) => (
     <div style={{display: "flex", alignItems: "center"}}>
      <div style={{display: "flex", alignItems: "center", marginRight: 20}}>
       <i
-       style={{color: "#FFFFFF", fontSize: "10px", marginRight: 7}}
+       style={{color: "#FFFFFF", marginRight: 7}}
        className='fas fa-phone-alt'
       ></i>
-      <span style={{color: "#FFFFFF", fontSize: "10px"}}>+1 3063514537</span>
+      <span style={{color: "#FFFFFF"}}>+1 3063514537</span>
      </div>
      <div style={{display: "flex", alignItems: "center"}}>
       <i
-       style={{color: "#FFFFFF", fontSize: "10px", marginRight: 7}}
+       style={{color: "#FFFFFF", marginRight: 7}}
        className='far fa-envelope'
       ></i>
-      <span style={{color: "#FFFFFF", fontSize: "10px"}}>
-       admission@richmondcollege.co.uk
-      </span>
+      <span style={{color: "#FFFFFF"}}>admission@richmondcollege.co.uk</span>
      </div>
     </div>
 
@@ -61,9 +59,11 @@ const None_Responsive_Nav = ({subMenu}) => (
         </Link>
        </li>
       ) : (
-       <li>
-        <span>{item.type}</span>
-        <i class='fas fa-caret-down'></i>
+       <li style={{padding: 0}}>
+        <Link className={styles.linkHref}>
+         <span>{item.type}</span> <i class='fas fa-caret-down'></i>
+        </Link>
+
         <ul className={styles.subLinks}>
          {item.props.map(subItem => {
           return (

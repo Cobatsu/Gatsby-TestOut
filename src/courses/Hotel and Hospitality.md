@@ -3,6 +3,8 @@ courseName: Hotel and Hospitality, University 1st and 2nd Year (level 4 and 5)
 courseCategory: Level 4-5
 featuredImage: ../images/hotel-and-hospitality.jpg
 subTitle: £4600 per level or £5600 for two levels together
+fee: 5900
+doubleFee: 7460
 curriculum_1: " <span style='font-size:15px;'><strong>Food and beverage operations
 </strong></span> <br/><br/>
 Students will gain an understanding of the processes involved in food and beverage operations, including practical aspects of food and beverage production and service.br/><br/>

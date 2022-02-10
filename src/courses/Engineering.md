@@ -3,6 +3,7 @@ courseName: Engineering (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/engineering.jpg
 subTitle: Diploma in Engineering - £4600
+fee: 6150
 curriculum_1: " <span ><strong>Engineering Principles</strong></span> <br/><br/> Understand applications of SI units and measurement.<br/>
 Know how to perform engineering calculations.<br/>
 Know how to interpret engineering information. <br/><br/>

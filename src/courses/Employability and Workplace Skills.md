@@ -3,6 +3,7 @@ courseName: Employability and Workplace Skills (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/Employability-and-Workplace.jpg
 subTitle: Diploma in Employability and Workplace Skills - £4600
+fee: 5950
 curriculum_1: ""
 ---
 Employability skills are the essential skills, personal qualities and values that enable you to thrive in any workplace. Our Level 3 Foundation Diploma in Employability and Workplace Skills has been developed to provide learners with a range of knowledge, understanding, personal skills and attributes essential for successful performance in working life. This course has been designed to support you successfully gaining a job, progressing in a chosen field, or prepare you for further study.The learners will:<br/><br/>

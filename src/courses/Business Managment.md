@@ -2,6 +2,7 @@
 courseName: Business Management (120 Credits)
 courseCategory: Level 3
 subTitle: Level 3 (120 Credits) Course - £4600
+fee: 7500
 featuredImage: ../images/business-managment.jpg
 curriculum_1: " <span ><strong>Managing business operations</strong></span> <br/><br/> Effective management of the business operations undertaken within an organisation is the key to its overall success. No organisation will be able to achieve its objectives without effective management of its operations. This module is divided into six sections, each of which deals with one aspect of the management of business operations.<br/><br/>
 <span ><strong>Maximising resources</strong> </span> <br/><br/>

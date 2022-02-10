@@ -3,6 +3,8 @@ courseName: Sales and Marketing, University 1st and 2nd Year (Level 4 and 5)
 courseCategory: Level 4-5
 featuredImage: ../images/sales-and-marketing.jpg
 subTitle: £4600 per level or £5600 for two levels together
+fee: 5890
+doubleFee: 7550
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enrolling onto the level 4 and level 5 courses together is £5600. Alternatively students can enrol onto a single level (level 4 or 5) for £4600 each.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
 
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>

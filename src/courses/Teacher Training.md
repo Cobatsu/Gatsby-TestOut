@@ -3,6 +3,7 @@ courseName: Teacher Training, University 2nd Year (Level 5)
 courseCategory: Level 5
 featuredImage: ../images/teacher-training.jpg
 subTitle: Level 5 Course - £4600 
+fee: 5900
 courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enroling onto the Level 5 course is £4600.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
 
 <li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>

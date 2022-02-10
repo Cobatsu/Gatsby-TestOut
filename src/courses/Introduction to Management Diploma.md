@@ -3,6 +3,7 @@ courseName: Introduction to Management Diploma (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/introduction-to-managment.jpg
 subTitle: Diploma (Level 3 - 60 credits) - £4600
+fee: 5850
 curriculum_1: " <span ><strong>An introduction to finance</strong></span> <br/><br/> This unit introduces learners to practical accounting and financial reporting techniques used by managers in business organisations.
 <br/><br/><span ><strong>Design Technology</strong> </span> <br/><br/>
 Demonstrate knowledge and understanding of engineering products and design.<br/>

@@ -9,6 +9,8 @@ exports.createPages = async ({graphql, actions}) => {
       courseCategory
       courseName
       curriculum_1
+      fee
+      doubleFee
       curriculum_2
       subTitle
       courseDetails

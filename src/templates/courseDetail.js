@@ -49,7 +49,7 @@ const CourseDetail = ({pageContext}) => {
    courseOptions = [
     {
      level: "Level 3",
-     fee: "2760",
+     fee: node.frontmatter.fee,
     },
    ];
    courseCurriculum = [{content: node.frontmatter.curriculum_1, level: "3"}];
@@ -60,15 +60,15 @@ const CourseDetail = ({pageContext}) => {
    courseOptions = [
     {
      level: "Level 4",
-     fee: "2760",
+     fee: node.frontmatter.fee,
     },
     {
      level: "Level 5",
-     fee: "2760",
+     fee: node.frontmatter.fee,
     },
     {
      level: "Level 4 + Level 5",
-     fee: "3360",
+     fee: node.frontmatter.doubleFee,
     },
    ];
    courseCurriculum = [
@@ -82,7 +82,7 @@ const CourseDetail = ({pageContext}) => {
    courseOptions = [
     {
      level: "Level 5",
-     fee: "2760",
+     fee: node.frontmatter.fee,
     },
    ];
    courseCurriculum = [{content: node.frontmatter.curriculum_1, level: "5"}];
@@ -93,7 +93,7 @@ const CourseDetail = ({pageContext}) => {
    courseOptions = [
     {
      level: "Level 6",
-     fee: "2760",
+     fee: node.frontmatter.fee,
     },
    ];
    courseCurriculum = [{content: node.frontmatter.curriculum_1, level: "6"}];

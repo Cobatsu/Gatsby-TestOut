@@ -2,6 +2,8 @@
 courseName: Human Resource Management, University 1st and 2nd Year (Level 4 and 5)
 courseCategory: Level 4-5
 featuredImage: ../images/human-resources.jpg
+fee: 5980
+doubleFee: 7550
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "<span ><strong>Culture and the organisation </strong></span> <br/><br/>
 Develop an understanding of what is meant by “organisational culture” and its various influences on the operation of the organisation itself.<br/><br/>

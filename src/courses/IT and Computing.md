@@ -2,6 +2,8 @@
 courseName: IT and Computing, University 1st and 2nd Year (Level 4 and 5)
 courseCategory: Level 4-5
 featuredImage: ../images/IT-and-compute.jpg
+fee: 5990
+doubleFee: 7650
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "  <span ><strong>Computer systems and software
 </strong></span> <br/><br/> This module will develop learners’ understanding of the integration of hardware and software components.<br/><br/>

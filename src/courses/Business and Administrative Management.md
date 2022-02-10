@@ -3,6 +3,7 @@ courseName: Business and Administrative Management
 courseCategory: Level 6
 featuredImage: ../images/business-adminstirative-managment_.jpg
 subTitle: "Level 6 Course - £5600 (Progress onto a University MBA or a Level 7 course)"
+fee: 5650
 curriculum_1: "<span style='font-size:15px;'><strong>IT in business
 </strong></span> <br/><br/>
 There is clear evidence that information technology provides competitive advantage, whatever the business sphere an organisation operates it, this module will assess pros and cons of using information technology within business.<br/><br/>

@@ -3,6 +3,8 @@ courseName: IT and Ecommerce, University 1st and 2nd Year (Level 4 and 5)
 courseCategory: Level 4-5
 featuredImage: ../images/IT-and-ecommerce_.jpg
 subTitle: £4600 per level or £5600 for two levels together
+fee: 5900
+doubleFee: 7650
 curriculum_1: "  <span ><strong>Computer systems and software
 </strong></span> <br/><br/>
 This module will develop learners’ understanding of the integration of hardware and software components.<br/><br/>

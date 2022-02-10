@@ -1,6 +1,8 @@
 ---
 courseName: Business Management
 courseCategory: Level 4-5
+fee: 5960
+doubleFee: 7500
 featuredImage: ../images/business-managment-lvl4.jpg
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: " <span ><strong>Developing personal skills</strong></span> <br/><br/>

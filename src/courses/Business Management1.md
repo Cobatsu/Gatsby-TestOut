@@ -2,6 +2,7 @@
 courseName: Business Management (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/business-managment1.jpg
+fee: 5980
 subTitle: Level 3 (60 credits) Course - £4600
 curriculum_1: " <span ><strong>An introduction to marketing</strong></span> <br/><br/> Marketing is a key business function covering a wide range of activities and employing many people. This module develops the knowledge necessary to understand key concepts of the marketing mix, marketing planning and marketing research. As an introduction to marketing, it explains the strategic purpose of the marketing function and how it contributes to business success.<br/><br/>
 <span ><strong>An introduction to the business environment</strong> </span> <br/><br/>

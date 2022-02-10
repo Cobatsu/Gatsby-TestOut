@@ -2,6 +2,8 @@
 courseName: Entrepreneurship and Management
 courseCategory: Level 4-5
 featuredImage: ../images/Entrepreneurship-and-Management.jpg
+fee: 5900
+doubleFee: 7500
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "<span ><strong>Managing business operations</strong></span> <br/><br/> This module aims to introduce learners to key aspects of all businesses and how they operate within the
 wider business environment as well as internally. Learners will gain knowledge and understanding of key business functions and their importance to business success.<br/><br/>

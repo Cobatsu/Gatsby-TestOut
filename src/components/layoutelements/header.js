@@ -27,13 +27,15 @@ const subMenu = [
    {title: "FAQ", link: "faq"},
   ],
  },
- //  {
- //   type: "About Us",
- //   props: [
- //    {title: "Who we are", link: "who-we-are"},
- //    {title: "Our Credentials", link: "our-credentials"},
- //   ],
- //  },
+ {
+  type: "About Us",
+  props: [{title: "Who we are", link: "who-we-are"}],
+ },
+ {
+  type: "Login",
+  static: true,
+  link: "",
+ },
 ];
 
 const Header = () => {

@@ -54,9 +54,19 @@ const None_Responsive_Nav = ({subMenu}) => (
      {subMenu.map(item => {
       return !item.props ? (
        <li style={{padding: 0}}>
-        <Link to={item.link} className={styles.linkHref}>
-         <span>{item.type}</span>{" "}
-        </Link>
+        {item.static ? (
+         <Link
+          to={item.link}
+          className={styles.linkHref}
+          style={{background: "#FBC933", marginLeft: 30}}
+         >
+          <span>{item.type}</span>{" "}
+         </Link>
+        ) : (
+         <Link to={item.link} className={styles.linkHref}>
+          <span>{item.type}</span>{" "}
+         </Link>
+        )}
        </li>
       ) : (
        <li style={{padding: 0}}>

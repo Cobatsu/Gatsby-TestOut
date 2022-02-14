@@ -41,7 +41,7 @@
  display: flex;
  justify-content: space-between;
  min-height: 30px;
- width: 73%;
+ width: 77%;
  
 }
 
@@ -93,7 +93,7 @@ ul {
  display: block;
 }
 .links li span {
- font-size: 16px;
+ font-size: 15px;
  text-align: center;
 }
 .links li i {

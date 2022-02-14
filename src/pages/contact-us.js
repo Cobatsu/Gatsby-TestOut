@@ -46,7 +46,7 @@ const FormBox = styled.form`
 
 const Description = styled.div`
  border-radius: 6px 6px 0px 0px;
- background: #01937c;
+ background: #191970;
  min-height: 60px;
  width: 100%;
  display: flex;
@@ -202,7 +202,9 @@ const RefferenceNumber = props => {
     </ErrorCapsule>
    )}
    <GeneralWrapper>
-    <h5 style={{color: "#01937c", fontSize: "1rem", width: "28rem"}}>
+    <h5
+     style={{color: "#191970", fontSize: "1rem", width: "29rem", padding: 0}}
+    >
      {" "}
      We will be in contact with you within 24 hours after filling up the form
      below{" "}

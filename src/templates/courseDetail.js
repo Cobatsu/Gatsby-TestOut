@@ -198,11 +198,24 @@ const CourseDetail = ({pageContext}) => {
          <div>
           <button
            className={styles.classic_button}
-           style={{marginBottom: "1.6rem"}}
+           style={{
+            marginBottom: "1.6rem",
+            boxShadow: "none",
+            position: "relative",
+            display: "flex",
+            alignItems: "center",
+            fontSize: "14px",
+           }}
            onClick={e => {
-            console.log(e.target.parentElement.children[1]);
-            var value = e.target.parentElement.children[1].style.display;
-            var element = e.target.parentElement.children[1];
+            if (e.target.type == "submit") {
+             var value = e.target.parentElement.children[1].style.display;
+             var element = e.target.parentElement.children[1];
+            } else {
+             var value =
+              e.target.parentElement.parentElement.children[1].style.display;
+             var element = e.target.parentElement.parentElement.children[1];
+            }
+
             if (value == "none") {
              element.style.display = "block";
             } else {
@@ -213,6 +226,10 @@ const CourseDetail = ({pageContext}) => {
            {node.frontmatter.courseName.split(", ")[0]} Course Curriculum -
            Level
            {" " + item.level}
+           <i
+            class='fas fa-chevron-down'
+            style={{marginLeft: "14px", fontSize: "16px"}}
+           ></i>
           </button>
           <div
            style={{display: "none", marginLeft: "1.5rem", lineHeight: "1.6"}}

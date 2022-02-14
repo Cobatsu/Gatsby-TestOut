@@ -1,11 +1,7 @@
 .inner_container{
-    background-color: #fbf7ff;
-    width: 73%;
-    padding:30px;
     margin-bottom: 30px;
     box-sizing: border-box;
     color:#38384e;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .detail_general_wrapper{
@@ -47,8 +43,10 @@ div span strong{
 }
 
 .inner_container h3 {
-    color:#01937C;
+    color:#191970;
     font-size: 1.5rem;
+    font-weight: 400;
+    margin:15px 0
    
 }
 
@@ -67,11 +65,30 @@ div span strong{
 }
 .content{
     line-height: 1.6;
+    margin-bottom: 30px;
+    display: block;
 }
 .content span{
     font-size: 1.2rem !important;
   
 }
+
+.curriculumDown{
+    margin-bottom: 1.4rem;
+    display: block;
+    color:#191970;
+    transition: 200ms;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.curriculumDown:hover{
+    cursor: pointer;
+   
+}
+
+
+
 
 .option_card_holder{
     flex-wrap: wrap;

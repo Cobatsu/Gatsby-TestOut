@@ -14,9 +14,6 @@ const Footer = () => {
      <Link to='/who-we-are' className={styles.footer_link}>
       Who we are
      </Link>
-     <Link to='/our-credentials' className={styles.footer_link}>
-      Our Credentials
-     </Link>
      <Link to='/entry-requirements' className={styles.footer_link}>
       Entry Requirements
      </Link>

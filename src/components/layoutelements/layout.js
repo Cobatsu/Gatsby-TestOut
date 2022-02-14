@@ -37,7 +37,7 @@ const Head = ({title}) => {
     rel='stylesheet'
    />
    <script
-    src='https://kit.fontawesome.com/f097795f52.js'
+    src='https://kit.fontawesome.com/be8853b629.js'
     crossorigin='anonymous'
    ></script>
   </Helmet>

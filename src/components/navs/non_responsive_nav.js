@@ -53,12 +53,12 @@ const None_Responsive_Nav = ({subMenu}) => (
     <ul className={styles.links}>
      {subMenu.map(item => {
       return !item.props ? (
-       <li style={{padding: 0}}>
+       <li style={{padding: "0 0 5px 0"}}>
         {item.static ? (
          <Link
           to={item.link}
           className={styles.linkHref}
-          style={{background: "#FBC933", marginLeft: 30}}
+          style={{background: "#FBC933", marginLeft: 25, padding: "8px 15px"}}
          >
           <span>{item.type}</span>{" "}
          </Link>
@@ -69,7 +69,7 @@ const None_Responsive_Nav = ({subMenu}) => (
         )}
        </li>
       ) : (
-       <li style={{padding: 0}}>
+       <li style={{padding: "0 0 5px 0"}}>
         <Link className={styles.linkHref}>
          <span>{item.type}</span> <i class='fas fa-caret-down'></i>
         </Link>

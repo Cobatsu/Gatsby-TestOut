@@ -42,7 +42,7 @@
  justify-content: space-between;
  min-height: 30px;
  width: 77%;
- 
+ align-items: center;
 }
 
 .links {
@@ -63,13 +63,11 @@ ul {
  flex-shrink: 0;
  font-weight: 600;
  color: #191970;
- padding: 6px 30px;
- 
  position: relative;
 }
 
 .linkHref {
- padding: 2px 25px;
+ padding: 10px 25px;
  display: flex;
  border-radius: 5px;
  height: 50%;
@@ -104,7 +102,7 @@ ul {
  position: absolute;
  background: #37474F;
  display: none;
- top: 85%;
+ top: 100%;
  left: 0;
  font-size: 14px;
  white-space: nowrap;

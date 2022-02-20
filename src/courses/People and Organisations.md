@@ -4,44 +4,54 @@ courseCategory: Level 3
 subTitle: People and Organisations - £4600
 fee: 5920
 featuredImage: ../images/people-and-orgranization.jpg
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/> The fee for enrolling onto the Level 3 course is £4600. Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>University Progression</strong></span><br/><br/> On completion of this course, students will have the opportunity to apply for admission onto a full BA degree programme from a range of UK universities.
+curriculum_1: "<span ><strong>Organisation Structures and their Culture and Values</strong></span> <br/><br/> 
+- Understand organisational structures.<br/>
+- Understand the organisational environment.<br/>
+- Understand the ethics of an organisation.<br/>
+- Understand how organisational culture and values are developed.
+<br/><br/><span ><strong>Principles of Organisational Planning</strong> </span> <br/><br/>
+- Understand organisational resource requirements.<br/>
+- Understand the need for organisational planning.<br/>
+- Understand the planning cycle for organisations.<br/>
+- Understand the importance of risk management to organisations.<br/>
+- Understand the processes to measure organisational performance.<br/><br/>
+<span ><strong>Managing Human Resources</strong> </span><br/><br/>
+- Understand the factors involved in human resource planning in organisations.<br/>
+- Understand the recruitment and selection process.<br/>
+- Understand how organisations motivate employees.<br/>
+- Understand the importance of managing employee performance.
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Course overview</strong></span><br/><br/> The level 3 course is made up of 6 modules and 6 written assignments. Each module consists of 40 guided learning hours of material with an additional 30-50 hours worth of optional materials that comprise of recommended exercises, recommended readings, Internet resources, and self-testing exercises.
+<span ><strong>Personal and Professional Development</strong> </span><br/><br/>
+- Understand what personal and professional development is.<br/>
+- Know how to identify strengths and needs in relation to own planned job role.<br/>
+- Understand how to plan and produce own professional development plan.<br/>
+- Understand opportunities for professional development.
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this progamm?</strong></span><br/><br/> This course is most suited to individuals who are at least 16 years old, have a high school education and wish to progress onto a degree at university.
+<span ><strong>Teamwork</strong> </span><br/><br/>
+- Understand the benefits and challenges of working in a team to complete a task.<br/>
+- Understand the need for a team to work to an agreed code of conduct.<br/>
+- Know how to recognise the different strengths, skills and experiences different people bring to a team.<br/>
+- Understand how to allocate roles and responsibilities within the team in relation to a given task.<br/>
+- Understand how to reflect on the performance of a team
 <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Level 3 module listing</strong></span><br/><br/> The typical age at which people choose to complete the IGCES’s is 14 to 16, but anyone over the age of 14 can enrol onto this course. You also do not need any previous qualifications to be eligible for this course."
+<span><strong>Leadership and Management Skills</strong> </span><br/><br/>
+- Understand the difference between leadership and management.<br/>
+- Understand leadership and management styles and theories.<br/>
+- Understand the role, functions and responsibilities of management.<br/>
+- Understand the principles of effective decision making.<br/>
+"
 ---
-Employability skills are the essential skills, personal qualities and values that enable you to thrive in any workplace. Our Level 3 Foundation Diploma in Employability and Workplace Skills has been developed to provide learners with a range of knowledge, understanding, personal skills and attributes essential for successful performance in working life. This course has been designed to support you successfully gaining a job, progressing in a chosen field, or prepare you for further study.The learners will:
-<br/><br/>
-  <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>    Develop a body of knowledge about workplace employment and employability in range of sectors.
-  <br/><br/>
-  <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>   Develop a range of knowledge, facts, theories, ideas, skills, materials, terminology, practices and techniques associated with workplace skills, employment and employability.
-  <br/><br/>
-  <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>  Develop self-confidence and interpersonal skills required for the working environment and employment.
-    <br/><br/>
-  <i class="fas fa-check-circle" style="color:#464660; margin-right:8px"></i>  Be able to improve communication 
-  skills and promote personal effectiveness.
-<br/><br/>
+
+Do you want to gain essential leadership knowledge and skills needed to engage, motivate and manage a team? The Level 3 Foundation Diploma in People and Organisations has been designed to provide learners with a flexible, relevant course to gain knowledge and understanding about the structure, values and behaviours of organisations and the management of people.
+
 Successful completion of this qualification will equip learners with the underpinning knowledge and skills required to succeed in employment or further studies.
+ <br/><br/>
+The learners will: <br/><br/>
+
+• Develop a body of knowledge about people, organisations and employment in a range of sectors.
+
+• Develop a range of knowledge, facts, theories, ideas, skills, materials, terminology, practices and techniques about, and associated with people and organisations and employment.
+
+• Develop self-confidence and skills required for the working environment and organisations and employment.
+
+• Improve communication skills and personal effectiveness that will provide a basis for growth in employment and or in further study.

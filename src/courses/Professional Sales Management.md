@@ -4,39 +4,10 @@ courseCategory: Level 6
 featuredImage: ../images/professionals-sales-and-management.jpg
 fee: 5640
 subTitle: "Level 6 Course - £5600 (Progress onto a University MBA or a Level 7 course)"
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The Level 6 Professional Sales Management course is £5600.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the Level 6 programme, you must be 18+ years old and have at least 1 year of sales experience.
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Level 6 module listing</strong></span><br/><br/> <span>
+curriculum_1: "
 - Selling as a Profession <br/>
-- Planning and Preparation for Sales<br/>
-- Sales Process Implementation<br/>
-</span> <br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Successful completion of the undergraduate Level 6 Professional Sales Management programme will improve your sales skillset. This course is aimed at senior sales managers, directors or those aspiring to progress to senior level.
-<br/><br/>
-
-"
+- Planning and Preparation for Sales <br/>
+- Sales Process Implementation <br/>"
 ---
 Are you interested in finding out what makes a successful salesperson in terms of knowledge, skills and attitude? Sales is the foundation stone upon which organisations are built. The Level 6 Professional Sales Management course seeks to develop the knowledge and skills of salespeople whilst also providing them with a professional qualification platform to match their career aspirations.
 <br/><br/>

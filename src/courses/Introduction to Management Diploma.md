@@ -1,5 +1,5 @@
 ---
-courseName: Introduction to Management Diploma (60 Credits)
+courseName: Introduction to Management (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/introduction-to-managment.jpg
 subTitle: Diploma (Level 3 - 60 credits) - £4600

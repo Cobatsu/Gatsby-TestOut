@@ -4,7 +4,21 @@ courseCategory: Level 3
 featuredImage: ../images/Employability-and-Workplace.jpg
 subTitle: Diploma in Employability and Workplace Skills - £4600
 fee: 5950
-curriculum_1: ""
+curriculum_1: "
+<span style='font-size:15px;'><strong>- Career Planning and Development</strong></span> <br/><br/>
+
+<span style='font-size:15px;'><strong>- Managing own Performance</strong> </span> <br/><br/>
+
+<span style='font-size:15px;'><strong>- Personal and Professional Development</strong> </span><br/><br/>
+
+<span style='font-size:15px;'><strong>- Employment Skills</strong> </span><br/><br/>
+
+<span style='font-size:15px;'><strong>- Working in a Business Environment</strong> </span><br/><br/>
+
+<span style='font-size:15px;'><strong>- Managing Resources</strong> </span><br/><br/>
+
+<br/><br/>
+"
 ---
 Employability skills are the essential skills, personal qualities and values that enable you to thrive in any workplace. Our Level 3 Foundation Diploma in Employability and Workplace Skills has been developed to provide learners with a range of knowledge, understanding, personal skills and attributes essential for successful performance in working life. This course has been designed to support you successfully gaining a job, progressing in a chosen field, or prepare you for further study.The learners will:<br/><br/>
 

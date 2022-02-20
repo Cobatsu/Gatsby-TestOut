@@ -5,7 +5,7 @@ import * as styles from "../../../styles/layout-style/header.module.css";
 
 const NavWrapper = styled.div`
  display: flex;
- background: #2b2b2b;
+ background: #ffff;
  width: 100%;
  justify-content: space-between;
  align-items: center;
@@ -56,7 +56,7 @@ const SideBarMenuIconWrapper = styled.div`
  font-size: 25px;
  justify-content: center;
  flex: 0.5;
- background: #2b2b2b;
+ background: #ffff;
  max-width: 50px;
 `;
 

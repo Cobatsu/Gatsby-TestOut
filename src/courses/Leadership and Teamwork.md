@@ -5,30 +5,7 @@ featuredImage: ../images/teamwork-and-leadership.jpg
 fee: 5900
 doubleFee: 7490
 subTitle: £4600 per level or £5600 for two levels together
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enrolling onto the level 4 and level 5 courses together is £5600. Alternatively students can enrol onto a single level (level 4 or 5) for £4600 each.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the level 4 course, you must be at least 18 and have a full secondary education. Before enrolling onto the level 5 course, you must have attained a level 4 or equivalent.
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Level 4 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Managing people in organisations
+curriculum_1: " <span style='font-size:15px;'><strong>Managing people in organisations
 </strong></span> <br/><br/>
 Effective management of people within an organisation is essential if the objectives of the organisation are to be achieved. People represent the single most important resource of the organisation and their needs must be understood and respected.<br/><br/>
 <span style='font-size:15px;'><strong>Culture and the organisation</strong> </span> <br/><br/>
@@ -58,11 +35,8 @@ In a world of change, uncertainty and complexity, high performance in an organis
 Good leadership is essential for success in any organisation, whether private or public sector.  Today, rapid change, in the form of a constantly changing competitive environment, innovations in technology and changing economic conditions, have led to the realisation that leadership is a skill to be developed. 
 <br/><br/>
 <span style='font-size:15px;'><strong>Motivating and influencing people</strong> </span><br/><br/>
-Think about two teams carrying out the same activity. Their manager may ask how a series of tasks will be completed to create a product or service. The manager can plan how the work will be done, make sure that the teams have all the right materials, explain everyone’s tasks and deadlines, and measure progress once they get started. However, the two teams will almost certainly not work at the same speed, not create output of the same quality, nor show the same attitude to their work.
-<br/><br/>
-
-
-<span style='font-size:18px; color:#01937C'><strong>Level 5 module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>The entrepreneurial manager</strong></span> <br/><br/>
+Think about two teams carrying out the same activity. Their manager may ask how a series of tasks will be completed to create a product or service. The manager can plan how the work will be done, make sure that the teams have all the right materials, explain everyone’s tasks and deadlines, and measure progress once they get started. However, the two teams will almost certainly not work at the same speed, not create output of the same quality, nor show the same attitude to their work.<br/><br/>"
+curriculum_2: " <span style='font-size:15px;'><strong>The entrepreneurial manager</strong></span> <br/><br/>
 What is an Entrepreneur? Examine the skills and qualities of entrepreneurship.<br/><br/>
 <span style='font-size:15px;'><strong>Organisation structures</strong> </span> <br/><br/>
 Why are organisations structured in the way they are? What determines the optimum structure and how does it differ between organisations? In this module, learners will look at the numerous models and theories that make up organisational structure.<br/><br/>
@@ -88,15 +62,8 @@ Understanding how your people and your business can continually improve together
 Learners will analyse how markets, customers, competitors and products can come together in a cohesive plan.
 <br/><br/>
 <span style='font-size:15px;'><strong>Quantitative skills</strong> </span><br/><br/>
-On successful completion of this module, learners will have knowledge of numeric exercises and will understand their use within the context of the business.
-<br/><br/>
+On successful completion of this module, learners will have knowledge of numeric exercises and will understand their use within the context of the business."
 
-
-
-<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/> Successful completion of The Undergraduate Level 4 (Leadership and Teamwork) and Level 5 (Extended Diploma in Management) and final year of an accredited Undergraduate Degree programme will give students the right credentials to go on and apply for a job in management, human resources, management or business consultancy.
-<br/><br/>
-
-"
 ---
 The Undergraduate Level 4 (Leadership and Teamwork) and Level 5 (Extended Diploma in Management) are a 240 credit course designed to fast track students to the final year of an associated Undergraduate degree in Leadership and management, which can either be completed at a UK university on campus or via distance learning.
 <br/><br/>

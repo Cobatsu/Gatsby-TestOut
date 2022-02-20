@@ -37,6 +37,10 @@ const Head = ({title}) => {
     rel='stylesheet'
    />
    <script
+    src='//code.tidio.co/skp4rn7isxzvitydfwmr9vvksmffuukw.js'
+    async
+   ></script>
+   <script
     src='https://kit.fontawesome.com/be8853b629.js'
     crossorigin='anonymous'
    ></script>

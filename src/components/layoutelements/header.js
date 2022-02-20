@@ -12,10 +12,10 @@ const subMenu = [
   link: "/",
  },
  {
-  type: "Courses",
+  type: "Programmes",
   props: [
    {title: "IGCSE Courses", link: "IGCSE-courses"},
-   {title: "Undergraduate Courses", link: "courses"},
+   {title: "Undergraduate Programmes", link: "courses"},
   ],
  },
  {

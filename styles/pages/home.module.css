@@ -230,8 +230,24 @@
    .wrap{
       flex-direction: column !important;
       align-items: center;
-      width: 100%;
    }
+
+   .course_background_image{
+      display: none;
+   }
+
+   .course_inner{
+      margin-right: 0;
+   }
+
+   .wrap div{
+      width: 100% !important;
+   }
+
+   .wrap img{
+      width: 80% !important
+   }
+
    
    .banner_holder{
       width: 101%;

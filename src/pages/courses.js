@@ -28,7 +28,7 @@ const courses = props => {
 
    <Courses
     allMarkdownRemark={allMarkdownRemark}
-    title='Level 3 Courses'
+    title='Level 3 Programmes'
     type='Level 3'
     subTitle='Pre-University Module'
     content={
@@ -46,7 +46,7 @@ const courses = props => {
 
    <Courses
     allMarkdownRemark={allMarkdownRemark}
-    title='Level 4 Courses'
+    title='Level 4 Programmes'
     type='Level 4-5'
     content={
      "Level 4 course is the equivalent to the first year of an Undergraduate/Bachelor’s Degree programme in the UK. The Level 4 course is made up of 10 modules and 8 assignments, which is equivalent to 120 university credits."
@@ -67,7 +67,7 @@ const courses = props => {
 
    <Courses
     allMarkdownRemark={allMarkdownRemark}
-    title='Level 5 Courses'
+    title='Level 5 Programmes'
     type={"Level 4-5,Level 5"}
     subTitle='Undergraduate - Year 2'
     content={
@@ -88,7 +88,7 @@ const courses = props => {
 
    <Courses
     allMarkdownRemark={allMarkdownRemark}
-    title='Level 6 Courses'
+    title='Level 6 Programmes'
     subTitle='Undergraduate - Final Year'
     type='Level 6'
     content={

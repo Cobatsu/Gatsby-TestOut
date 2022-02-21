@@ -29,6 +29,7 @@ export const Courses = ({
        node.frontmatter.courseCategory == type.split(",")[0] ||
        node.frontmatter.courseCategory == type.split(",")[1] ? (
         <li
+         key={node.frontmatter.courseName}
          className={styles.course_list_item}
          style={{color: "#191970", marginBottom: 17, fontWeight: 700}}
          onClick={() => {

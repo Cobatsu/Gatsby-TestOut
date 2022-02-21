@@ -4,43 +4,7 @@ courseCategory: Level 5
 featuredImage: ../images/teacher-training.jpg
 subTitle: Level 5 Course - £4600 
 fee: 5900
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The fee for enroling onto the Level 5 course is £4600.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
-
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
-
-</ul> 
-<br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Who is this course for?</strong></span><br/><br/> Level 5 Diploma in Education and Training is suitable for teachers, trainers and tutors working in schools (State/Academies) further education, adult and community learning or work-based training within public, private, voluntary or community organisations.
-
-It prepares trainee teachers to teach in a wide range of contexts and requires observation and assessment of practice. Teaching practice is a requirement of the qualification.
-
-It can meet the needs of a range of trainee teachers, including: <br/><br/>
-
-- Planning and developing schemes of work <br/>
-- Delivering learning sessions <br/>
-- Developing teaching and learning strategies <br/>
-- Assessment practices 
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the Level 5 course, you must be at least 18 and understand that as part of this course you will need to complete 100 hours of teaching practice.
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Module listing</strong></span><br/><br/> 
-The Teacher Training course contains nine online modules. These are designed by Online Business School’s expert academic team to provide students with a solid theoretical basis for developing their teaching skills, and therefore cover the following topics:<br/><br/>
-
-<strong>-</strong> Developing teaching, learning and assessment in education and training<br/>
+curriculum_1: " <strong>-</strong> Developing teaching, learning and assessment in education and training<br/>
 <strong>-</strong> Evaluating learning programmes<br/>
 <strong>-</strong> Teaching, learning and assessment in education and training<br/>
 <strong>-</strong> Theories, principles and developments in education and training<br/>
@@ -49,7 +13,8 @@ The Teacher Training course contains nine online modules. These are designed by 
 <strong>-</strong> Inclusive practice<br/>
 <strong>-</strong> Manage learning and development in groups<br/>
 <strong>-</strong> Developing, using and organising resources in a specialist area<br/>
-<strong>-</strong> This course also contains seven written assignments, which have been created to address all the subjects, both -  practical and theoretical, that learners will need to be familiar with in order to teach effectively:<br/><br/>
+<br/>
+This course also contains seven written assignments, which have been created to address all the subjects, both -  practical and theoretical, that learners will need to be familiar with in order to teach effectively:<br/><br/>
 
 <strong>-</strong> Theories, principles and developments in education and training<br/>
 <strong>-</strong> Teaching, learning and assessment in education and training<br/>
@@ -58,15 +23,6 @@ The Teacher Training course contains nine online modules. These are designed by 
 <strong>-</strong> Action Research<br/>
 <strong>-</strong> Developing, using and organising resources in a specialist area<br/>
 <strong>-</strong> Inclusive practice<br/>
-<br/><br/>
-
-<span style='font-size:18px; color:#01937C'><strong>Progression</strong></span><br/><br/>This level 5 qualification will enable students to teach in the post 16 tertiary education sector of colleges and community schools. The route to teaching in the state school sector using this level 5 qualification is through membership of the Society of Education & Training (SET).
-<br/><br/>
-To be eligible for SET membership students are required to have completed their Initial Teacher Training (ITT). ITT involves successful completion of a Level 5 Teacher Training Course, assuming candidates have already completed a Level 2 (GCSE) Maths and English or equivalent. Completion of the courses provides students with their Qualified Teacher Learning Skills (QTLS) which is equivalent to the Qualified Teacher Status (QTS) and sufficient to teach in state schools, as well as Further Education.
-<br/><br/>
-For more information on the QTLS and how to achieve it on completion of this level 5 Education and Training qualification, please click here
-<br/><br/>
-Students may wish to contact SET direct for further clarification of their requirements.
 <br/><br/>
 
 "

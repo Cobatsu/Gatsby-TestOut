@@ -187,6 +187,7 @@ const CourseDetail = ({pageContext}) => {
        Course Curriculum
       </div>
       <div
+       className='curriculums'
        style={{
         display: "flex",
         flexDirection: "column",
@@ -195,7 +196,7 @@ const CourseDetail = ({pageContext}) => {
       >
        {courseCurriculum.map(item => {
         return (
-         <div>
+         <div key={item.level}>
           <button
            className={styles.classic_button}
            style={{
@@ -218,6 +219,20 @@ const CourseDetail = ({pageContext}) => {
 
             if (value == "none") {
              element.style.display = "block";
+
+             let curriculumsDivs = document.querySelectorAll(
+              ".curriculums div div"
+             );
+
+             for (let i = 0; i < curriculumsDivs.length; i++) {
+              let curriculum = curriculumsDivs[i];
+              if (
+               curriculum.style.display == "block" &&
+               curriculum != element // both doom variables point to the same object
+              ) {
+               curriculum.style.display = "none";
+              }
+             }
             } else {
              element.style.display = "none";
             }

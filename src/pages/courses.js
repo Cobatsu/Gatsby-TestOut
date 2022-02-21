@@ -32,7 +32,7 @@ const courses = props => {
     type='Level 3'
     subTitle='Pre-University Module'
     content={
-     "A Level-3 course can be of 60 or 120 UK University credits, equivalent to an A level in the UK. In general, the courses are made up of 6 modules and 6 written assignments (which might show variance in each course). These courses provide entry onto the first year of the Undergraduate Degree course or a Level 4 course."
+     "A Level-3 Programme can be of 60 or 120 UK University credits, equivalent to an A level in the UK. In general, the courses are made up of 6 modules and 6 written assignments (which might show variance in each course). These courses provide entry onto the first year of the Undergraduate Degree course or a Level 4 course."
     }
     circle={
      <div className={styles.course_background_image}>
@@ -49,7 +49,7 @@ const courses = props => {
     title='Level 4 Programmes'
     type='Level 4-5'
     content={
-     "Level 4 course is the equivalent to the first year of an Undergraduate/Bachelor’s Degree programme in the UK. The Level 4 course is made up of 10 modules and 8 assignments, which is equivalent to 120 university credits."
+     "Level 4 programme is the equivalent to the first year of an Undergraduate/Bachelor’s Degree programme in the UK. The Level 4 course is made up of 10 modules and 8 assignments, which is equivalent to 120 university credits."
     }
     subTitle='Undergraduate - Year 1'
     circle={

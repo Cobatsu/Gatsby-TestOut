@@ -32,11 +32,6 @@ div span strong{
     cursor: pointer;
  }
  
- .classic_button:active{
-    box-shadow:none;
-    transform: translateY(5px);
- }
- 
 
 .inner_container h2{
     text-align: center;

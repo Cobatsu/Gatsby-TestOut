@@ -3,6 +3,7 @@ courseName: Engineering (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/engineering.jpg
 subTitle: Diploma in Engineering - £4600
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 fee: 6150
 curriculum_1: " <span ><strong>Engineering Principles</strong></span> <br/><br/> Understand applications of SI units and measurement.<br/>
 Know how to perform engineering calculations.<br/>

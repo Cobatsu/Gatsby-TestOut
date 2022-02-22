@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 fee: 5950
 doubleFee: 7500
 featuredImage: ../images/stemIT.jpg
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "<span ><strong>The business environment</strong></span> <br/><br/> Explore issues outside of the business that may affect the business and its operations. Looking into economics, international dimensions, nature and competition.<br/><br/>
 <span ><strong>Managing and using finance</strong> </span> <br/><br/>

@@ -3,6 +3,7 @@ courseName: People and Organisations (60 Credits)
 courseCategory: Level 3
 subTitle: People and Organisations - £4600
 fee: 5920
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 featuredImage: ../images/people-and-orgranization.jpg
 curriculum_1: "<span ><strong>Organisation Structures and their Culture and Values</strong></span> <br/><br/> 
 - Understand organisational structures.<br/>

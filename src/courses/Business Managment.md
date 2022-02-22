@@ -3,6 +3,26 @@ courseName: Business Management (120 Credits)
 courseCategory: Level 3
 subTitle: Level 3 (120 Credits) Course - £4600
 fee: 7500
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
+university_progression_details: "
+On completion of this course students will have the opportunity to apply for admission onto a full BA Degree programme from a range of UK universities. Alternatively students can opt to study our Level 4/5 Extended Diploma in Management and then go on to complete a BA Top Up at a range of UK universities.<br/><br/>
+
+<strong>University of Sunderland – On Campus</strong><br/><br/>
+
+BA (Hons) Business and Management (Year 1 ) <br/><br/>
+
+<strong>University of Hertfordshire </strong><br/><br/>
+
+BA (Hons) Business Administration (Online)<br/><br/>
+
+<strong>Birmingham City University – On Campus</strong><br/><br/>
+
+BA (Hons) Marketing (Professional Practice), duration Full Time 3 years<br/><br/>
+
+BA (Hons) Business – progression from ATHE Level 3 Diploma in Business, duration Full time 3 years / Sandwich 4 years<br/><br/>
+
+BSc (Hons) Business Accountancy, duration Full time 3 years / Sandwich 4 years
+"
 featuredImage: ../images/business-managment.jpg
 curriculum_1: " <span ><strong>Managing business operations</strong></span> <br/><br/> Effective management of the business operations undertaken within an organisation is the key to its overall success. No organisation will be able to achieve its objectives without effective management of its operations. This module is divided into six sections, each of which deals with one aspect of the management of business operations.<br/><br/>
 <span ><strong>Maximising resources</strong> </span> <br/><br/>

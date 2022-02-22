@@ -4,6 +4,26 @@ courseCategory: Level 3
 featuredImage: ../images/introduction-to-managment.jpg
 subTitle: Diploma (Level 3 - 60 credits) - £4600
 fee: 5850
+university_progression_details: "
+On completion of this course students will have the opportunity to apply for admission onto a full BA Degree programme from a range of UK universities. Alternatively students can opt to study our Level 4/5 Extended Diploma in Management and then go on to complete a BA Top Up at a range of UK universities.<br/><br/>
+
+<strong>University of Sunderland – On Campus</strong><br/><br/>
+
+BA (Hons) Business and Management (Year 1 ) <br/><br/>
+
+<strong>University of Hertfordshire </strong><br/><br/>
+
+BA (Hons) Business Administration (Online)<br/><br/>
+
+<strong>Birmingham City University – On Campus</strong><br/><br/>
+
+BA (Hons) Marketing (Professional Practice), duration Full Time 3 years<br/><br/>
+
+BA (Hons) Business – progression from ATHE Level 3 Diploma in Business, duration Full time 3 years / Sandwich 4 years<br/><br/>
+
+BSc (Hons) Business Accountancy, duration Full time 3 years / Sandwich 4 years
+"
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 curriculum_1: " <span ><strong>An introduction to finance</strong></span> <br/><br/> This unit introduces learners to practical accounting and financial reporting techniques used by managers in business organisations.
 <br/><br/><span ><strong>Design Technology</strong> </span> <br/><br/>
 Demonstrate knowledge and understanding of engineering products and design.<br/>

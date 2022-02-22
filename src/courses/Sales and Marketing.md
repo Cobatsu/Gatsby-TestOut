@@ -5,6 +5,7 @@ featuredImage: ../images/sales-and-marketing.jpg
 subTitle: £4600 per level or £5600 for two levels together
 fee: 5890
 doubleFee: 7550
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 curriculum_1: " <span style='font-size:15px;'><strong>The business environment
 </strong></span> <br/><br/>
 What comes to mind when you think of the word ‘environment’? You probably think of surroundings, and the conditions and influences of the surroundings. Similarly, the business environment refers to an organization’s surroundings – its external surroundings, as well as its internal surroundings.<br/><br/>

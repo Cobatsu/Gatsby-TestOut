@@ -3,6 +3,26 @@ courseName: Business Management (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/business-managment1.jpg
 fee: 5980
+university_progression_details: "
+On completion of this course students will have the opportunity to apply for admission onto a full BA Degree programme from a range of UK universities. Alternatively students can opt to study our Level 4/5 Extended Diploma in Management and then go on to complete a BA Top Up at a range of UK universities.<br/><br/>
+
+<strong>University of Sunderland – On Campus</strong><br/><br/>
+
+BA (Hons) Business and Management (Year 1 ) <br/><br/>
+
+<strong>University of Hertfordshire </strong><br/><br/>
+
+BA (Hons) Business Administration (Online)<br/><br/>
+
+<strong>Birmingham City University – On Campus</strong><br/><br/>
+
+BA (Hons) Marketing (Professional Practice), duration Full Time 3 years<br/><br/>
+
+BA (Hons) Business – progression from ATHE Level 3 Diploma in Business, duration Full time 3 years / Sandwich 4 years<br/><br/>
+
+BSc (Hons) Business Accountancy, duration Full time 3 years / Sandwich 4 years
+"
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 subTitle: Level 3 (60 credits) Course - £4600
 curriculum_1: " <span ><strong>An introduction to marketing</strong></span> <br/><br/> Marketing is a key business function covering a wide range of activities and employing many people. This module develops the knowledge necessary to understand key concepts of the marketing mix, marketing planning and marketing research. As an introduction to marketing, it explains the strategic purpose of the marketing function and how it contributes to business success.<br/><br/>
 <span ><strong>An introduction to the business environment</strong> </span> <br/><br/>

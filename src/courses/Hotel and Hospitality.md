@@ -5,6 +5,7 @@ featuredImage: ../images/hotel-and-hospitality.jpg
 subTitle: £4600 per level or £5600 for two levels together
 fee: 5900
 doubleFee: 7460
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 curriculum_1: " <span style='font-size:15px;'><strong>Food and beverage operations
 </strong></span> <br/><br/>
 Students will gain an understanding of the processes involved in food and beverage operations, including practical aspects of food and beverage production and service.br/><br/>

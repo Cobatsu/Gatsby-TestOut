@@ -13,6 +13,9 @@ const CourseDetail = ({pageContext}) => {
  var courseCurriculum = [];
  var courseDetailBanner = "";
  var subTitle = "";
+ var universities = node.frontmatter?.university_progression?.split(",");
+ var university_progression_details =
+  node.frontmatter?.university_progression_details;
 
  if (courseName.includes("IT")) {
   courseDetailBanner = "Website Creator-bro.svg";
@@ -178,9 +181,34 @@ const CourseDetail = ({pageContext}) => {
        })}
       </div>
      </div>
-     {
-      // course curriculum
-     }
+     {universities && (
+      <div style={{marginBottom: "4rem"}}>
+       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
+        Examples of University Progression
+       </div>
+
+       <ul>
+        {universities?.map(uni => (
+         <li style={{marginBottom: 13}}>
+          <i class='fas fa-angle-right'></i> {uni}
+         </li>
+        ))}
+       </ul>
+      </div>
+     )}
+
+     {university_progression_details && (
+      <div style={{marginBottom: "4rem"}}>
+       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
+        University Progression
+       </div>
+
+       <div
+        dangerouslySetInnerHTML={{__html: university_progression_details}}
+       ></div>
+      </div>
+     )}
+
      <div style={{marginBottom: "4rem"}}>
       {" "}
       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
@@ -255,9 +283,7 @@ const CourseDetail = ({pageContext}) => {
        })}
       </div>
      </div>
-     {
-      // University top-up
-     }
+
      {/* <div>
       {" "}
       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>

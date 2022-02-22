@@ -8,6 +8,8 @@ exports.createPages = async ({graphql, actions}) => {
      frontmatter {
       courseCategory
       courseName
+      university_progression
+      university_progression_details
       curriculum_1
       fee
       doubleFee

@@ -3,6 +3,7 @@ courseName: Employability and Workplace Skills (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/Employability-and-Workplace.jpg
 subTitle: Diploma in Employability and Workplace Skills - £4600
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 fee: 5950
 curriculum_1: "
 <span style='font-size:15px;'><strong>- Career Planning and Development</strong></span> <br/><br/>

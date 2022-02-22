@@ -44,7 +44,8 @@ const SideBarElement = styled.div`
  display: flex;
  padding: 10px;
  justify-content: space-between;
- background: ${({selected}) => (selected ? "#2b2b2b" : "none")};
+ background: ${({selected, staticProp}) =>
+  selected && !staticProp ? "#2b2b2b" : "none"};
  color: ${({selected}) => (selected ? "white" : "#2b2b2b")};
  font-weight: 600;
  font-size: 13px;
@@ -163,6 +164,8 @@ const SideBar = ({sideBarStatus, subMenu, setSideBarStatus}) => {
   if (!sideBarStatus) setSubLinks([]); //here we rest the array , when sideBar is closed
  }, [sideBarStatus]);
 
+ console.log(subLinks);
+
  return (
   <SideBarWrapper sideBarStatus={sideBarStatus}>
    <LinkContainer>
@@ -171,6 +174,7 @@ const SideBar = ({sideBarStatus, subMenu, setSideBarStatus}) => {
       <InnerGeneralWrapper key={index}>
        <SideBarElement
         selected={subLinks.includes(index)}
+        staticProp={item.static}
         onClick={() => onClickSubLink(index)}
         style={{padding: item.props ? "10px" : "0px"}}
        >
@@ -181,12 +185,23 @@ const SideBar = ({sideBarStatus, subMenu, setSideBarStatus}) => {
           onClick={() => {
            setSideBarStatus(false);
           }}
-          style={{
-           width: "100%",
-           height: "100%",
-           textDecoration: "none",
-           padding: 10,
-          }}
+          style={
+           !item.static
+            ? {
+               width: "100%",
+               height: "100%",
+               textDecoration: "none",
+               padding: 10,
+              }
+            : {
+               background: "rgb(251, 201, 51)",
+               color: "#191970",
+               textDecoration: "none",
+               padding: 10,
+               marginLeft: 10,
+               borderRadius: 5,
+              }
+          }
           to={item.link}
          >
           {item.type}
@@ -199,8 +214,8 @@ const SideBar = ({sideBarStatus, subMenu, setSideBarStatus}) => {
           <i
            style={{
             transform: subLinks.includes(index)
-             ? "rotate(-180deg)"
-             : "rotate(0)",
+             ? "rotate(0)"
+             : "rotate(-90deg)",
             transition: "300ms",
            }}
            className='fas fa-caret-down'

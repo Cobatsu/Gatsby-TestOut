@@ -98,19 +98,15 @@ const banners = [
 ];
 
 const Home = props => {
- const [slideNumber, setSlideNumber] = React.useState(0);
- const prevSlideNumber = usePrevious(slideNumber);
+ //  const [slideNumber, setSlideNumber] = React.useState(0);
+ //  const prevSlideNumber = usePrevious(slideNumber);
 
- console.log(
-  `slideNumber:${slideNumber}`,
-  `prevSlideNumber:${prevSlideNumber}`
- );
- React.useEffect(() => {
-  const sliderInterval = setInterval(() => {
-   setSlideNumber(prev => (prev == banners.length - 1 ? 0 : prev + 1));
-  }, 7000);
-  return () => clearInterval(sliderInterval); //clears interval before every useEffect func call
- }, [slideNumber]);
+ //  React.useEffect(() => {
+ //   const sliderInterval = setInterval(() => {
+ //    setSlideNumber(prev => (prev == banners.length - 1 ? 0 : prev + 1));
+ //   }, 7000);
+ //   return () => clearInterval(sliderInterval); //clears interval before every useEffect func call
+ //  }, [slideNumber]);
  return (
   <Layout title='Richmond College'>
    <div className={styles.main_wrapper}>

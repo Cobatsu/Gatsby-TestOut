@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 featuredImage: ../images/IT-and-networking.jpg
 subTitle: £4600 per level or £5600 for two levels together
 fee: 5990
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan),Middlesex University"
 doubleFee: 7580
 curriculum_1: " <span ><strong>Computer systems and software
 </strong></span> <br/><br/>

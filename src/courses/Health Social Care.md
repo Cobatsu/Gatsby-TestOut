@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 featuredImage: ../images/health-and-social-care.jpg
 fee: 5900
 doubleFee: 7450
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "<span> <strong>Academic study skills </strong></span> <br/><br/>
 The aim of this module is to enable learners to develop the necessary skills and understanding to study effectively within higher education. This will enable learners to acquire the necessary reflective and critical thinking skills required to achieve individual learning potential.<br/><br/>

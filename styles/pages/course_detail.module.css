@@ -30,9 +30,8 @@ div span strong{
 
 .classic_button:hover{
     cursor: pointer;
- }
+}
  
-
 .inner_container h2{
     text-align: center;
 }
@@ -91,7 +90,7 @@ div span strong{
 
 .classic_text{
     color: #191970;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 40px;
     

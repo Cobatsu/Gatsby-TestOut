@@ -5,6 +5,80 @@ fee: 5950
 doubleFee: 7500
 featuredImage: ../images/stemIT.jpg
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
+university_progression_details: "
+If you decide to top up to a full undergraduate degree through an accredited UK university, the costs are listed below. Please note, the below costs are for distance learning/online only. You have the option of finishing on campus, costs will vary depending on which university you chose to complete the final year at. <br/><br/>
+
+<strong>Buckinghamshire New University</strong> <br/><br/>
+
+BA (Hons) Top-up  <br/><br/>
+
+<strong>Anglia Ruskin University</strong>  <br/><br/>
+
+BA (Hons) Management (Top-Up)  <br/><br/>
+
+<strong>University of Chichester</strong> <br/><br/>
+
+BA (Hons) Business Management (Top Up) <br/><br/>
+
+<strong>Northampton University</strong> <br/><br/>
+
+BA (Hons) in Business and Management Top up  <br/>
+
+BSc (Hons) in International Accounting Top up  <br/><br/>
+
+<strong> University of Derby </strong>  <br/><br/>
+
+Undergraduate Top up to BA  <br/><br/>
+
+<strong>University of Hertfordshire </strong><br/><br/>
+
+BA (Hons) Business Administration (top-up)  <br/><br/>
+
+<strong> University of Central Lancashire (UCLAN) </strong> <br/><br/>
+
+Business Management (Top Up), BA (Hons) – University of Central Lancashire (uclan.ac.uk) <br/><br/>
+
+<strong>Edinburgh Napier University</strong> <br/><br/>
+
+BA in Business Management (Top-Up) <br/>
+BA in Business and Enterprise (Top-Up) <br/>
+BA in Sales Management (Top-Up) <br/><br/>
+
+<strong>University of Sunderland – On Campus</strong> <br/><br/>
+
+BA (Hons) Business and Management (Year 3 ) <br/><br/>
+
+<strong>University of Bolton </strong> <br/><br/>
+
+BA (Hons) Top-up, duration 2 semesters <br/>
+
+Cambridge Education Group offered at: OnCampus sites in Coventry, Hull, LSBU, London (Birkbeck), Sunderland or UCLAN <br/>
+
+BA (Hons) Top-up – progression from ATHE Level 5 Extended Diploma in Management <br/><br/>
+
+<strong>Southern Cross University</strong><br/><br/>
+
+Bachelor of Business<br/>
+Bachelor of Business Administration<br/>
+Bachelor of Business in Convention and Event Management<br/>
+Bachelor of Business in Hotel Management<br/>
+Bachelor of Business in Tourism and Hospitality Management<br/>
+
+Please enquire for top up prices for Southern Cross University <br/><br/>
+
+<strong>University of Cumbria</strong> <br/><br/>
+
+BA (Hons) Global Business Management (Top-Up) Course – University of Cumbria <br/>
+BA (Hons) International Business Management (Top-up) Course – University of Cumbria <br/><br/>
+
+<strong>Sheffield Hallam University </strong><br/><br/>
+
+BA (Honours) International Business with Management <br/><br/>
+
+<strong> University of Nicosia, Cyprus </strong> <br/><br/>
+
+Undergraduate Top up to BA 
+"
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "<span ><strong>The business environment</strong></span> <br/><br/> Explore issues outside of the business that may affect the business and its operations. Looking into economics, international dimensions, nature and competition.<br/><br/>
 <span ><strong>Managing and using finance</strong> </span> <br/><br/>
@@ -18,7 +92,7 @@ On successful completion of this module, learners will have knowledge of numeric
 <span ><strong>Basic accounting</strong> </span><br/><br/>
 On completion of this module, learners will understand accounts and how they can be used to give insight into the health of the organisation.
 <br/><br/>
-<span ><strong>Budgetary control</strong> </span><br/><br/>
+<span><strong>Budgetary control</strong> </span><br/><br/>
 This module aims to explain methods of financial control using budgets. This includes development and implementation of departmental budgets, which are combined to form a master budget.
 <br/><br/>
 <span ><strong>Financial performance</strong> </span><br/><br/>

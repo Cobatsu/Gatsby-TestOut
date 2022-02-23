@@ -184,7 +184,10 @@ const CourseDetail = ({pageContext}) => {
      {universities && (
       <div style={{marginBottom: "4rem"}}>
        <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
-        Examples of University Progression
+        {node.frontmatter.courseCategory == "Level 4-5" ||
+        node.frontmatter.courseCategory == "Level 5"
+         ? "Examples of University Top-up"
+         : "Examples of University Progression"}
        </div>
 
        <ul>
@@ -194,18 +197,56 @@ const CourseDetail = ({pageContext}) => {
          </li>
         ))}
        </ul>
-      </div>
-     )}
 
-     {university_progression_details && (
-      <div style={{marginBottom: "4rem"}}>
-       <div className={styles.classic_text} styles={{marginBottom: "4rem"}}>
-        University Progression
-       </div>
+       {university_progression_details && (
+        <div style={{marginBottom: "4rem", marginTop: "1.7rem"}}>
+         <button
+          className={styles.classic_button}
+          style={{marginBottom: "1.2rem", boxShadow: "none", fontSize: "14px"}}
+          onClick={e => {
+           if (e.target.type == "submit") {
+            var value = e.target.parentElement.children[1].style.display;
+            var element = e.target.parentElement.children[1];
+            var icon = e.target.children[0];
+           } else {
+            var value =
+             e.target.parentElement.parentElement.children[1].style.display;
+            var element = e.target.parentElement.parentElement.children[1];
+            var icon = e.target;
+           }
 
-       <div
-        dangerouslySetInnerHTML={{__html: university_progression_details}}
-       ></div>
+           if (value == "none") {
+            element.style.display = "block";
+            icon.style.transform = "rotate(-180deg)";
+           } else {
+            element.style.display = "none";
+            icon.style.transform = "rotate(0deg)";
+           }
+          }}
+         >
+          {node.frontmatter.courseCategory == "Level 4-5" ||
+          node.frontmatter.courseCategory == "Level 5"
+           ? "University Top-up Details"
+           : "University Progression Details"}
+
+          <i
+           className='fas fa-chevron-down'
+           style={{marginLeft: "14px", fontSize: "16px", transition: "500ms"}}
+          ></i>
+         </button>
+
+         <div
+          style={{
+           display: "none",
+           marginLeft: "0",
+           background: "#F7F7F7",
+           padding: 19,
+           lineHeight: "1.6",
+          }}
+          dangerouslySetInnerHTML={{__html: university_progression_details}}
+         ></div>
+        </div>
+       )}
       </div>
      )}
 
@@ -239,14 +280,17 @@ const CourseDetail = ({pageContext}) => {
             if (e.target.type == "submit") {
              var value = e.target.parentElement.children[1].style.display;
              var element = e.target.parentElement.children[1];
+             var icon = e.target.children[0];
             } else {
              var value =
               e.target.parentElement.parentElement.children[1].style.display;
              var element = e.target.parentElement.parentElement.children[1];
+             var icon = e.target;
             }
 
             if (value == "none") {
              element.style.display = "block";
+             icon.style.transform = "rotate(-180deg)";
 
              let curriculumsDivs = document.querySelectorAll(
               ".curriculums div div"
@@ -263,6 +307,7 @@ const CourseDetail = ({pageContext}) => {
              }
             } else {
              element.style.display = "none";
+             icon.style.transform = "rotate(0)";
             }
            }}
           >
@@ -270,12 +315,19 @@ const CourseDetail = ({pageContext}) => {
            Level
            {" " + item.level}
            <i
-            class='fas fa-chevron-down'
-            style={{marginLeft: "14px", fontSize: "16px"}}
+            className='fas fa-chevron-down'
+            style={{marginLeft: "14px", fontSize: "16px", transition: "500ms"}}
            ></i>
           </button>
           <div
-           style={{display: "none", marginLeft: "1.5rem", lineHeight: "1.6"}}
+           style={{
+            display: "none",
+            lineHeight: "1.6",
+            marginLeft: "0",
+            background: "#F7F7F7",
+            padding: 19,
+            marginBottom: 17,
+           }}
            dangerouslySetInnerHTML={{__html: item.content}}
           />
          </div>

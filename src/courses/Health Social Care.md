@@ -5,6 +5,15 @@ featuredImage: ../images/health-and-social-care.jpg
 fee: 5900
 doubleFee: 7450
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
+university_progression_details: "
+If you decide to top up to a full Undergraduate Degree through an accredited UK university, the costs are listed below. Please note, the below costs are for distance learning/online only. You have the option of finishing on campus; costs will vary depending on which university you chose to complete the final year at.<br/><br/>
+
+<strong>Anglia Ruskin University </strong><br/><br/>
+Management and Leadership in Health and Social Care (top-up) BSc (Hons) <br/><br/>
+
+<strong>University of Derby</strong><br/><br/>
+Integrative Health and Social Care (Top- Up) BSc (Hons)<br/><br/>
+"
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "<span> <strong>Academic study skills </strong></span> <br/><br/>
 The aim of this module is to enable learners to develop the necessary skills and understanding to study effectively within higher education. This will enable learners to acquire the necessary reflective and critical thinking skills required to achieve individual learning potential.<br/><br/>

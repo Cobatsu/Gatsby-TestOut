@@ -6,6 +6,29 @@ subTitle: £4600 per level or £5600 for two levels together
 fee: 5900
 doubleFee: 7460
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
+university_progression_details: "On completion of this course students have the opportunity to complete the third year of a degree programme (BA Top up)  from a range of UK universities. The Top up programme can be studied online or on campus.
+<br/><br/>
+Students can apply to any university offering the BA Top up, listed below some universities that offer the BA Top up programme in Hotel and Hospitality: 
+<br/><br/>
+<strong>University of Derby</strong><br/><br/>
+
+International Hospitality Business Management (Top-Up)<br/><br/>
+
+<strong>Bournemouth University</strong><br/><br/>
+
+BA (Hons) International Hospitality & Tourism Management <br/><br/>
+
+<strong>University of Central Lancashire</strong><br/><br/>
+
+Management in Hospitality BA – Top up<br/><br/>
+
+<strong>University of Sunderland</strong><br/><br/>
+
+International Tourism and Hospitality Management (Top-Up) BSc (Hons)<br/><br/>
+
+<strong>University of Northampton</strong><br/><br/>
+
+International Tourism Management (Top-Up) BA "
 curriculum_1: " <span style='font-size:15px;'><strong>Food and beverage operations
 </strong></span> <br/><br/>
 Students will gain an understanding of the processes involved in food and beverage operations, including practical aspects of food and beverage production and service.br/><br/>

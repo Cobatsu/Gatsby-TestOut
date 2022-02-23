@@ -5,6 +5,29 @@ featuredImage: ../images/IT-and-compute.jpg
 fee: 5990
 doubleFee: 7650
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan),Middlesex University"
+university_progression_details: "If you decide to top up to a full Undergraduate Degree through an accredited UK university, the costs are as follows. Please note, the below costs are for distance learning/online only. You have the option of finishing on campus; costs will vary depending on which university you wish to complete your final year. <br/><br/>
+
+<strong>University of Derby </strong> <br/><br/>
+
+Top up Final Year in Computing and Information Technology BSc (Hons) <br/><br/>
+
+<strong>Southampton Solent University</strong> <br/><br/>
+
+BSc (Hons) Information Technology for Business, duration 9 months <br/><br/>
+
+<strong>University of Central Lancashire (UCLan)</strong> <br/><br/>
+
+BSc (Hons) Business Computing and Information Systems top-up degree <br/><br/>
+
+<strong>Middlesex University</strong> <br/><br/>
+
+BSc (Hons) Business Information Systems (final year)<br/>
+
+BSc (Hons) Information Technology & Business Information Systems (top up)<br/><br/>
+
+<strong>University of Huddersfield </strong><br/><br/>
+
+Information Technology (Top-up) BSc (Hons) on campus"
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: "  <span ><strong>Computer systems and software
 </strong></span> <br/><br/> This module will develop learners’ understanding of the integration of hardware and software components.<br/><br/>

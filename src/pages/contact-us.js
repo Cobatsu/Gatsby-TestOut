@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
-import { TextField, MenuItem } from "@material-ui/core";
+import {TextField, MenuItem} from "@material-ui/core";
 import Circle from "../components/common/circle";
 import NumberFormat from "react-number-format";
 import axios from "axios";
 import validator from "email-validator";
 import Layout from "../components/layoutelements/layout";
-import { countryList } from "../utilities/regions";
+import {countryList} from "../utilities/regions";
 
 const checkPhoneNumber = input => {
-  return (
-    input.split("").filter(item => parseInt(item) || item === "0").length < 10
-  );
+ return (
+  input.split("").filter(item => parseInt(item) || item === "0").length < 10
+ );
 };
 
 const ErrorCapsule = styled.div`
@@ -76,7 +76,7 @@ const SubmitButton = styled.button`
  border: none;
  color: white;
  background: #4c4c69;
- opacity: ${({ disabled }) => (disabled ? "0.5" : "1")};
+ opacity: ${({disabled}) => (disabled ? "0.5" : "1")};
  min-height: 40px;
  min-width: 150px;
  font-size: 12px;
@@ -88,201 +88,201 @@ const SubmitButton = styled.button`
 `;
 
 const initialState = {
-  name: "",
-  surname: "",
-  e_mail: "",
-  phoneNumber: "(___) ___-____",
-  region: "",
-  message: "",
+ name: "",
+ surname: "",
+ e_mail: "",
+ phoneNumber: "(___) ___-____",
+ region: "",
+ message: "",
 };
 
 const RefferenceNumber = props => {
-  const [contactForm, setContactForm] = useState(initialState);
-  const [responseResult, setResponseResult] = useState("");
-  const [loading, setLoading] = useState(false);
+ const [contactForm, setContactForm] = useState(initialState);
+ const [responseResult, setResponseResult] = useState("");
+ const [loading, setLoading] = useState(false);
 
-  const Submit = e => {
-    e.preventDefault();
+ const Submit = e => {
+  e.preventDefault();
 
-    const finalState = {
-      relatedPersonName: contactForm.name + " " + contactForm.surname,
-      relatedPersonPhoneNumber: contactForm.phoneNumber,
-      relatedPersonEmail: contactForm.e_mail,
-      region: contactForm.region,
-      message: contactForm.message,
-    };
-
-    setLoading(true);
-
-    axios
-      .post(
-        "http://study-online.herokuapp.com/api/profile/contactReport/add",
-        finalState
-      )
-      .then(response => {
-        const { result } = response.data;
-        window.scrollTo(0, 0);
-        setResponseResult(result);
-        setTimeout(setResponseResult, 10000, "");
-        setLoading(false);
-      })
-      .catch(error => {
-        console.log(error);
-        setResponseResult("Error");
-        setLoading(false);
-      });
+  const finalState = {
+   relatedPersonName: contactForm.name + " " + contactForm.surname,
+   relatedPersonPhoneNumber: contactForm.phoneNumber,
+   relatedPersonEmail: contactForm.e_mail,
+   region: contactForm.region,
+   message: contactForm.message,
   };
 
-  let isPhoneNumberFilled = checkPhoneNumber(contactForm["phoneNumber"]);
-  console.log(contactForm);
-  let isEmailCorrect = validator.validate(contactForm["e_mail"]);
+  setLoading(true);
 
-  let result = Object.keys(contactForm).every(key => {
-    if (key === "phoneNumber" && isPhoneNumberFilled) {
-      return false;
-    } else if (key === "e_mail" && !isEmailCorrect) {
-      return false;
-    } else {
-      return contactForm[key];
-    }
-  });
+  axios
+   .post(
+    "http://study-online.herokuapp.com/api/profile/contactReport/add",
+    finalState
+   )
+   .then(response => {
+    const {result} = response.data;
+    window.scrollTo(0, 0);
+    setResponseResult(result);
+    setTimeout(setResponseResult, 10000, "");
+    setLoading(false);
+   })
+   .catch(error => {
+    console.log(error);
+    setResponseResult("Error");
+    setLoading(false);
+   });
+ };
 
-  const OnchangeHandler = type => event => {
-    let value = event.target.value;
+ let isPhoneNumberFilled = checkPhoneNumber(contactForm["phoneNumber"]);
+ console.log(contactForm);
+ let isEmailCorrect = validator.validate(contactForm["e_mail"]);
 
-    setContactForm(prevState => ({ ...prevState, [type]: value }));
-  };
+ let result = Object.keys(contactForm).every(key => {
+  if (key === "phoneNumber" && isPhoneNumberFilled) {
+   return false;
+  } else if (key === "e_mail" && !isEmailCorrect) {
+   return false;
+  } else {
+   return contactForm[key];
+  }
+ });
 
-  //  if (responseResult === "Success") {
-  //   return (
-  //    <Layout title='Contact Us'>
-  //     <div
-  //      style={{
-  //       display: "flex",
-  //       justifyContent: "center",
-  //       alignItems: "center",
-  //       width: "100%",
-  //       height: "100%",
-  //      }}
-  //     >
-  //      <ErrorCapsule style={{background: "#42b883"}}>
-  //       {" "}
-  //       İletişim Formunuz Gönderilmiştir . En Kısa Sürede Size Geri Dönüş
-  //       Yapılacaktır.{" "}
-  //      </ErrorCapsule>
-  //     </div>
-  //    </Layout>
-  //   );
-  //  } else if (responseResult === "Error") {
-  //   return (
-  //    <Layout title='Contact Us'>
-  //     <div
-  //      style={{
-  //       display: "flex",
-  //       justifyContent: "center",
-  //       alignItems: "center",
-  //       width: "100%",
-  //       height: "100%",
-  //      }}
-  //     >
-  //      <ErrorCapsule>Bir Hata Oluştu , Formunuz Gönderilmedi !</ErrorCapsule>
-  //     </div>
-  //    </Layout>
-  //   );
-  //  }
+ const OnchangeHandler = type => event => {
+  let value = event.target.value;
 
-  console.log(contactForm);
+  setContactForm(prevState => ({...prevState, [type]: value}));
+ };
 
-  return (
-    <Layout title='Contact Us'>
-      {responseResult == "Success" && (
-        <ErrorCapsule style={{ background: "#01937c" }}>
-          {" "}
-          Your contact form has been sent. We will return you as soon as possible.{" "}
-        </ErrorCapsule>
+ //  if (responseResult === "Success") {
+ //   return (
+ //    <Layout title='Contact Us'>
+ //     <div
+ //      style={{
+ //       display: "flex",
+ //       justifyContent: "center",
+ //       alignItems: "center",
+ //       width: "100%",
+ //       height: "100%",
+ //      }}
+ //     >
+ //      <ErrorCapsule style={{background: "#42b883"}}>
+ //       {" "}
+ //       İletişim Formunuz Gönderilmiştir . En Kısa Sürede Size Geri Dönüş
+ //       Yapılacaktır.{" "}
+ //      </ErrorCapsule>
+ //     </div>
+ //    </Layout>
+ //   );
+ //  } else if (responseResult === "Error") {
+ //   return (
+ //    <Layout title='Contact Us'>
+ //     <div
+ //      style={{
+ //       display: "flex",
+ //       justifyContent: "center",
+ //       alignItems: "center",
+ //       width: "100%",
+ //       height: "100%",
+ //      }}
+ //     >
+ //      <ErrorCapsule>Bir Hata Oluştu , Formunuz Gönderilmedi !</ErrorCapsule>
+ //     </div>
+ //    </Layout>
+ //   );
+ //  }
+
+ console.log(contactForm);
+
+ return (
+  <Layout title='Contact Us'>
+   {responseResult == "Success" && (
+    <ErrorCapsule style={{background: "#01937c"}}>
+     {" "}
+     Your contact form has been sent. We will return you as soon as possible.{" "}
+    </ErrorCapsule>
+   )}
+   <GeneralWrapper>
+    <h5
+     style={{color: "#191970", fontSize: "1rem", width: "29rem", padding: 0}}
+    >
+     {" "}
+     We will be in contact with you within 24 hours after filling up the form
+     below{" "}
+    </h5>
+    <FormBox onSubmit={Submit}>
+     <Description>
+      Contact Form{" "}
+      <i style={{marginLeft: 15, fontSize: 16}} className='fas fa-envelope'></i>
+     </Description>
+
+     <InputBox>
+      <TextField
+       style={{width: "100%", marginBottom: 10}}
+       onChange={OnchangeHandler("name")}
+       label='Name'
+      />
+
+      <TextField
+       style={{width: "100%", marginBottom: 10}}
+       onChange={OnchangeHandler("surname")}
+       label='Surname'
+      />
+
+      <TextField
+       style={{width: "100%", marginBottom: 10}}
+       onChange={OnchangeHandler("e_mail")}
+       label='E-mail Address'
+      />
+
+      <NumberFormat
+       style={{width: "100%", marginBottom: 10}}
+       onChange={OnchangeHandler("phoneNumber")}
+       customInput={TextField}
+       format='(###) ###-####'
+       label='Phone Number'
+       allowEmptyFormatting
+       mask='_'
+      />
+      <TextField
+       style={{width: "100%", marginBottom: 10}}
+       value={contactForm["region"]}
+       onChange={OnchangeHandler("region")}
+       id='select'
+       label='Country'
+       select
+      >
+       {countryList.map(item => (
+        <MenuItem key={item} value={item}>
+         {item}
+        </MenuItem>
+       ))}
+      </TextField>
+
+      <TextField
+       style={{width: "100%", marginTop: 7}}
+       value={contactForm["message"]}
+       label='Your Message'
+       onChange={OnchangeHandler("message")}
+       id='select'
+       multiline
+       rows={8}
+       rowsMax={10}
+      />
+     </InputBox>
+
+     <SubmitButton disabled={!result || loading}>
+      {loading ? (
+       <Circle Load width={25} height={25} top={10} />
+      ) : (
+       <React.Fragment>
+        SUBMİT <i style={{marginLeft: 10}} className='fas fa-arrow-right'></i>
+       </React.Fragment>
       )}
-      <GeneralWrapper>
-        <h5
-          style={{ color: "#191970", fontSize: "1rem", width: "29rem", padding: 0 }}
-        >
-          {" "}
-          We will be in contact with you within 24 hours after filling up the form
-          below{" "}
-        </h5>
-        <FormBox onSubmit={Submit}>
-          <Description>
-            Contact Form{" "}
-            <i style={{ marginLeft: 15, fontSize: 16 }} className='fas fa-envelope'></i>
-          </Description>
-
-          <InputBox>
-            <TextField
-              style={{ width: "100%", marginBottom: 10 }}
-              onChange={OnchangeHandler("name")}
-              label='Name'
-            />
-
-            <TextField
-              style={{ width: "100%", marginBottom: 10 }}
-              onChange={OnchangeHandler("surname")}
-              label='Surname'
-            />
-
-            <TextField
-              style={{ width: "100%", marginBottom: 10 }}
-              onChange={OnchangeHandler("e_mail")}
-              label='E-mail Address'
-            />
-
-            <NumberFormat
-              style={{ width: "100%", marginBottom: 10 }}
-              onChange={OnchangeHandler("phoneNumber")}
-              customInput={TextField}
-              format='(###) ###-####'
-              label='Phone Number'
-              allowEmptyFormatting
-              mask='_'
-            />
-            <TextField
-              style={{ width: "100%", marginBottom: 10 }}
-              value={contactForm["region"]}
-              onChange={OnchangeHandler("region")}
-              id='select'
-              label='Country'
-              select
-            >
-              {countryList.map(item => (
-                <MenuItem key={item} value={item}>
-                  {item}
-                </MenuItem>
-              ))}
-            </TextField>
-
-            <TextField
-              style={{ width: "100%", marginTop: 7 }}
-              value={contactForm["message"]}
-              label='Your Message'
-              onChange={OnchangeHandler("message")}
-              id='select'
-              multiline
-              rows={8}
-              rowsMax={10}
-            />
-          </InputBox>
-
-          <SubmitButton disabled={!result || loading}>
-            {loading ? (
-              <Circle Load width={25} height={25} top={10} />
-            ) : (
-              <React.Fragment>
-                SUBMİT <i style={{ marginLeft: 10 }} className='fas fa-arrow-right'></i>
-              </React.Fragment>
-            )}
-          </SubmitButton>
-        </FormBox>
-      </GeneralWrapper>
-    </Layout>
-  );
+     </SubmitButton>
+    </FormBox>
+   </GeneralWrapper>
+  </Layout>
+ );
 };
 
 export default RefferenceNumber;

@@ -1,0 +1,154 @@
+.main_wrapper {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ box-sizing: border-box;
+ align-items: center;
+ background-color: #FBFBFB;
+ position: fixed;
+ z-index: 1000;
+ padding:0 0 20px 0;
+
+}
+.contact_buttons {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 12px;
+ padding: 5px 14px;
+ position: relative;
+ background-color: #191970;
+ margin-bottom: 30px;
+ width: 82%;
+ border-radius: 0 0 5px 5px ;
+}
+.heyo {
+ background-color: red;
+}
+.contact_buttons_item {
+ padding: 5px 10px;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 600;
+ font-size: 0.8rem;
+}
+.contact_buttons_item:hover {
+ cursor: pointer;
+}
+.logo_links {
+ display: flex;
+ justify-content: space-between;
+ min-height: 30px;
+ width: 77%;
+ align-items: center;
+}
+
+.links {
+ display: flex;
+}
+
+ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+.links li {
+ display: flex;
+ margin:0;
+ justify-content: center;
+ align-items: center;
+ flex-shrink: 0;
+ font-weight: 600;
+ color: #191970;
+ position: relative;
+}
+
+.linkHref {
+ padding: 10px 25px;
+ display: flex;
+ border-radius: 5px;
+ height: 50%;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ color:#191970;
+}
+
+.linkHref:hover{
+   cursor: pointer;
+   background-color: #FEC618;
+   color: #191970;
+}
+
+
+.linkHref:hover{
+   color:#191970;
+}
+.links li:hover ul {
+ display: block;
+}
+.links li span {
+ font-size: 15px;
+ text-align: center;
+}
+.links li i {
+ margin-left: 8px;
+}
+
+.subLinks {
+ position: absolute;
+ background: #37474F;
+ display: none;
+ top: 100%;
+ left: 0;
+ font-size: 14px;
+ white-space: nowrap;
+ min-width: 100%;
+ z-index: 1000;
+ border-radius: 5px;
+}
+
+.subLinks li {
+ justify-content: flex-start;
+ padding: 0px;
+}
+.sublinkHref i {
+ transition: 50ms;
+}
+.sublinkHref:hover i {
+ transform: translate(5px);
+}
+.sublinkHref {
+ display: block;
+ width: 100%;
+ height: 100%;
+ color: white;
+ padding: 12px;
+}
+
+.subLinks li:hover {
+ background-color: #FEC618;
+}
+.subLinks li:hover .sublinkHref{
+   color: #191970;
+}
+.header_company_logo:hover{
+   cursor: pointer;
+}
+.ResponsiveNav {
+   display: none;
+}
+.Non_Responsive_Nav {
+   display: block;
+}
+@media only screen and (max-width: 800px) {
+   .ResponsiveNav {
+      display: block;
+   }
+   .Non_Responsive_Nav{
+      display:none;
+   }
+}

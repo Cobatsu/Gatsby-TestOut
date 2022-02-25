@@ -1,0 +1,261 @@
+.main_wrapper {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.banner_holder {
+   width: 85%;
+   height: 38rem;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   position: relative;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+ 
+  background: no-repeat center center;
+  background-position: 0 -71px;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.classic_button{
+   background-color:#FBC933;
+   color:#191970;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   padding:10px 20px;
+   font-weight: 600;
+   box-shadow: 0 5px 0px #bb9625;
+   transition: all 120ms;
+}
+.classic_button:hover{
+   cursor: pointer;
+}
+
+.classic_button:active{
+   box-shadow:none;
+   transform: translateY(5px);
+}
+
+.logo_holder{
+   display: flex;
+   justify-content: flex-start;
+ }
+ 
+ .text{
+    padding: 60px;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+ }
+
+.dot_holder{
+   position:absolute;
+   top:0;
+   left:0;
+   padding:10px;
+   z-index: 50;
+}
+.slider_dot{
+   height: 11px;
+   width: 11px;
+   margin-right: 10px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 50%;
+   display: inline-block;
+}
+.slider_dot:hover{
+   cursor: pointer;
+}
+
+.slider_wrapper{
+ width: 300%;
+ height: 100%;
+ display: flex;
+ position: relative;
+ transition: 800ms;
+}
+
+.layer {
+  
+ display: flex;
+ justify-content: flex-end;
+ align-items: stretch;
+ flex-direction: column;
+ width: 100%;
+ height: 100%;
+ z-index: 100000000000;
+}
+
+.intro{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5rem;
+   margin-top: 0rem;
+   padding:30px 0;
+}
+
+.outer_mid_body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:5rem 0;
+   width: 100%;
+   background: rgba(25, 25, 112, 0.9);
+}
+
+.mid_body{
+   width: 70%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color:#FFFFFF;
+   flex-wrap: wrap;
+}
+
+.body_richmond_college{
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: space-around;
+   color:#191970;
+   width: 70%;
+}
+
+.where_to_start_outer{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding:2rem 0;
+   background-color: #37474F;
+   color:#FFFFFF
+}
+
+.where_to_start_inner{
+   width: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.classic_text{
+   color: #191970;
+   font-size: 2rem;
+   font-weight: 700;
+   margin-bottom: 40px;
+}
+.courses_wrapper{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin: 4.4rem 0;
+}
+
+.accreditation{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 2rem;
+   padding:3rem 0
+}
+
+
+.accreditation div:nth-child(2) img{
+   height: 6rem;
+   margin-right: 2rem;
+   margin-bottom: 2rem;
+}
+
+.course{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 70%;
+}
+
+.course_inner{
+
+   display:flex;
+   flex-direction:column;
+   align-items:flex-start;
+   color:#191970;
+   margin-right:100px;
+   flex: 1;
+}
+
+.course_background_image{
+   flex:0.3;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.home_credentials img{
+   min-height:13rem ;
+}
+
+.course_list_item{
+ transition: 150ms;
+}
+
+.course_list_item:hover{
+  cursor: pointer;
+  transform: translateX(10px);
+}
+
+.inner_holder {
+ display: flex;
+
+ flex-wrap: wrap;
+ margin-top: 40px;
+}
+.outer_wrapper {
+   width: 85%;
+}
+
+
+@media only screen and (max-width: 700px) {
+   .logo_holder {
+     justify-content: center;
+     padding-bottom: 10px;
+   }
+   .wrap{
+      flex-direction: column !important;
+      align-items: center;
+   }
+
+   .course_background_image{
+      display: none;
+   }
+
+   .course_inner{
+      margin-right: 0;
+   }
+
+   .wrap div{
+      width: 100% !important;
+   }
+
+   .wrap img{
+      width: 80% !important
+   }
+
+   
+   .banner_holder{
+      width: 101%;
+      height: 24rem;
+   }
+   .text{
+      padding:5px;
+      padding-bottom: 30px;
+      font-size: 2rem;
+   }
+ }

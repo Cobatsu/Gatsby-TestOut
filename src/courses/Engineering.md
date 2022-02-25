@@ -35,8 +35,8 @@ Understand exponentials, logarithms and trigonometry related to engineering prob
 Understand calculus relevant to engineering problems.
 "
 ---
-The Level 3 University Foundation Programme is a 120 credit qualification (equivalent to two A levels) that helps students learn key concepts and a range of management procedures required to work within a business. It has been specifically developed to provide the knowledge required for students to work effectively, both as individuals and in teams within business. Being able to develop good business management skills is crucial for any company.
-
-The Level 3 Diploma Business Management is made up of 6 modules and 6 written assignments; each module consists of approximately 40 guided learning hours. While completing the Diploma, students will have access to various study resources, such as tutor support and webinars, a social learning forum, and additional materials to complete their graduate business course.
-
-Upon completion of this course, students receive an ATHE Level 3 Business Management qualification which is fully regulated by Ofqual. Students will then have the opportunity to apply for admission onto a full Undergraduate Degree programme from a range of UK universities. Alternatively, students can opt to study our Level 4/5 Extended Diploma in Management and then complete an Undergraduate Top Up at a range of UK universities.
+Do you want to pursue a career in Engineering? Engineering isn’t all about construction and building sites; it can lead to a career in the medical field or economics – it is a widely diverse profession to choose. Our Level 3 Foundation Diploma in Engineering allows learners to gain understanding and knowledge across a range of Engineering practices.
+<br/><br/>
+This qualification enables learners to develop essential knowledge in areas such as engineering principles, design technology, electricity, mechanics, statistics and mathematics.
+<br/><br/>
+Successful completion of this qualification will prepare learners for employment in the engineering sector or further learning.

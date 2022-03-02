@@ -110,7 +110,7 @@ const Home = props => {
   //  }, [slideNumber]);
 
 
-
+  
   return (
     <Layout title='Richmond College'>
       <div className={styles.main_wrapper}>

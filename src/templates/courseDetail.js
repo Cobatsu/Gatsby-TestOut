@@ -2,12 +2,8 @@ import React from "react";
 import * as styles from "../../styles/pages/course_detail.module.css";
 import Layout from "../components/layoutelements/layout";
 import OptionCard from "../components/common/courseOptionCard";
-import { useQueryParam, StringParam, QueryParamProvider } from "use-query-params";
+import { useQueryParam, StringParam, QueryParamProvider, withQueryParams } from "use-query-params";
 import ApplyForm from "../components/common/applyForm";
-import lol from 'gatsby'
-
-
-
 
 const images = ["A day off-bro.svg"];
 
@@ -448,4 +444,4 @@ const withProvider = ({ pageContext }) => {
 }
 
 
-export default withProvider;
+export default withQueryParams({}, CourseDetail);

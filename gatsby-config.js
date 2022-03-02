@@ -9,6 +9,7 @@ module.exports = {
   "gatsby-transformer-remark",
   "gatsby-plugin-react-head",
   `gatsby-plugin-styled-components`,
+  "gatsby-plugin-use-query-params",
   {
    resolve: `gatsby-source-filesystem`,
    options: {

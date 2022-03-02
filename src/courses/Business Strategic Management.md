@@ -1,41 +1,54 @@
 ---
-courseName: Business Strategic Management
+courseName: Strategic Management MBA Advanced Entry
 courseCategory: Level 7
 featuredImage: ../images/business-strategic-managment.jpg
+fee: 5900
 subTitle: "Level 7 Course - £7000 (Progress onto the final stages of a University MBA)"
-courseDetails: "<span style='font-size:18px; color:#01937C'><strong>Course Fees</strong></span><br/><br/>The Level 7 Human Resource Management course is £7000.  Students can make payment using one of the following methods: <br/><ul style='margin-top:10px'>
+university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
+university_progression_details: "
+On completion of this course students have the opportunity to complete an MBA programme from a range of UK universities. The top up programme can be studied online or on campus. The MBA top up comprises the final 60 credits which consists of either a dissertation or a dissertation and one module.
 
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Bank transfer</li>
+Students may top-up on campus or by distance learning.
 
-</ul> 
-<br/>
+Students can apply to any university offering the MBA top up, the following universities run Top Up programmes by DISTANCE LEARNING:<br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>What is included in the cost of my course?</strong></span>
-<ul style='margin-top:10px'>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  All course material, including online modules and written assignments </li>
+<strong>University of Gloucestershire</strong><br/><br/>
 
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Dedicated student support</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Access to an online social learning forum</li>
-<li><i class='fas fa-check-circle' style='color:#464660; margin-right:8px'></i>  Assignment marking and feedback</li>
+Postgraduate Top up to MBA Business Administration <br/><br/>
 
-</ul> 
-<br/>
+<strong>Anglia Ruskin University </strong><br/><br/>
 
+MBA (Top-Up) <br/><br/>
 
+<strong>Buckinghamshire New University </strong><br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Am I eligible for this program?</strong></span><br/><br/> To enrol onto the Level 7 programme, you must be either<br/><br/>
+International MBA Top-up  <br/><br/>
 
-<strong>a)</strong> a university graduate who is over 22 years old, or<br/><br/>
+<strong>University of Chichester</strong><br/><br/>
 
-<strong>b)</strong> a non-university graduate over 24 year old, and with at least five years of managerial experience.
-<br/><br/>
+MBA Top Up <br/><br/>
 
+<strong>University of Bolton</strong><br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Completing on campus in the UK</strong></span><br/><br/> <span>
-Most universities in the UK will accept the Online Business School 120 credit programme for entry onto the MBA top up on campus. ATHE also have direct agreements with several Universities, click here for the ATHE progression routes. Students may also contact the admissions department of their chosen university directly.
-</span> <br/><br/>
+MBA Top-up <br/>
+Master of Business Administration Top Up<br/><br/>
 
-<span style='font-size:18px; color:#01937C'><strong>Course module listing</strong></span><br/><br/> <span style='font-size:15px;'><strong>Qualities of effective leadership
+<strong>University of Sunderland – On Campus</strong><br/><br/>
+
+Postgraduate Top up to MBA <br/><br/>
+
+<strong>Northampton University</strong> <br/><br/>
+
+Top up to MBA– £3500<br/>
+MA in Human Resource Management Top up <br/>
+MSc in Accounting and finance Top up <br/>
+Executive Master of Business Administration Top-Up MBA <br/><br/>
+
+<strong>University of Derby</strong><br/><br/>
+
+Top up to MBA – (partial exemption) <br/><br/>
+"
+curriculum_1: "<strong>Qualities of effective leadership
 </strong></span> <br/><br/>
 Learners will explore the making and developing of powerful leaders.<br/><br/>
 <span style='font-size:15px;'><strong>Developing interpersonal skills</strong> </span> <br/><br/>
@@ -131,15 +144,8 @@ Getting things done. Using the right tools to run projects.
 <span style='font-size:15px;'><strong>Strategies for growth
 </strong> </span><br/><br/>
 This module explores the different ideas of growth and the various tools, measures and controls at a managers disposal in planning for growth.
-<br/><br/>
+<br/><br/>"
 
-
-<span style='font-size:18px; color:#01937C'><strong>Career path</strong></span><br/><br/>Upon successful completion of the Postgraduate Diploma in Strategic Management and final year of an accredited postgraduate degree programme, learners will have the skills to execute a professional managerial role in marketing, accounting, business consultancy, and more.
-<br/><br/>
-A business management diploma and MBA develops key cognitive skills such as critical thinking, analysis, evaluation, and writing while also establishing presentation and numeracy skills to enhance knowledge and experience. These skills are critical in helping you advance your career.
-<br/><br/>
-
-"
 ---
 The Level 7 Extended Diploma in Strategic Management is an MBA Advanced Entry course, which provides learners with 120 credits of the 180 credits required to achieve a complete MBA. The course itself is made up of 30 interactive modules and 8 written assignments, with approximately 40 guided learning hours per module. All modules have an additional 30-50 learning hours of optional materials that comprise of recommended exercises, recommended readings, Internet resources, and self-testing exercises. You will also have access to 24/7 support, tutoring, and a variety of other support mechanisms.
 <br/><br/>

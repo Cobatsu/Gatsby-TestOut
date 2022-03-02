@@ -1,7 +1,7 @@
 const path = require("path");
 
-exports.createPages = async ({graphql, actions}) => {
- const response = await graphql(`
+exports.createPages = async ({ graphql, actions }) => {
+    const response = await graphql(`
   query getAllPosts {
    allMarkdownRemark {
     nodes {
@@ -15,7 +15,6 @@ exports.createPages = async ({graphql, actions}) => {
       doubleFee
       curriculum_2
       subTitle
-      courseDetails
       featuredImage {
        childImageSharp {
         fluid(maxWidth: 800) {
@@ -34,18 +33,18 @@ exports.createPages = async ({graphql, actions}) => {
   }
  `);
 
- const {
-  data: {allMarkdownRemark},
- } = response;
+    const {
+        data: { allMarkdownRemark },
+    } = response;
 
- allMarkdownRemark.nodes.forEach(node => {
-  actions.createPage({
-   path:
-    node.frontmatter.courseCategory.split(" ").join("-") +
-    "/" +
-    node.frontmatter.courseName.split(",")[0].split(" ").join("-"),
-   component: path.resolve("./src/templates/courseDetail.js"),
-   context: {node},
-  });
- });
+    allMarkdownRemark.nodes.forEach(node => {
+        actions.createPage({
+            path:
+                node.frontmatter.courseCategory.split(" ").join("-") +
+                "/" +
+                node.frontmatter.courseName.split(",")[0].split(" ").join("-"),
+            component: path.resolve("./src/templates/courseDetail.js"),
+            context: { node },
+        });
+    });
 };

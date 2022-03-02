@@ -84,12 +84,8 @@ div span strong{
 }
 
 .curriculumDown:hover{
-    cursor: pointer;
-   
+    cursor: pointer;   
 }
-
-
-
 
 .option_card_holder{
     flex-wrap: wrap;
@@ -100,5 +96,4 @@ div span strong{
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 40px;
-    
 }

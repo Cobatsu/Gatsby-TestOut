@@ -29,6 +29,7 @@
     "gatsby-plugin-react-head": "^1.1.0",
     "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-source-filesystem": "^3.6.0",
     "gatsby-source-mongodb": "^3.6.0",
     "gatsby-transformer-remark": "^4.3.0",
@@ -38,6 +39,7 @@
     "react-head": "^3.4.0",
     "react-helmet": "^6.1.0",
     "react-number-format": "^4.7.3",
-    "styled-components": "^5.3.1"
+    "styled-components": "^5.3.1",
+    "use-query-params": "^1.2.3"
   }
 }

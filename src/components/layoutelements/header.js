@@ -35,7 +35,7 @@ const subMenu = [
     {
         type: "Login",
         static: true,
-        link: "",
+        link: "https://richmondcollege.classportal.online/",
     },
 ];
 

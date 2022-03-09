@@ -437,11 +437,4 @@ const CourseDetail = ({ pageContext }) => {
   );
 };
 
-const withProvider = ({ pageContext }) => {
-  return <QueryParamProvider>
-    <CourseDetail pageContext={pageContext} />
-  </QueryParamProvider>
-}
-
-
 export default withQueryParams({}, CourseDetail);

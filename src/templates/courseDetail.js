@@ -192,7 +192,6 @@ const CourseDetail = ({ pageContext }) => {
                     return (
                       <OptionCard
                         courseCategory={node.frontmatter.courseCategory}
-                        courseName={courseName}
                         {...option}
                         courseName={node.frontmatter.courseName.split(", ")[0]}
                       />

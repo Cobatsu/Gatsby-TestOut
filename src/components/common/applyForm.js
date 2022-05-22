@@ -6,6 +6,7 @@ import NumberFormat from "react-number-format";
 import axios from "axios";
 import validator from "email-validator";
 import { countryList } from "../../utilities/regions";
+import { grades } from "../../utilities/grades";
 
 const checkPhoneNumber = input => {
     return (
@@ -280,9 +281,18 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
 
                         <TextField
                             style={{ width: "40%", marginBottom: 10 }}
+                            value={contactForm["GPA"]}
                             onChange={OnchangeHandler("GPA")}
-                            label='GPA'
-                        />
+                            id='select'
+                            label='Highschool GPA'
+                            select
+                        >
+                            {grades.map(item => (
+                                <MenuItem key={item.letter} value={item.letter}>
+                                    {item.letter}
+                                </MenuItem>
+                            ))}
+                        </TextField>
 
 
                     </InputBox>

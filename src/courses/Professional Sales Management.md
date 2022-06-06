@@ -1,5 +1,5 @@
 ---
-courseName: Professional Sales Management (Level 6)
+courseName: Professional Sales Management
 courseCategory: Level 6
 featuredImage: ../images/professionals-sales-and-management.jpg
 fee: 5640

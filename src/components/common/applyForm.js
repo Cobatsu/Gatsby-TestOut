@@ -52,9 +52,10 @@ const Description = styled.div`
  width: 70%;
  display: flex;
  justify-content:center;
- font-size: 1.1rem;
+ font-size: 1.2rem;
  font-weight:600;
- margin-bottom:50px
+ margin-bottom:50px;
+ text-decoration: underline;
 `;
 const InputBox = styled.div`
  flex: 1;
@@ -93,6 +94,8 @@ color: #191970;
 font-size: 1.7rem;
 font-weight: 700;
 margin-bottom: 20px;
+text-align:center;
+width:70%;
 `
 
 
@@ -151,7 +154,7 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
 
         axios
             .post(
-                "https://study-online.herokuapp.com/api/register/addNewOnlineStudent",
+                "http://localhost:3001/api/register/addNewOnlineStudent",
                 {
                     scholarShipInfo: contactForm,
                     studentModel: initialStudent,

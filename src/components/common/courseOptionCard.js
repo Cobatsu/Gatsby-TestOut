@@ -16,10 +16,10 @@ const OptionCard = ({ level, fee, courseName, courseCategory }) => (
             <span
                 style={{ fontWeight: "bolder", textAlign: "center", marginBottom: "10px" }}
             >
-                {courseName}
+                {courseName == "Business and Administrative Management" || courseName == "Strategic Management MBA Advanced Entry" ? null : courseName}
             </span>
             {!courseName.includes("IGCSE") && (
-                <span style={{ fontWeight: "bolder" }}>{level}</span>
+                <span style={{ fontWeight: "bolder", fontSize: 18, lineHeight: 1.3, textAlign: "left" }}>{level}</span>
             )}
             <span></span>
         </div>

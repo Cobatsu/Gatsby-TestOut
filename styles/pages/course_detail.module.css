@@ -1,97 +1,102 @@
-.inner_container{
+.inner_container {
     margin-bottom: 30px;
     box-sizing: border-box;
-    color:#38384e;
+    color: #38384e;
 }
 
-.detail_general_wrapper{
-      display:flex;
-      justify-content: space-evenly;
-      flex-direction: column;
-      align-items: center;
-      box-sizing: border-box;
-      padding:30px;
+.detail_general_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
 }
 
 .detail_general_wrapper strong {
-    color:#191970 !important
+    color: #191970 !important
 }
 
-div span strong{
- color:#191970 !important
+div span strong {
+    color: #191970 !important
 }
 
-.classic_button{
-    background-color:#FBC933;
-    color:#191970;
+.classic_button {
+    background-color: #FBC933;
+    color: #191970;
     outline: none;
     border: none;
     border-radius: 5px;
-    padding:0.7rem 1.4rem;
+    padding: 0.7rem 1.4rem;
     box-shadow: 0 5px 0px #bb9625;
     transition: all 120ms;
 }
 
-.classic_button:hover{
+.classic_button:hover {
     cursor: pointer;
 }
- 
-.inner_container h2{
+
+.inner_container h2 {
     text-align: center;
 }
 
 .inner_container h3 {
-    color:#191970;
+    color: #191970;
     font-size: 1.5rem;
     font-weight: 400;
-    margin:15px 0
-   
+    margin: 15px 0
 }
 
-.header_title{
+.header_title {
     width: 87%;
-    color:#464660;
+    color: #464660;
     font-size: 2.1rem;
-    padding:17px 0px;
+    padding: 17px 0px;
     margin: 0;
 }
-.course_banner{
-    width:87%;
+
+.course_banner {
+    width: 87%;
     max-height: 400px;
     z-index: -10;
     margin: 20px;
 }
 
+.staffList li {
 
+    margin-bottom: 20px;
 
-.content{
+}
+
+.content {
     line-height: 1.6;
     margin-bottom: 30px;
     display: block;
 }
-.content span{
+
+.content span {
     font-size: 1.2rem !important;
-  
+
 }
 
-.curriculumDown{
+.curriculumDown {
     margin-bottom: 1.4rem;
     display: block;
-    color:#191970;
+    color: #191970;
     transition: 200ms;
     border-radius: 5px;
     padding: 7px;
 }
 
-.curriculumDown:hover{
-    cursor: pointer;   
+.curriculumDown:hover {
+    cursor: pointer;
 }
 
-.option_card_holder{
+.option_card_holder {
     flex-wrap: wrap;
 }
 
-.classic_text{
+.classic_text {
     color: #191970;
     font-size: 1.7rem;
     font-weight: 700;

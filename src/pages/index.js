@@ -110,7 +110,7 @@ const Home = props => {
   //  }, [slideNumber]);
 
 
-  
+
   return (
     <Layout title='Richmond College'>
       <div className={styles.main_wrapper}>
@@ -174,9 +174,8 @@ const Home = props => {
                   Get Your Degree From The UK
                 </span>
                 <span style={{ fontSize: "0.99rem", lineHeight: "1.7rem" }}>
-                  Richmond College provide students an affordable pathway to earning an
-                  undergraduate or postgraduate degree from a choice of respected UK
-                  universities.
+                  Richmond College offers students a cost-effective opportunity to achieve an undergraduate or
+                  postgraduate degree from one of the UK's most prestigious institutions.
                 </span>
               </div>
               <button className={styles.classic_button}>Apply Now</button>

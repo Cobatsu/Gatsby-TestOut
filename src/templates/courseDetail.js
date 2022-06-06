@@ -100,8 +100,15 @@ const CourseDetail = ({ pageContext }) => {
         {
           level: "Level 6",
           fee: node.frontmatter.fee,
-        },
+        }
       ];
+
+      if (courseName == "Business and Administrative Management") {
+        courseOptions.push({
+          level: courseName + " (Level 6) " + "+ Strategic Management MBA Advanced Entry (Level 7)",
+          fee: 7570,
+        })
+      }
       courseCurriculum = [{ content: node.frontmatter.curriculum_1, level: "6" }];
       break;
 
@@ -113,6 +120,14 @@ const CourseDetail = ({ pageContext }) => {
           fee: node.frontmatter.fee,
         },
       ];
+
+      if (courseName == "Strategic Management MBA Advanced Entry") {
+        courseOptions.push({
+          level: courseName + " (Level 7) " + "+ Business and Administrative Management (Level 6)",
+          fee: 7570,
+        })
+      }
+
       courseCurriculum = [{ content: node.frontmatter.curriculum_1, level: "7" }];
       break;
   }

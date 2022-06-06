@@ -22,7 +22,7 @@
     "axios": "^0.21.4",
     "babel-plugin-styled-components": "^1.13.2",
     "email-validator": "^2.0.4",
-    "gatsby": "^3.6.2",
+    "gatsby": "^4.15.2",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-gatsby-cloud": "^2.6.1",
     "gatsby-plugin-nprogress": "^4.8.0",

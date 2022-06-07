@@ -37,8 +37,6 @@ exports.createPages = async ({ graphql, actions }) => {
         data: { allMarkdownRemark },
     } = response;
 
-    console.log(allMarkdownRemark)
-
     allMarkdownRemark.nodes.forEach(node => {
         actions.createPage({
             path:

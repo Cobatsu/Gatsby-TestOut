@@ -23,8 +23,6 @@ const CourseDetail = ({ pageContext }) => {
   var universities = node.frontmatter?.university_progression?.split(",");
   var university_progression_details = node.frontmatter?.university_progression_details;
 
-  console.log("RENDERED")
-
   if (courseName.includes("IT")) {
     courseDetailBanner = "Website Creator-bro.svg";
   } else if (
@@ -203,6 +201,7 @@ const CourseDetail = ({ pageContext }) => {
                   {courseOptions.map(option => {
                     return (
                       <OptionCard
+                        trigger={forceUpdate}
                         key={node.frontmatter.courseName.split(", ")[0]}
                         courseCategory={node.frontmatter.courseCategory}
                         {...option}

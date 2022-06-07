@@ -10,15 +10,12 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "npm install --legacy-peer-deps  && gatsby build ",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
     "@material-ui/core": "^4.12.4",
-    "@mui/material": "^5.8.2",
     "axios": "^0.27.2",
     "babel-plugin-styled-components": "^2.0.7",
     "email-validator": "^2.0.4",
@@ -34,7 +31,6 @@
     "gatsby-source-mongodb": "^4.15.0",
     "gatsby-transformer-remark": "^5.15.1",
     "gatsby-transformer-sharp": "^4.15.1",
-    "mui-datatables": "^4.2.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-head": "^3.4.0",

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import styled from "styled-components";
 import { TextField, MenuItem } from "@material-ui/core";
 import Circle from "./circle";
@@ -148,7 +148,11 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
     const [contactForm, setContactForm] = useState(initialState);
     const [responseResult, setResponseResult] = useState("");
     const [loading, setLoading] = useState(false);
-
+    
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[]);
+    
     const Submit = e => {
         e.preventDefault();
         setLoading(true);

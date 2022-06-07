@@ -53,9 +53,6 @@ const OptionCard = ({ level, fee, courseName, courseCategory, trigger }) => (
             </span>
             <button className={styles.classic_button} onClick={() => {
                 navigate(`?apply=true&level=${level}&courseFee=${fee}`)
-                 setTimeout(() => {
-                    window.scrollTo(0, 0)
-                }, 0)
             }}> Apply Now </button>
         </div>
     </div >

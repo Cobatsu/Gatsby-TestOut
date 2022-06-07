@@ -64,8 +64,22 @@ div span strong {
 
 .staffList li {
 
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    padding: 20px 20px 10px 20px;
+    box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    color: #191970;
+}
 
+.staffList li span:first-child {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.staffList li span {
+    margin-bottom: 10px;
 }
 
 .content {

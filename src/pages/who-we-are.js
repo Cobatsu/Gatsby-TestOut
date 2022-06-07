@@ -46,13 +46,43 @@ const whoWeAre = () => {
                     </h2>
                     <div className={styles.inner_container}>
                         <ul className={styles.staffList}>
-                            <li> <strong>Principle Dr. : </strong> David Whitestone  </li>
-                            <li> <strong>Manager of UK Branch : </strong> Harris Davidson  </li>
-                            <li> <strong>Director of admission office :  </strong> Zainab Althea   </li>
-                            <li> <strong> Director of Partnership : </strong>  Joseph Brian  </li>
-                            <li> <strong> E-learning coordinator : </strong> Dr. Bahattin Altay </li>
-                            <li> <strong> Academic advisor : </strong> Dr. Salim Tuncay</li>
-                            <li> <strong> Director of Marketing and Recruitment : </strong> Grand Breatton</li>
+
+                            <li>
+                                <span> David Whitestone </span>
+                                <span> Principle Dr. </span>
+                                <span> Email: whitestone@richmondcollege.co.uk </span>
+                            </li>
+                            <li>
+                                <span> Harris Davidson </span>
+                                <span> Manager of UK Branch </span>
+                                <span> Email: davidson@richmondcollege.co.uk </span>
+                            </li>
+                            <li>
+                                <span> Zainab Althea  </span>
+                                <span> Director of admission office </span>
+                                <span> Email: althea@richmondcollege.co.uk </span>
+                            </li>
+                            <li>
+                                <span> Joseph Brian </span>
+                                <span> Director of Partnership </span>
+                                <span> Email: rian@richmondcollege.co.uk</span>
+                            </li>
+                            <li>
+                                <span> Dr. Bahattin Altay </span>
+                                <span> E-learning coordinator </span>
+                                <span> Email: altay@richmondcollege.co.uk</span>
+                            </li>
+                            <li>
+                                <span> Dr. Salim Tuncay </span>
+                                <span> Academic advisor </span>
+                                <span> Email: tuncay@richmondcollege.co.uk</span>
+                            </li>
+                            <li>
+                                <span> Grand Breatton</span>
+                                <span> Director of Marketing and Recruitment </span>
+                                <span> Email: breatton@richmondcollege.co.uk</span>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

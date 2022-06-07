@@ -27,6 +27,7 @@
     "gatsby-plugin-react-head": "^1.1.0",
     "gatsby-plugin-sharp": "^4.15.1",
     "gatsby-plugin-styled-components": "^5.15.0",
+    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-source-filesystem": "^4.15.0",
     "gatsby-source-mongodb": "^4.15.0",
     "gatsby-transformer-remark": "^5.15.1",

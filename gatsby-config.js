@@ -7,7 +7,8 @@ module.exports = {
         "gatsby-transformer-sharp",
         "gatsby-image",
         "gatsby-transformer-remark",
-        `gatsby-plugin-styled-components`,
+        "gatsby-plugin-styled-components",
+        "gatsby-plugin-use-query-params",
         {
             resolve: `gatsby-source-filesystem`,
             options: {

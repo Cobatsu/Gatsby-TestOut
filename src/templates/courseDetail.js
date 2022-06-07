@@ -8,9 +8,12 @@ import ApplyForm from "../components/common/applyForm";
 const images = ["A day off-bro.svg"];
 
 const CourseDetail = ({ pageContext }) => {
+
   const { node } = pageContext;
   var courseName = node.frontmatter.courseName.split(",")[0];
   var [level, setLevel] = useQueryParam("level", StringParam);
+  const [, updateState] = React.useState();
+  const forceUpdate = React.useCallback(() => updateState({}), []);
   var [apply, setApply] = useQueryParam("apply", StringParam);
   var [courseFee, setApply] = useQueryParam("courseFee", StringParam);
   var courseOptions = [];
@@ -19,6 +22,8 @@ const CourseDetail = ({ pageContext }) => {
   var subTitle = "";
   var universities = node.frontmatter?.university_progression?.split(",");
   var university_progression_details = node.frontmatter?.university_progression_details;
+
+  console.log("RENDERED")
 
   if (courseName.includes("IT")) {
     courseDetailBanner = "Website Creator-bro.svg";
@@ -131,15 +136,7 @@ const CourseDetail = ({ pageContext }) => {
       courseCurriculum = [{ content: node.frontmatter.curriculum_1, level: "7" }];
       break;
   }
-  const discountedFees = node.frontmatter.subTitle
-    ?.split(" ")
-    .map(item => {
-      return item.includes("£")
-        ? "£" +
-        parseInt(item.split("£")[1] - parseInt(item.split("£")[1] * 40) / 100)
-        : item;
-    })
-    .join(" ");
+
 
   return (
     <Layout title={courseName}>
@@ -206,6 +203,7 @@ const CourseDetail = ({ pageContext }) => {
                   {courseOptions.map(option => {
                     return (
                       <OptionCard
+                        key={node.frontmatter.courseName.split(", ")[0]}
                         courseCategory={node.frontmatter.courseCategory}
                         {...option}
                         courseName={node.frontmatter.courseName.split(", ")[0]}
@@ -226,8 +224,10 @@ const CourseDetail = ({ pageContext }) => {
 
                   <ul>
                     {universities?.map(uni => (
-                      <li style={{ marginBottom: 13 }}>
-                        <i class='fas fa-angle-right'></i> {uni}
+                      <li
+                        key={uni}
+                        style={{ marginBottom: 13 }}>
+                        <i className='fas fa-angle-right'></i> {uni}
                       </li>
                     ))}
                   </ul>
@@ -450,5 +450,7 @@ const CourseDetail = ({ pageContext }) => {
     </Layout >
   );
 };
+
+
 
 export default withQueryParams({}, CourseDetail);

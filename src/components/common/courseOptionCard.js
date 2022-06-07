@@ -1,8 +1,9 @@
 import React from "react";
 import * as styles from "../../../styles/components/course_option_card.module.css";
-import { Link, navigate } from "gatsby";
+import { Link } from "gatsby";
+import { navigate } from '@reach/router'
 
-const OptionCard = ({ level, fee, courseName, courseCategory }) => (
+const OptionCard = ({ level, fee, courseName, courseCategory, trigger }) => (
     <div className={styles.card_wrapper}>
         <div
             style={{
@@ -52,6 +53,7 @@ const OptionCard = ({ level, fee, courseName, courseCategory }) => (
             </span>
             <button className={styles.classic_button} onClick={() => {
                 navigate(`?apply=true&level=${level}&courseFee=${fee}`)
+                trigger()
                 window.scrollTo(0, 0)
             }}> Apply Now </button>
         </div>

@@ -141,9 +141,6 @@ const initialStudent = {
     desired_university_studies: "Mathematics IGCSE",
 };
 
-
-//hi
-
 const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
     const [contactForm, setContactForm] = useState(initialState);
     const [responseResult, setResponseResult] = useState("");

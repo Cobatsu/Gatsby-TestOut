@@ -156,7 +156,7 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
 
         axios
             .post(
-                "http://localhost:3001/api/register/addNewOnlineStudent",
+                "https://www.richmondcollege.co.uk/api/register/addNewOnlineStudent",
                 {
                     scholarShipInfo: contactForm,
                     studentModel: initialStudent,

@@ -156,7 +156,7 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
 
         axios
             .post(
-                "https://www.richmondcollege.co.uk/api/register/addNewOnlineStudent",
+                "https://study-online.herokuapp.com/api/register/addNewOnlineStudent",
                 {
                     scholarShipInfo: contactForm,
                     studentModel: initialStudent,

@@ -156,7 +156,7 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
 
         axios
             .post(
-                "https://study-online.herokuapp.com/api/register/addNewOnlineStudent",
+                "http://localhost:3001/api/register/addNewOnlineStudent",
                 {
                     scholarShipInfo: contactForm,
                     studentModel: initialStudent,
@@ -180,7 +180,7 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
     };
 
     let isPhoneNumberFilled = checkPhoneNumber(contactForm["phone"]);
-    console.log(contactForm);
+
     let isEmailCorrect = validator.validate(contactForm["email"]);
 
     let result = Object.keys(contactForm).every(key => {
@@ -207,7 +207,7 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
             {responseResult == "Success" && (
                 <Notify style={{ background: "#01937c", marginTop: 30 }}>
                     {" "}
-                    Your application has been submitted successfully. We will return you as soon as possible. Please check your emails spam folder. {" "}
+                    Your application has been submitted successfully. We will return you as soon as possible. Please keep checking your emails spam folder. {" "}
                 </Notify>
             )}
             <GeneralWrapper>

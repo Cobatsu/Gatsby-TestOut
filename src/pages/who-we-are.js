@@ -65,7 +65,7 @@ const whoWeAre = () => {
                             <li>
                                 <span> Joseph Brian </span>
                                 <span> Director of Partnership </span>
-                                <span> Email: rian@richmondcollege.co.uk</span>
+                                <span> Email: rian@richmondcollege.co.uk </span>
                             </li>
                             <li>
                                 <span> Dr. Bahattin Altay </span>
@@ -80,7 +80,7 @@ const whoWeAre = () => {
                             <li>
                                 <span> Grand Breatton</span>
                                 <span> Director of Marketing and Recruitment </span>
-                                <span> Email: breatton@richmondcollege.co.uk</span>
+                                <span> Email: breatton@richmondcollege.co.uk </span>
                             </li>
 
                         </ul>

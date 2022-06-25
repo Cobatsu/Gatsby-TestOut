@@ -48,8 +48,8 @@ const whoWeAre = () => {
                         <ul className={styles.staffList}>
 
                             <li>
-                                <span> David Whitestone </span>
-                                <span> Principle Dr. </span>
+                                <span> Dr. David Whitestone </span>
+                                <span> Principle </span>
                                 <span> Email: whitestone@richmondcollege.co.uk </span>
                             </li>
                             <li>

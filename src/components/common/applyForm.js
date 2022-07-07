@@ -150,14 +150,17 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
     setLoading(true);
 
     axios
-      .post("http://localhost:3001/api/register/addNewOnlineStudent", {
-        scholarShipInfo: contactForm,
-        studentModel: initialStudent,
-        courseApplied,
-        levelApplied,
-        courseFee,
-        referenceCode,
-      })
+      .post(
+        "https://study-online.herokuapp.com/api/register/addNewOnlineStudent",
+        {
+          scholarShipInfo: contactForm,
+          studentModel: initialStudent,
+          courseApplied,
+          levelApplied,
+          courseFee,
+          referenceCode,
+        }
+      )
       .then((response) => {
         const { result, error } = response.data;
 

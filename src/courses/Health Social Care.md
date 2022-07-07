@@ -1,5 +1,5 @@
 ---
-courseName: Health & Social Care
+courseName: Health and Social Care
 courseCategory: Level 4-5
 featuredImage: ../images/health-and-social-care.jpg
 fee: 5900

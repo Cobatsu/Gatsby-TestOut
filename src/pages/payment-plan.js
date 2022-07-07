@@ -78,10 +78,13 @@ const PaymentPlan = () => {
       setLoading(true);
 
       axios
-        .post("http://localhost:3000/api/register/setPaymentPlan/", {
-          token,
-          selectedPaymentPlan,
-        })
+        .post(
+          "https://study-online.herokuapp.com/api/register/setPaymentPlan/",
+          {
+            token,
+            selectedPaymentPlan,
+          }
+        )
         .then(({ data }) => {
           setLoading(false);
           setResponse(data.status);
@@ -109,9 +112,12 @@ const PaymentPlan = () => {
 
   React.useEffect(() => {
     axios
-      .post("http://localhost:3000/api/register/external_url_student", {
-        token,
-      })
+      .post(
+        "https://study-online.herokuapp.com/api/register/external_url_student",
+        {
+          token,
+        }
+      )
       .then(({ data }) => {
         setStudent(data.student);
         setLoading(false);

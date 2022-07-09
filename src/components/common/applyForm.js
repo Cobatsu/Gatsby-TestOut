@@ -134,7 +134,7 @@ const initialStudent = {
   desired_university_studies: "Mathematics IGCSE",
 };
 
-const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
+const RefferenceNumber = ({ courseApplied, levelApplied }) => {
   const [contactForm, setContactForm] = useState(initialState);
   const [responseResult, setResponseResult] = useState("");
   const [loading, setLoading] = useState(false);
@@ -157,7 +157,6 @@ const RefferenceNumber = ({ courseApplied, levelApplied, courseFee }) => {
           studentModel: initialStudent,
           courseApplied,
           levelApplied,
-          courseFee,
           referenceCode,
         }
       )

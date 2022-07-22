@@ -15,6 +15,15 @@ const ErrorCapsule = styleds.div`
  color: white;
 `;
 
+const requestUrlPayment = [
+  "http://localhost:3001/api/register/setPaymentPlan",
+  "https://study-online.herokuapp.com/api/register/setPaymentPlan/",
+];
+const requestUrlUser = [
+  "http://localhost:3001/api/register/external_url_student",
+  "https://study-online.herokuapp.com/api/register/external_url_student/",
+];
+
 const PaymentPlan = () => {
   var [token, setToken] = useQueryParam("token", StringParam);
   var [loading, setLoading] = React.useState(true);
@@ -78,13 +87,10 @@ const PaymentPlan = () => {
       setLoading(true);
 
       axios
-        .post(
-          "https://study-online.herokuapp.com/api/register/setPaymentPlan/",
-          {
-            token,
-            selectedPaymentPlan,
-          }
-        )
+        .post(requestUrlPayment[1], {
+          token,
+          selectedPaymentPlan,
+        })
         .then(({ data }) => {
           setLoading(false);
           setResponse(data.status);
@@ -112,12 +118,9 @@ const PaymentPlan = () => {
 
   React.useEffect(() => {
     axios
-      .post(
-        "https://study-online.herokuapp.com/api/register/external_url_student",
-        {
-          token,
-        }
-      )
+      .post(requestUrlUser[1], {
+        token,
+      })
       .then(({ data }) => {
         setStudent(data.student);
         setLoading(false);

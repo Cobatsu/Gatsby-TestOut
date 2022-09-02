@@ -4,7 +4,6 @@ import Layout from "../components/layoutelements/layout";
 import * as styles from "../../styles/pages/home.module.css";
 import { navigate } from "gatsby";
 
-
 function usePrevious(value) {
   const ref = React.useRef();
   React.useEffect(() => {
@@ -23,9 +22,9 @@ const banners = [
     <div className={styles.layer}>
       <div className={styles.logo_holder}>
         {" "}
-        <img src='/athe-logo.png' style={{ height: "4rem" }}></img>
-        <img src='/othm-logo.png' style={{ height: "4rem" }}></img>
-        <img src='/qualifi-logo.png' style={{ height: "4rem" }}></img>
+        <img src="/athe-logo.png" style={{ height: "4rem" }}></img>
+        <img src="/othm-logo.png" style={{ height: "4rem" }}></img>
+        <img src="/qualifi-logo.png" style={{ height: "4rem" }}></img>
       </div>
     </div>
   </div>,
@@ -59,9 +58,9 @@ const banners = [
       </span>
       <div className={styles.logo_holder}>
         {" "}
-        <img src='/athe-logo.png' style={{ height: "4rem" }}></img>
-        <img src='/othm-logo.png' style={{ height: "4rem" }}></img>
-        <img src='/qualifi-logo.png' style={{ height: "4rem" }}></img>
+        <img src="/athe-logo.png" style={{ height: "4rem" }}></img>
+        <img src="/othm-logo.png" style={{ height: "4rem" }}></img>
+        <img src="/qualifi-logo.png" style={{ height: "4rem" }}></img>
       </div>
     </div>
   </div>,
@@ -90,15 +89,15 @@ const banners = [
     <div className={styles.layer}>
       <div className={styles.logo_holder}>
         {" "}
-        <img src='/athe-logo.png' style={{ height: "4rem" }}></img>
-        <img src='/othm-logo.png' style={{ height: "4rem" }}></img>
-        <img src='/qualifi-logo.png' style={{ height: "4rem" }}></img>
+        <img src="/athe-logo.png" style={{ height: "4rem" }}></img>
+        <img src="/othm-logo.png" style={{ height: "4rem" }}></img>
+        <img src="/qualifi-logo.png" style={{ height: "4rem" }}></img>
       </div>
     </div>
   </div>,
 ];
 
-const Home = props => {
+const Home = (props) => {
   //  const [slideNumber, setSlideNumber] = React.useState(0);
   //  const prevSlideNumber = usePrevious(slideNumber);
 
@@ -109,10 +108,8 @@ const Home = props => {
   //   return () => clearInterval(sliderInterval); //clears interval before every useEffect func call
   //  }, [slideNumber]);
 
-
-
   return (
-    <Layout title='Richmond College'>
+    <Layout title="Richmond College">
       <div className={styles.main_wrapper}>
         {/* <div className={styles.banner_holder}>
      {" "}
@@ -174,13 +171,14 @@ const Home = props => {
                   Get Your Degree From The UK
                 </span>
                 <span style={{ fontSize: "0.99rem", lineHeight: "1.7rem" }}>
-                  Richmond College offers students a cost-effective opportunity to achieve an undergraduate or
-                  postgraduate degree from one of the UK's most prestigious institutions.
+                  Richmond College offers students a cost-effective opportunity
+                  to achieve an undergraduate or postgraduate degree from one of
+                  the UK's most prestigious institutions.
                 </span>
               </div>
               <button className={styles.classic_button}>Apply Now</button>
             </div>
-            <img src='./Courses Section 1.png' style={{ width: "45%" }} />
+            <img src="./Courses Section 1.png" style={{ width: "45%" }} />
           </div>
         </div>
 
@@ -188,54 +186,68 @@ const Home = props => {
           <div className={styles.mid_body + " " + styles.wrap}>
             <div style={{ width: "40%", marginBottom: 50 }}>
               <div style={{ marginBottom: 16, fontSize: "1.2rem" }}>
-                <i style={{ fontSize: "1.8rem" }} className='fas fa-graduation-cap'></i>
+                <i
+                  style={{ fontSize: "1.8rem" }}
+                  className="fas fa-graduation-cap"
+                ></i>
                 <span style={{ marginLeft: 16, fontWeight: 600 }}>
                   UK Certified Diploma
                 </span>
               </div>
 
               <span style={{ lineHeight: 1.6 }}>
-                Get the best education in your field, and get your UK-certified diploma
-                upon completing your course schedule successfully.
+                Get the best education in your field, and get your UK-certified
+                diploma upon completing your course schedule successfully.
               </span>
             </div>
 
             <div style={{ width: "40%", marginBottom: 50 }}>
               <div style={{ marginBottom: 16, fontSize: "1.2rem" }}>
-                <i style={{ fontSize: "1.8rem" }} className='fas fa-globe'></i>
+                <i style={{ fontSize: "1.8rem" }} className="fas fa-globe"></i>
                 <span style={{ marginLeft: 16, fontWeight: 600 }}>
                   Full Online Access
                 </span>
               </div>
 
               <span style={{ lineHeight: 1.6 }}>
-                We adopt the technology to fulfill your needs. You can access your
-                lectures fully online from anywhere you want.
+                We adopt the technology to fulfill your needs. You can access
+                your lectures fully online from anywhere you want.
               </span>
             </div>
 
             <div style={{ width: "40%", marginBottom: 50 }}>
               <div style={{ marginBottom: 16, fontSize: "1.2rem" }}>
-                <i style={{ fontSize: "1.8rem" }} className='far fa-play-circle'></i>
-                <span style={{ marginLeft: 16, fontWeight: 600 }}>Video Lectures</span>
+                <i
+                  style={{ fontSize: "1.8rem" }}
+                  className="far fa-play-circle"
+                ></i>
+                <span style={{ marginLeft: 16, fontWeight: 600 }}>
+                  Video Lectures
+                </span>
               </div>
 
               <span style={{ lineHeight: 1.6 }}>
-                All the lectures are pre-recorded and fully available to you. You can
-                watch them at your own pace, and you can rewind without missing
-                anything.
+                All the lectures are pre-recorded and fully available to you.
+                You can watch them at your own pace, and you can rewind without
+                missing anything.
               </span>
             </div>
 
             <div style={{ width: "40%", marginBottom: 50 }}>
               <div style={{ marginBottom: 16, fontSize: "1.2rem" }}>
-                <i style={{ fontSize: "1.8rem" }} className='fas fa-question'></i>
-                <span style={{ marginLeft: 16, fontWeight: 600 }}>Get Support</span>
+                <i
+                  style={{ fontSize: "1.8rem" }}
+                  className="fas fa-question"
+                ></i>
+                <span style={{ marginLeft: 16, fontWeight: 600 }}>
+                  Get Support
+                </span>
               </div>
 
               <span style={{ lineHeight: 1.6 }}>
-                Univerisity path is a journey that you go through, and we will be with
-                you on your journey to support and assist you at all times.
+                Univerisity path is a journey that you go through, and we will
+                be with you on your journey to support and assist you at all
+                times.
               </span>
             </div>
           </div>
@@ -258,20 +270,25 @@ const Home = props => {
                   marginBottom: "1.2rem",
                 }}
               >
-                Learn About <span style={{ fontWeight: 600 }}>Richmond College</span>
+                Learn About{" "}
+                <span style={{ fontWeight: 600 }}>Richmond College</span>
                 <br />
-                <span style={{ textDecoration: "underline", fontSize: "1.1rem" }}>
+                <span
+                  style={{ textDecoration: "underline", fontSize: "1.1rem" }}
+                >
                   Your Access to The Best Education{" "}
                 </span>
               </div>
               <span style={{ lineHeight: 1.6 }}>
-                Diploma that you receive from Richmond College is provided by the
-                awarding institution recognized by The Office of Qualifications and
-                Examinations Regulation(Ofqual) department. According to the course path
-                you select, you can complete a full degree, or complete first and second
-                years of undergraduate/bachelor degree through Online Richmond College
-                education path, which after successful completion of the course you can
-                transfer your credit hours to 100+ Universities in the UK.
+                Diploma that you receive from Richmond College is provided by
+                the awarding institution recognized by The Office of
+                Qualifications and Examinations Regulation(Ofqual) department.
+                According to the course path you select, you can complete a full
+                degree, or complete first and second years of
+                undergraduate/bachelor degree through Online Richmond College
+                education path, which after successful completion of the course
+                you can transfer your credit hours to 100+ Universities in the
+                UK.
               </span>
             </div>
 
@@ -282,7 +299,10 @@ const Home = props => {
               }}
               className={styles.wrap}
             >
-              <img src='./Certification-cuate 1.png' style={{ height: "30rem" }}></img>
+              <img
+                src="./Certification-cuate 1.png"
+                style={{ height: "30rem" }}
+              ></img>
               <div>
                 <div
                   style={{
@@ -291,22 +311,27 @@ const Home = props => {
                   }}
                 >
                   <span style={{ fontWeight: 600 }}>Undergraduate</span> and{" "}
-                  <span style={{ fontWeight: 600 }}>Graduate Degree Programs</span>
+                  <span style={{ fontWeight: 600 }}>
+                    Graduate Degree Programs
+                  </span>
                   <br />
                   in Richmond College <br />
-                  <span style={{ textDecoration: "underline", fontSize: "1.1rem" }}>
+                  <span
+                    style={{ textDecoration: "underline", fontSize: "1.1rem" }}
+                  >
                     Type of Diploma You Will Recieve
                   </span>
                 </div>
                 <div style={{ lineHeight: 1.6, textAlign: "justify" }}>
-                  The 100% online Undergraduate and Postgraduate Diploma courses at
-                  Richmond College provide students an affordable pathway to earning an
-                  undergraduate or postgraduate degree from a choice of respected UK
-                  universities. Whether you pursue a qualification in Hotel and
-                  Hospitality, Computing, or Business Management, the courses offered
-                  through Richmond College will allow you the option to continue your
-                  education and pursue a top up to an undergraduate degree or MBA through
-                  one of our partner universities
+                  The 100% online Undergraduate and Postgraduate Diploma courses
+                  at Richmond College provide students an affordable pathway to
+                  earning an undergraduate or postgraduate degree from a choice
+                  of respected UK universities. Whether you pursue a
+                  qualification in Hotel and Hospitality, Computing, or Business
+                  Management, the courses offered through Richmond College will
+                  allow you the option to continue your education and pursue a
+                  top up to an undergraduate degree or MBA through one of our
+                  partner universities
                 </div>
               </div>
             </div>
@@ -314,9 +339,17 @@ const Home = props => {
         </div>
         <div className={styles.where_to_start_outer}>
           <div className={styles.where_to_start_inner + " " + styles.wrap}>
-            <div style={{ display: "flex", flexDirection: "column", width: "50%" }}>
+            <div
+              style={{ display: "flex", flexDirection: "column", width: "50%" }}
+            >
               {" "}
-              <span style={{ fontSize: "1.8rem", fontWeight: 600, marginBottom: 10 }}>
+              <span
+                style={{
+                  fontSize: "1.8rem",
+                  fontWeight: 600,
+                  marginBottom: 10,
+                }}
+              >
                 Where to Start ?
               </span>
               <span
@@ -330,15 +363,16 @@ const Home = props => {
                 Your Roadmap to Diploma
               </span>
               <span style={{ lineHeight: 1.6 }}>
-                Level 3 courses are the starting point for your Undergraduate/Bachelor's
-                Degree education. Your journey should start from a level 3 course if you
-                are starting your university education. If you have previously taken
-                classes from a UK university equivalent course, you should look for
-                courses from levels 4, 5, and 6.
+                Level 3 courses are the starting point for your
+                Undergraduate/Bachelor's Degree education. Your journey should
+                start from a level 3 course if you are starting your university
+                education. If you have previously taken classes from a UK
+                university equivalent course, you should look for courses from
+                levels 4, 5, and 6.
               </span>
             </div>
 
-            <img src='./On the way-cuate 1.png' style={{ width: "25rem" }} />
+            <img src="./On the way-cuate 1.png" style={{ width: "25rem" }} />
           </div>
         </div>
         {/* 
@@ -380,18 +414,21 @@ const Home = props => {
         <div className={styles.courses_wrapper + " " + styles.top_border}>
           <div className={styles.course}>
             <div className={styles.course_inner}>
-              <span style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}>
+              <span
+                style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}
+              >
                 Level 3
               </span>
               <span style={{ textDecoration: "underline", marginBottom: 30 }}>
                 Pre-University Module
               </span>
               <span style={{ lineHeight: 1.6, marginBottom: 30 }}>
-                A Level-3 course can be of 60 or 120 UK University credits, equivalent
-                to an A level in the UK. In general, the courses are made up of 6
-                modules and 6 written assignments (which might show variance in each
-                course). These courses provide entry onto the first year of the
-                Undergraduate Degree course or a Level 4 course.
+                A Level-3 course can be of 60 or 120 UK University credits,
+                equivalent to an A level in the UK. In general, the courses are
+                made up of 6 modules and 6 written assignments (which might show
+                variance in each course). These courses provide entry onto the
+                first year of the Undergraduate Degree course or a Level 4
+                course.
               </span>
               <button
                 onClick={() => {
@@ -404,8 +441,13 @@ const Home = props => {
             </div>
 
             <div className={styles.course_background_image}>
-              <img src='./Vector.png' style={{ position: "absolute", width: "13rem" }} />
-              <span style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}>
+              <img
+                src="./Vector.png"
+                style={{ position: "absolute", width: "13rem" }}
+              />
+              <span
+                style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}
+              >
                 0%
               </span>
             </div>
@@ -415,7 +457,9 @@ const Home = props => {
         <div className={styles.courses_wrapper + " " + styles.top_border}>
           <div className={styles.course}>
             <div className={styles.course_inner}>
-              <span style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}>
+              <span
+                style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}
+              >
                 Level 4
               </span>
               <span style={{ textDecoration: "underline", marginBottom: 30 }}>
@@ -423,9 +467,9 @@ const Home = props => {
               </span>
               <span style={{ lineHeight: 1.6, marginBottom: 30 }}>
                 Level 4 course is the equivalent to the first year of an
-                Undergraduate/Bachelor’s Degree programme in the UK. The Level 4 course
-                is made up of 10 modules and 8 assignments, which is equivalent to 120
-                university credits.
+                Undergraduate/Bachelor’s Degree programme in the UK. The Level 4
+                course is made up of 10 modules and 8 assignments, which is
+                equivalent to 120 university credits.
               </span>
               <button
                 onClick={() => {
@@ -439,10 +483,12 @@ const Home = props => {
 
             <div className={styles.course_background_image}>
               <img
-                src='./Vector35.png'
+                src="./Vector35.png"
                 style={{ position: "absolute", width: "13rem" }}
               />
-              <span style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}>
+              <span
+                style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}
+              >
                 35%
               </span>
             </div>
@@ -452,7 +498,9 @@ const Home = props => {
         <div className={styles.courses_wrapper + " " + styles.top_border}>
           <div className={styles.course}>
             <div className={styles.course_inner}>
-              <span style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}>
+              <span
+                style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}
+              >
                 Level 5
               </span>
               <span style={{ textDecoration: "underline", marginBottom: 30 }}>
@@ -461,9 +509,9 @@ const Home = props => {
               <span style={{ lineHeight: 1.6, marginBottom: 30 }}>
                 Level 5 is the equivalent to the second year of an
                 Undergraduate/Bachelor’s Degree programme in the UK. It is also
-                equivalent to a Higher National Diploma (HND). The Level 5 course
-                conspires 10 modules and 8 assignments, which provides the student with
-                120 university credits upon completion.
+                equivalent to a Higher National Diploma (HND). The Level 5
+                course conspires 10 modules and 8 assignments, which provides
+                the student with 120 university credits upon completion.
               </span>
               <button
                 onClick={() => {
@@ -477,10 +525,12 @@ const Home = props => {
 
             <div className={styles.course_background_image}>
               <img
-                src='./Vector70.png'
+                src="./Vector70.png"
                 style={{ position: "absolute", width: "13rem" }}
               />
-              <span style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}>
+              <span
+                style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}
+              >
                 70%
               </span>
             </div>
@@ -490,7 +540,9 @@ const Home = props => {
         <div className={styles.courses_wrapper + " " + styles.top_border}>
           <div className={styles.course}>
             <div className={styles.course_inner}>
-              <span style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}>
+              <span
+                style={{ fontSize: "2rem", fontWeight: 600, marginBottom: 10 }}
+              >
                 Level 6
               </span>
               <span style={{ textDecoration: "underline", marginBottom: 30 }}>
@@ -498,11 +550,11 @@ const Home = props => {
               </span>
               <span style={{ lineHeight: 1.6, marginBottom: 30 }}>
                 Level 6 is the equivalent to the final year of an
-                Undergraduate/Bachelor’s Degree programme in the UK. Upon completion of
-                a Level 6 course, you will be eligible for admission onto a Postgraduate
-                Business programme, including an MBA course. The level 6 course is made
-                up of 10 modules and 6 written assignments, equivalent to 120 university
-                credits.
+                Undergraduate/Bachelor’s Degree programme in the UK. Upon
+                completion of a Level 6 course, you will be eligible for
+                admission onto a Postgraduate Business programme, including an
+                MBA course. The level 6 course is made up of 10 modules and 6
+                written assignments, equivalent to 120 university credits.
               </span>
               <button
                 onClick={() => {
@@ -516,11 +568,13 @@ const Home = props => {
 
             <div className={styles.course_background_image}>
               <img
-                src='./Vector100.png'
+                src="./Vector100.png"
                 style={{ position: "absolute", width: "13rem" }}
               />
-              <span style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}>
-                <i class='fas fa-graduation-cap'></i>
+              <span
+                style={{ color: "#191970", fontSize: "2rem", fontWeight: 600 }}
+              >
+                <i class="fas fa-graduation-cap"></i>
               </span>
             </div>
           </div>
@@ -539,20 +593,18 @@ const Home = props => {
             }}
             className={styles.home_credentials}
           >
-            <img src='/Athe.png' />
-            <img src='/Qualifi (1).png' />
-            <img src='/Chamber (1).png' />
-            <img src='/Ersa (1).png' />
-            <img src='/Cyber (1).png' />
-            <img src='/ID (1).png' />
-            <img src='/Institution Hospitality (1).png' />
+            {/* <img src='/Athe.png' />
+            <img src='/Qualifi (1).png' /> */}
+            <img src="/Chamber (1).png" />
+            <img src="/Ersa (1).png" />
+            <img src="/Cyber (1).png" />
+            <img src="/ID (1).png" />
+            <img src="/Institution Hospitality (1).png" />
           </div>
         </div>
       </div>
     </Layout>
   );
 };
-
-
 
 export default Home;

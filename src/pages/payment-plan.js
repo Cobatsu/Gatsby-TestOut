@@ -256,7 +256,7 @@ const PaymentPlan = () => {
                   {paymentPlan_1.map((item, i) => {
                     return (
                       <li
-                        key={item.amount}
+                        key={i}
                         style={{
                           display: "flex",
                           justifyContent: "space-between",

@@ -7,7 +7,7 @@
  background-color: #FBFBFB;
  position: fixed;
  z-index: 1000;
- padding:0 0 20px 0;
+ padding:0 0 35px 0;
 
 }
 .contact_buttons {
@@ -18,7 +18,7 @@
  padding: 5px 14px;
  position: relative;
  background-color: #191970;
- margin-bottom: 30px;
+ margin-bottom: 20px;
  width: 82%;
  border-radius: 0 0 5px 5px ;
 }

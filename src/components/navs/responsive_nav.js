@@ -122,7 +122,7 @@ const ResponsiveNav = ({ subMenu }) => {
           onClick={() => {
             navigate("/");
           }}
-          src="/Frame 1 (8).png"
+          src="/Frame1.png"
           style={{
             width: "220px",
           }}

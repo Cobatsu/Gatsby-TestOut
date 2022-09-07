@@ -4,100 +4,100 @@ import { Link, navigate } from "gatsby";
 import * as styles from "../../../styles/layout-style/header.module.css";
 
 const NavWrapper = styled.div`
- display: flex;
- background: #ffff;
- width: 100%;
- justify-content: space-between;
- align-items: center;
- min-height: 45px;
- position: fixed;
- z-index: 2;
- top: 0;
- left: 0;
+  display: flex;
+  background: #ffff;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
 `;
 
 const Holder = styled.div`
- min-height: 53px;
+  min-height: 50px;
 `;
 
 const SideBarWrapper = styled.div`
- height: ${({ sideBarStatus }) => (sideBarStatus ? "100%" : "0")};
- width: 100%;
- background: white;
- transition: 400ms;
- background: white;
- position: fixed;
- z-index: 999999999999;
- top: 45.4px;
- overflow: hidden;
- left: 0;
+  height: ${({ sideBarStatus }) => (sideBarStatus ? "100%" : "0")};
+  width: 100%;
+  background: white;
+  transition: 400ms;
+  background: white;
+  position: fixed;
+  z-index: 999999999999;
+  top: 69.4px;
+  overflow: hidden;
+  left: 0;
 `;
 const LinkContainer = styled.div`
- padding: 8px 3px 0 3px;
- height: 93%;
- width: 100%;
- overflow: scroll;
+  padding: 8px 3px 0 3px;
+  height: 93%;
+  width: 100%;
+  overflow: scroll;
 `;
 
 const SideBarElement = styled.div`
- transition: 200ms;
- display: flex;
- padding: 10px;
- justify-content: space-between;
- background: ${({ selected, staticProp }) =>
+  transition: 200ms;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background: ${({ selected, staticProp }) =>
     selected && !staticProp ? "#2b2b2b" : "none"};
- color: ${({ selected }) => (selected ? "white" : "#2b2b2b")};
- font-weight: 600;
- font-size: 13px;
+  color: ${({ selected }) => (selected ? "white" : "#2b2b2b")};
+  font-weight: 600;
+  font-size: 13px;
 `;
 
 const SideBarMenuIconWrapper = styled.div`
- display: flex;
- align-items: center;
- font-size: 25px;
- justify-content: center;
- flex: 0.5;
- background: #ffff;
- max-width: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  justify-content: center;
+  flex: 0.5;
+  background: #ffff;
+  max-width: 50px;
 `;
 
 const ItemProfile = styled.div`
- display: flex;
- flex: 0.6;
- max-width: 120px;
- position: relative;
- background-color: #f7f7f7;
+  display: flex;
+  flex: 0.6;
+  max-width: 120px;
+  position: relative;
+  background-color: #f7f7f7;
 `;
 
 const InnerGeneralWrapper = styled.div`
- width: 100%;
- margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 10px;
 `;
 //-------------------------
 
 const SubLinks = styled.ul`
- height: ${({ selected, factor }) => (selected ? factor * 38 + "px" : "0")};
- transition: 300ms;
- background: #2b2b2b;
- margin-botttom: 5px;
- overflow: hidden;
- margin: 0;
- padding: 0;
+  height: ${({ selected, factor }) => (selected ? factor * 38 + "px" : "0")};
+  transition: 300ms;
+  background: #2b2b2b;
+  margin-botttom: 5px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 `;
 
 const SubLinkItem = styled.li`
- &:hover a {
-  background: #fec618;
- }
+  &:hover a {
+    background: #fec618;
+  }
 `;
 const IconDropDown = styled.span``;
 //-----------------------
 
 const InnerItemText = styled.span`
- font-size: 15px;
- margin-right: 4px;
- text-align: center;
- text-transform: capitalize;
+  font-size: 15px;
+  margin-right: 4px;
+  text-align: center;
+  text-transform: capitalize;
 `;
 
 const ResponsiveNav = ({ subMenu }) => {
@@ -113,18 +113,18 @@ const ResponsiveNav = ({ subMenu }) => {
 
       <NavWrapper>
         <SideBarMenuIconWrapper
-          onClick={() => setSideBarStatus(prevState => !prevState)}
+          onClick={() => setSideBarStatus((prevState) => !prevState)}
         >
-          <i style={{ color: "#FEC618" }} className='fas fa-bars'></i>
+          <i style={{ color: "#FEC618" }} className="fas fa-bars"></i>
         </SideBarMenuIconWrapper>
 
         <img
           onClick={() => {
             navigate("/");
           }}
-          src='/richmond_logo.jpg'
+          src="/Frame 1 (8).png"
           style={{
-            width: "95px",
+            width: "220px",
           }}
         ></img>
         <div
@@ -132,12 +132,12 @@ const ResponsiveNav = ({ subMenu }) => {
           style={{ padding: 0, marginRight: 8 }}
         >
           <Link
-            to='/contact-us'
+            to="/contact-us"
             className={styles.linkHref}
             style={{ color: "#464660", padding: "7px 9px" }}
           >
             <span style={{ marginRight: 6, fontSize: 11 }}>Contact Us</span>
-            <i class='fas fa-paper-plane'></i>
+            <i class="fas fa-paper-plane"></i>
           </Link>
         </div>
       </NavWrapper>
@@ -154,10 +154,10 @@ const ResponsiveNav = ({ subMenu }) => {
 const SideBar = ({ sideBarStatus, subMenu, setSideBarStatus }) => {
   const [subLinks, setSubLinks] = useState([]);
 
-  const onClickSubLink = index => {
+  const onClickSubLink = (index) => {
     subLinks.includes(index)
-      ? setSubLinks(prevState => prevState.filter(item => item !== index))
-      : setSubLinks(prevState => prevState.concat(index));
+      ? setSubLinks((prevState) => prevState.filter((item) => item !== index))
+      : setSubLinks((prevState) => prevState.concat(index));
   };
 
   useEffect(() => {
@@ -186,19 +186,19 @@ const SideBar = ({ sideBarStatus, subMenu, setSideBarStatus }) => {
                     style={
                       !item.static
                         ? {
-                          width: "100%",
-                          height: "100%",
-                          textDecoration: "none",
-                          padding: 10,
-                        }
+                            width: "100%",
+                            height: "100%",
+                            textDecoration: "none",
+                            padding: 10,
+                          }
                         : {
-                          background: "rgb(251, 201, 51)",
-                          color: "#191970",
-                          textDecoration: "none",
-                          padding: 10,
-                          marginLeft: 10,
-                          borderRadius: 5,
-                        }
+                            background: "rgb(251, 201, 51)",
+                            color: "#191970",
+                            textDecoration: "none",
+                            padding: 10,
+                            marginLeft: 10,
+                            borderRadius: 5,
+                          }
                     }
                     to={item.link}
                   >
@@ -216,7 +216,7 @@ const SideBar = ({ sideBarStatus, subMenu, setSideBarStatus }) => {
                           : "rotate(-90deg)",
                         transition: "300ms",
                       }}
-                      className='fas fa-caret-down'
+                      className="fas fa-caret-down"
                     ></i>{" "}
                   </IconDropDown>
                 )}

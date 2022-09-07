@@ -60,7 +60,7 @@ const None_Responsive_Nav = ({ subMenu }) => (
               background: "#FBFBFB",
             }}
           ></img>
-          <span
+          {/* <span
             style={{
               alignSelf: "end",
               position: "absolute",
@@ -72,9 +72,8 @@ const None_Responsive_Nav = ({ subMenu }) => (
             }}
           >
             Advanced Education
-          </span>
+          </span> */}
         </div>{" "}
-        n
         <ul className={styles.links}>
           {subMenu.map((item) => {
             return !item.props ? (

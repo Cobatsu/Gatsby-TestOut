@@ -53,7 +53,7 @@ const None_Responsive_Nav = ({ subMenu }) => (
             onClick={() => {
               navigate("/");
             }}
-            src="/New Logo.png"
+            src="/Frame 1 (8).png"
             style={{
               marginRight: 50,
               width: "22rem",
@@ -73,8 +73,8 @@ const None_Responsive_Nav = ({ subMenu }) => (
           >
             Advanced Education
           </span>
-        </div>
-
+        </div>{" "}
+        n
         <ul className={styles.links}>
           {subMenu.map((item) => {
             return !item.props ? (

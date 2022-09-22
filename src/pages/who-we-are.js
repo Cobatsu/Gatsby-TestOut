@@ -42,7 +42,7 @@ const whoWeAre = () => {
             </span>
           </div>
         </div>
-        <div style={{ width: "73%" }}>
+        {/* <div style={{ width: "73%" }}>
           <h2 style={{ marginBottom: 80, fontSize: "2rem", color: "#191970" }}>
             Our Team
           </h2>
@@ -80,7 +80,7 @@ const whoWeAre = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

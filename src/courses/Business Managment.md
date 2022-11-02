@@ -3,6 +3,7 @@ courseName: Business Management (120 Credits)
 courseCategory: Level 3
 subTitle: Level 3 (120 Credits) Course - £4600
 fee: 7500
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 university_progression_details: "
 On completion of this course students will have the opportunity to apply for admission onto a full BA Degree programme from a range of UK universities. Alternatively students can opt to study our Level 4/5 Extended Diploma in Management and then go on to complete a BA Top Up at a range of UK universities.<br/><br/>
@@ -42,6 +43,7 @@ Good communication is essential in any organisation in order to pass information
 
 
 ---
+
 The Level 3 University Foundation Programme is a 120 credit qualification (equivalent to two A levels) that helps students learn key concepts and a range of management procedures required to work within a business. It has been specifically developed to provide the knowledge required for students to work effectively, both as individuals and in teams within business. Being able to develop good business management skills is crucial for any company.<br/><br/>
 
 The Level 3 Diploma Business Management is made up of 6 modules and 6 written assignments; each module consists of approximately 40 guided learning hours. While completing the Diploma, students will have access to various study resources, such as tutor support and webinars, a social learning forum, and additional materials to complete their graduate business course.<br/><br/>

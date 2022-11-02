@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 featuredImage: ../images/IT-and-compute.jpg
 fee: 5990
 doubleFee: 7650
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan),Middlesex University"
 university_progression_details: "If you decide to top up to a full Undergraduate Degree through an accredited UK university, the costs are as follows. Please note, the below costs are for distance learning/online only. You have the option of finishing on campus; costs will vary depending on which university you wish to complete your final year. <br/><br/>
 
@@ -73,6 +74,7 @@ This module is concerned with developing an understanding of the strategic role 
 <span ><strong>Ethical, legal and professional issues in IT</strong> </span><br/><br/>
 This module explores current issues in the IT sector and how these may impact on areas of security, confidentiality, privacy and the law."
 ---
+
 If you have the desire to turn your passion for computers into a career, the IT and Computing Diploma offered by Richmond College is definitely a course you should consider.
 <br/><br/>
 The Level 4 modules and assignments of this course are equivalent to the first year of a University Degree and the Level 5 modules and assignments are equivalent to the second year of a University Degree.

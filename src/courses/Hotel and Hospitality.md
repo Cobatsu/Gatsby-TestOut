@@ -5,6 +5,7 @@ featuredImage: ../images/hotel-and-hospitality.jpg
 subTitle: £4600 per level or £5600 for two levels together
 fee: 5900
 doubleFee: 7460
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 university_progression_details: "On completion of this course students have the opportunity to complete the third year of a degree programme (BA Top up)  from a range of UK universities. The Top up programme can be studied online or on campus.
 <br/><br/>
@@ -87,6 +88,7 @@ Students will understand the nature and impact of current and potential Contempo
 Students will understand how to create a business plan for a hotel or hospitality organisation. Students will learn where the business is positioned in the current market, measure the performance and suggest opportunities for growth.
 <br/><br/>"
 ---
+
 Prepare for an exciting career in the hospitality industry through the online Hotel Management course.
 <br/><br/>
 Students on our online Hospitality Management program will undertake a Level 4/5 240-credit course designed to prepare students with the skills needed to be a competent employee in the hospitality industry. During the Hotel Management course, students will have the ability to access tutor support and webinars, a social learning forum, and additional materials to complete their diploma. For more information on the support available to students, visit our Student Resources page.

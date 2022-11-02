@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 featuredImage: ../images/IT-and-webdesıgn.jpg
 fee: 6150
 doubleFee: 7590
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan),Middlesex University"
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: " <span style='font-size:15px;'><strong>Computer systems and software
@@ -55,6 +56,7 @@ This unit aims to provide learners with the knowledge and skills needed to use c
 <span style='font-size:15px;'><strong>Web Design</strong> </span><br/><br/>
 This unit aims to provide learners with the skills and knowledge of client side programming and how to create a dynamic web pages using JavaScript (JS) programming language and Adobe Dreamweaver. The unit covers the creation of dynamic web pages that use form validation, validate user input, process user input at client side, dynamic navigation menu and a web client application."
 ---
+
 If you have the desire to turn your passion for computers into a career, the IT and Web Development Diploma offered by Online Business School is definitely a course you should consider.
 <br/><br/>
 The Level 4 modules and assignments of this course are equivalent to the first year of a University Degree and the Level 5 modules and assignments are equivalent to the second year of a University Degree.

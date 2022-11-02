@@ -3,6 +3,7 @@ courseName: Business Management (60 Credits)
 courseCategory: Level 3
 featuredImage: ../images/business-managment1.jpg
 fee: 5980
+awardingbody: "othm"
 university_progression_details: "
 On completion of this course students will have the opportunity to apply for admission onto a full BA Degree programme from a range of UK universities. Alternatively students can opt to study our Level 4/5 Extended Diploma in Management and then go on to complete a BA Top Up at a range of UK universities.<br/><br/>
 
@@ -41,6 +42,7 @@ This module is about how an organisation recruits and selects staff. Learners wi
 <br/><br/>"
 
 ---
+
 The Level 3 University Foundation Programme is a 60 credit qualification (equivalent to one A level) that teaches students key concepts and a range of management procedures required to work within a business. The course has been specifically developed to provide students with the knowledge required to work effectively, both as individuals and in teams within a business. Being able to develop good business management skills is crucial for any company.
 <br/><br/>
 The Level 3 Diploma Business Management is made up of 6 modules and 6 written assignments; each module consists of approximately 40 guided learning hours. While completing the Diploma, students will have access to various study resources, such as tutor support and webinars, a social learning forum, and additional materials to complete their graduate business course.

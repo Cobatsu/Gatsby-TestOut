@@ -3,6 +3,7 @@ courseName: Mathematics IGCSE
 courseCategory: IGCSE
 featuredImage: ../images/mathematics-IGCSE.jpg
 subTitle: Mathematics IGCSE - £4600
+awardingbody: "othm"
 curriculum_1: "<span style='font-size:15px;'><strong>The Basics</strong></span> <br/><br/>
 This section covers a range of topics including whole numbers, fractions, decimals, percentages, ratio, algebraic expressions, equations & formulas, coordinates & midpoints, shapes and angles, area and perimeter, collecting data, averages & range, displaying data and introduction to probability.<br/><br/>
 <span style='font-size:15px;'><strong>Moving on (Foundation)</strong> </span> <br/><br/>
@@ -16,6 +17,7 @@ This module covers a range of topics including decimals and place values, workin
 <span style='font-size:15px;'><strong>Exam Preparation</strong> </span><br/><br/>
 This module prepares students for exams by providing exam papers for students to work through, including both Foundation and Higher Tier."
 ---
+
 Mathematics is integral to applications and equipment we rely on every day. From building computers to flying a plane or even providing much-needed healthcare practices. Mathematics is an indispensable skill for an extensive range of industries.
 <br/><br/>
 This course enables you to develop highly sought-after logical and analytical thought processes, problem-solving abilities and good computing techniques. It will give you the foundation to pursue careers in a wide range of fields including: finance, credit risk, business intelligence, actuarial science, teaching, and research.

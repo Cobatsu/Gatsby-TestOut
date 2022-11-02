@@ -3,6 +3,7 @@ courseName: Strategic Management MBA Advanced Entry
 courseCategory: Level 7
 featuredImage: ../images/business-strategic-managment.jpg
 fee: 5900
+awardingbody: "othm"
 subTitle: "Level 7 Course - £7000 (Progress onto the final stages of a University MBA)"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 university_progression_details: "
@@ -147,6 +148,7 @@ This module explores the different ideas of growth and the various tools, measur
 <br/><br/>"
 
 ---
+
 The Level 7 Extended Diploma in Strategic Management is an MBA Advanced Entry course, which provides learners with 120 credits of the 180 credits required to achieve a complete MBA. The course itself is made up of 30 interactive modules and 8 written assignments, with approximately 40 guided learning hours per module. All modules have an additional 30-50 learning hours of optional materials that comprise of recommended exercises, recommended readings, Internet resources, and self-testing exercises. You will also have access to 24/7 support, tutoring, and a variety of other support mechanisms.
 <br/><br/>
 After receiving your Level 7 Diploma, you are eligible to apply for an MBA top up course, either online or on campus at a range of UK Universities. The top up portion will usually consist of the final 60 credits of either a dissertation or a dissertation and one module.

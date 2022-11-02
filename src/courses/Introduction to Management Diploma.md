@@ -4,6 +4,7 @@ courseCategory: Level 3
 featuredImage: ../images/introduction-to-managment.jpg
 subTitle: Diploma (Level 3 - 60 credits) - £4600
 fee: 5850
+awardingbody: "othm"
 university_progression_details: "
 On completion of this course students will have the opportunity to apply for admission onto a full BA Degree programme from a range of UK universities. Alternatively students can opt to study our Level 4/5 Extended Diploma in Management and then go on to complete a BA Top Up at a range of UK universities.<br/><br/>
 
@@ -46,6 +47,7 @@ together.
 To understand that workforce welfare ensures that everybody employed within the organisation is valued and that there are benefits to be gained from being part of the organisation.
 "
 ---
+
 This Introduction to Management Level 3 University Foundation Programme is a 60 credit qualification (Equivalent to one A Level). It is aimed at students looking at gaining university entry or management experience to gain a promotion or widen their job prospects. It is particularly suited to practising team leaders seeking to move to the next level of management. It will also provide an entry level qualification for those who have studied Business related subjects at Level 2 or 3 and who wish to gain skills and competencies for employment in a management setting.
 <br/><br/>
 The diploma is designed to provide aspiring and existing junior managers with a broader knowledge of effective management skills while focusing on key management areas specific to the workplace. Leadership and management training is essential for business growth, particularly in high-tech, high-paced business environments that need to respond to a rapidly changing environment. The essential attributes of being able to communicate, inspire and lead are often lacking, which are seen crucial to achieving organisational success.

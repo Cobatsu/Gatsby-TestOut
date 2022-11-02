@@ -5,6 +5,7 @@ featuredImage: ../images/engineering.jpg
 subTitle: Diploma in Engineering - £4600
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 fee: 6150
+awardingbody: "othm"
 curriculum_1: " <span ><strong>Engineering Principles</strong></span> <br/><br/> Understand applications of SI units and measurement.<br/>
 Know how to perform engineering calculations.<br/>
 Know how to interpret engineering information. <br/><br/>
@@ -35,6 +36,7 @@ Understand exponentials, logarithms and trigonometry related to engineering prob
 Understand calculus relevant to engineering problems.
 "
 ---
+
 Do you want to pursue a career in Engineering? Engineering isn’t all about construction and building sites; it can lead to a career in the medical field or economics – it is a widely diverse profession to choose. Our Level 3 Foundation Diploma in Engineering allows learners to gain understanding and knowledge across a range of Engineering practices.
 <br/><br/>
 This qualification enables learners to develop essential knowledge in areas such as engineering principles, design technology, electricity, mechanics, statistics and mathematics.

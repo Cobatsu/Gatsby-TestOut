@@ -3,6 +3,7 @@ courseName: Business Management
 courseCategory: Level 4-5
 fee: 5960
 doubleFee: 7500
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 university_progression_details: "
 If you decide to top up to a full undergraduate degree through an accredited UK university, the costs are listed below. Please note, the below costs are for distance learning/online only. You have the option of finishing on campus, costs will vary depending on which university you chose to complete the final year at. <br/><br/>
@@ -136,6 +137,7 @@ Learners will analyse how markets, customers, competitors and products can come 
 On successful completion of this module, learners will have knowledge of numeric exercises and will understand their use within the context of the business.
 <br/><br/>"
 ---
+
 The Undergraduate Level 4/5 Extended Diploma in Management is a 240 credit course designed to fast track students to the final year of an associated Undergraduate degree in Business and Management, which can either be completed at a UK university on campus or via distance learning.
 <br/><br/>
 The Level 4 modules and assignments of this course are equivalent to the first year of a University Degree. The Level 5 modules and assignments are equivalent to the second year of a University Degree.

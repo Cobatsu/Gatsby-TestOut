@@ -3,6 +3,7 @@ courseName: People and Organisations (60 Credits)
 courseCategory: Level 3
 subTitle: People and Organisations - £4600
 fee: 5920
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 featuredImage: ../images/people-and-orgranization.jpg
 curriculum_1: "<span ><strong>Organisation Structures and their Culture and Values</strong></span> <br/><br/> 
@@ -46,7 +47,7 @@ curriculum_1: "<span ><strong>Organisation Structures and their Culture and Valu
 Do you want to gain essential leadership knowledge and skills needed to engage, motivate and manage a team? The Level 3 Foundation Diploma in People and Organisations has been designed to provide learners with a flexible, relevant course to gain knowledge and understanding about the structure, values and behaviours of organisations and the management of people.
 
 Successful completion of this qualification will equip learners with the underpinning knowledge and skills required to succeed in employment or further studies.
- <br/><br/>
+<br/><br/>
 The learners will: <br/><br/>
 
 • Develop a body of knowledge about people, organisations and employment in a range of sectors.

@@ -3,6 +3,7 @@ courseName: Physics IGCSE
 courseCategory: IGCSE
 featuredImage: ../images/physics-IGCSE.jpg
 subTitle: Physics IGCSE - £4600
+awardingbody: "othm"
 curriculum_1: "
 <span style='font-size:15px;'><strong>Force and motion</strong></span> <br/><br/>
 In every measurement that you make you need to measure in standard units. Over the millennia of measurement humanity has made use of a variety of means of measurement..<br/><br/>
@@ -28,6 +29,7 @@ The physics of forces and motion can also be applied to the bigger, and more unk
 <br/><br/>
 "
 ---
+
 The Physics IGCSE is an internationally recognised qualification designed to develop a solid understanding of physics formulae, ideas, and studies within different circumstances, such as different types of motion. The course is mapped against Pearsons Edexcel international IGCSE Physics. This IGCSE qualification is the same as you would study in school.
 <br/><br/>
 In this course, students will study the practical nature of physics as well as the theoretical, learning to form hypotheses and design experiments. In terms of scientific knowledge, they will learn to evaluate the benefits and drawbacks of scientific and technological developments.

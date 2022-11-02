@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 featuredImage: ../images/teamwork-and-leadership.jpg
 fee: 5900
 doubleFee: 7490
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 subTitle: £4600 per level or £5600 for two levels together
 curriculum_1: " <span style='font-size:15px;'><strong>Managing people in organisations
@@ -66,6 +67,7 @@ Learners will analyse how markets, customers, competitors and products can come 
 On successful completion of this module, learners will have knowledge of numeric exercises and will understand their use within the context of the business."
 
 ---
+
 The Undergraduate Level 4 (Leadership and Teamwork) and Level 5 (Extended Diploma in Management) are a 240 credit course designed to fast track students to the final year of an associated Undergraduate degree in Leadership and management, which can either be completed at a UK university on campus or via distance learning.
 <br/><br/>
 The Level 4 modules and assignments of this course are equivalent to the first year of a University Degree and the Level 5 modules and assignments are equivalent to the second year of a University Degree.

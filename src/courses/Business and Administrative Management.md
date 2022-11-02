@@ -3,6 +3,7 @@ courseName: Business and Administrative Management
 courseCategory: Level 6
 featuredImage: ../images/business-adminstirative-managment_.jpg
 subTitle: "Level 6 Course - £5600 (Progress onto a University MBA or a Level 7 course)"
+awardingbody: "othm"
 fee: 5650
 curriculum_1: "<span style='font-size:15px;'><strong>IT in business
 </strong></span> <br/><br/>
@@ -39,6 +40,7 @@ The words quality and excellence are used in a wide variety of contexts in organ
 
 "
 ---
+
 The Graduate Level 6 120 credit Diploma in Business and Administrative Management is made up of 10 modules and 6 written assignments; each module consists of approximately 40 guided learning hours. While completing the online Business Diploma, students will have access to various study resources, such as tutor support and webinars, a social learning forum, and additional materials to help in the completion of their graduate business course.
 <br/><br/>
 This course will be most suited to individuals who are at least 25 years old and have 5 years managerial work experience, and do not have a degree but wish to study for an MBA or Postgraduate Business programme. On successful completion of the course, students will be able to enrol onto our Level 7 Postgraduate Diploma in Strategic Management or a range of other postgraduate courses.

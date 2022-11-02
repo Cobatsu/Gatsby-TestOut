@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 featuredImage: ../images/Entrepreneurship-and-Management.jpg
 fee: 5900
 doubleFee: 7500
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 university_progression_details: "
 If you decide to top up to a full undergraduate degree through an accredited UK university, the costs are listed below. Please note, the below costs are for distance learning/online only. You have the option of finishing on campus, costs will vary depending on which university you chose to complete the final year at. <br/><br/>

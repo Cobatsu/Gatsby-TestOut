@@ -5,6 +5,7 @@ featuredImage: ../images/stemIT.jpg
 subTitle: Diploma In IT - £4600
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 fee: 5810
+awardingbody: "othm"
 curriculum_1: " <span style='font-size:15px;'><strong>Computer Systems</strong></span> <br/><br/>
 The module covers the basic English skills that you will need in order to complete the rest of the course successfully. There are no specific questions on spelling and punctuation in the examination, but you will be expected to punctuate and spell correctly, as well as write good, grammatical English<br/><br/>
 <span style='font-size:15px;'><strong>Coding and Website Development</strong> </span> <br/><br/>

@@ -6,6 +6,7 @@ subTitle: £4600 per level or £5600 for two levels together
 fee: 5990
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan),Middlesex University"
 doubleFee: 7580
+awardingbody: "othm"
 curriculum_1: " <span ><strong>Computer systems and software
 </strong></span> <br/><br/>
 This module will develop learners’ understanding of the integration of hardware and software components.<br/><br/>
@@ -60,6 +61,7 @@ This unit aims to provide the knowledge and skills needed to enable learners to 
 covers hierarchical network design; gathering network requirements; identifying network
 performance issues."
 ---
+
 If you have the desire to turn your passion for computers into a career, the IT and Networking Diploma offered by Richmond College is definitely a course you should consider.
 <br/><br/>
 The Level 4 modules and assignments of this course are equivalent to the first year of a University Degree and the Level 5 modules and assignments are equivalent to the second year of a University Degree.

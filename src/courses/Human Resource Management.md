@@ -4,6 +4,7 @@ courseCategory: Level 4-5
 featuredImage: ../images/human-resources.jpg
 fee: 5980
 doubleFee: 7550
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 university_progression_details: "
 If you decide to top up to a full undergraduate degree through an accredited UK university, the costs are listed below. Please note, the below costs are for distance learning/online only. You have the option of finishing on campus, costs will vary depending on which university you chose to complete the final year at. <br/><br/>
@@ -134,6 +135,7 @@ On successful completion of this module, learners will have knowledge of numeric
 <br/><br/>
 "
 ---
+
 The Level 4 Diploma in Human Resource Management and the Level 5 Extended Diploma in Management are a 240 credit course designed to provide learners with the skills needed to succeed in management, focusing on Human Resources within medium to large businesses. These are valuable skills to have and can be used to open up opportunities at a huge variety of employers – from healthcare to hospitality, banking to broadcasting. This course can be your way of preparing for a career at any number of organisations.
 <br/><br/>
 The Level 4 and 5 Human Resource Management course is equivalent to the first two years of an undergraduate course, allowing learners to progress onto the final year of an undergraduate degree programme at a University.

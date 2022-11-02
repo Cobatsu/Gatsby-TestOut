@@ -5,6 +5,7 @@ featuredImage: ../images/IT-and-ecommerce_.jpg
 subTitle: £4600 per level or £5600 for two levels together
 fee: 5900
 doubleFee: 7650
+awardingbody: "othm"
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan),Middlesex University"
 curriculum_1: "  <span ><strong>Computer systems and software
 </strong></span> <br/><br/>
@@ -61,8 +62,9 @@ processing, inventory management systems and supply chain management.
 
 "
 ---
+
 With the number of people shopping online on the rise, and the number of online stores ever increasing, it’s becoming more and more important for retailers and eCommerce stores to know how to optimise and promote their websites to increase site visitors and revenues.
 <br/><br/>
 The Level 4 modules and assignments of this course are equivalent to the first year of a University Degree and the Level 5 modules and assignments are equivalent to the second year of a University Degree.
 <br/><br/>
-The online Level 4 Diploma in IT and Computing and the Level 5 Diploma in IT and eCommerce  are a 240-credit qualification, it includes 10 modules and written assignments at Level 4 and 6 modules and written assignments at Level 5. The course is designed to equip you with the skills you need to Top Up to a full Undergraduate Degree and go on to become an IT professional. While completing the course, students will have access to a variety of support services, including Tutor Support and Webinars, a Social Learning Forum, and additional materials to help in the completion of their Diploma course.
+The online Level 4 Diploma in IT and Computing and the Level 5 Diploma in IT and eCommerce are a 240-credit qualification, it includes 10 modules and written assignments at Level 4 and 6 modules and written assignments at Level 5. The course is designed to equip you with the skills you need to Top Up to a full Undergraduate Degree and go on to become an IT professional. While completing the course, students will have access to a variety of support services, including Tutor Support and Webinars, a Social Learning Forum, and additional materials to help in the completion of their Diploma course.

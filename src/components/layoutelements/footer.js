@@ -50,7 +50,7 @@ const Footer = () => {
           </span>
           <span>
             <i className="fas fa-phone" style={{ marginRight: 5 }}></i>
-            <span>Phone & Watsapp : </span> +44 7778029423
+            <span>Phone & Whatsapp : </span> +44 7778029423
           </span>
         </div>
       </div>

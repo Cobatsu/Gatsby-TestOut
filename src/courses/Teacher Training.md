@@ -4,6 +4,7 @@ courseCategory: Level 5
 featuredImage: ../images/teacher-training.jpg
 subTitle: Level 5 Course - £4600 
 fee: 5900
+awardingbody: "othm"
 curriculum_1: " <strong>-</strong> Developing teaching, learning and assessment in education and training<br/>
 <strong>-</strong> Evaluating learning programmes<br/>
 <strong>-</strong> Teaching, learning and assessment in education and training<br/>
@@ -27,6 +28,7 @@ This course also contains seven written assignments, which have been created to 
 
 "
 ---
+
 The Level 5 Diploma in Education and Training is suitable for individuals who are already practising within the education sector or those who are not currently practising but have a significant amount of experience and now wish to consolidate that with a formal qualification. The course is a 120-credit qualification and is accredited by the Ofqual recognised organisation, Qualifi.
 <br/><br/>
 Throughout this course, students will gain the experience and knowledge required to meet the necessary criteria through a combination of theoretical study and practical activity. The theory content will be delivered through our 9 online modules. The practical activity is to be carried out during a placement in a real-world teaching position. This can be either a position the student already occupies at the start of the course or a position that they find over the course of their study with Richmond College, and can be located at a school, college or community group – the only restriction is that there must be a mentor at the placement who is able to support and verify the students work.

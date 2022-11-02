@@ -3,6 +3,7 @@ courseName: Accounting and Finance
 courseCategory: Level 4-5
 fee: 5950
 doubleFee: 7500
+awardingbody: othm
 featuredImage: ../images/stemIT.jpg
 university_progression: "Southampton Solent University,University of Derby,University of Lincoln,University of Central Lancashire (UCLan)"
 university_progression_details: "

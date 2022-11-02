@@ -593,8 +593,8 @@ const Home = (props) => {
             }}
             className={styles.home_credentials}
           >
-            {/* <img src='/Athe.png' />
-            <img src='/Qualifi (1).png' /> */}
+            <img src="/Athe.png" />
+            <img src="/Qualifi (1).png" />
             <img src="/Chamber (1).png" />
             <img src="/Ersa (1).png" />
             <img src="/Cyber (1).png" />

@@ -42,13 +42,61 @@ const whoWeAre = () => {
             </span>
           </div>
         </div>
-        {/* <div style={{ width: "73%" }}>
+        <div style={{ width: "73%" }}>
           <h2 style={{ marginBottom: 80, fontSize: "2rem", color: "#191970" }}>
             Our Team
           </h2>
           <div className={styles.inner_container}>
             <ul className={styles.staffList}>
-              <li>
+              <li style={{ flexDirection: "row" }}>
+                <div style={{ marginRight: 30 }}>
+                  <img src="Picture1.png" style={{ width: "13rem" }} />
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div>
+                    <span> Sophia Goddard </span>
+                    <span style={{ fontSize: "1.1rem" }}>
+                      {" "}
+                      / Quality Assurance Consultant/Manager{" "}
+                    </span>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                    }}
+                  >
+                    <div>
+                      Over the past 20 years Sophia has worked in the field of
+                      Regulation in the UK and in particular the area of legal
+                      and consumer complaints. This background has given her the
+                      analytical skills to understand a process from beginning
+                      to end, and has ultimately been the foundation of her
+                      expertise in the area of Quality Assurance.Most recently
+                      Sophia has worked in the area Education and Training where
+                      she managed a number of overseas centres that delivered UK
+                      accredited courses. In her role Sophia worked closely with
+                      Ofqual accredited awarding bodies, where she managed
+                      centre accreditations and annual audits as requested by
+                      the regulators. Sophia’s experience is extensive and
+                      ranges from managing external verifications to all matters
+                      relating to student assessments
+                    </div>
+                  </div>
+                  <div style={{ color: "#191970", fontWeight: "bold" }}>
+                    {" "}
+                    Email: sgoddard1@hotmail.co.uk{" "}
+                  </div>
+                </div>
+              </li>
+              {/* <li>
                 <span> Dr. David Whitestone </span>
                 <span> Principle </span>
                 <span> Email: whitestone@richmondcollege.co.uk </span>
@@ -77,10 +125,10 @@ const whoWeAre = () => {
                 <span> Grand Breatton</span>
                 <span> Director of Marketing and Recruitment </span>
                 <span> Email: breatton@richmondcollege.co.uk </span>
-              </li>
+              </li> */}
             </ul>
           </div>
-        </div> */}
+        </div>
       </div>
     </Layout>
   );

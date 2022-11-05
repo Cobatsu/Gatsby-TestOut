@@ -50,7 +50,7 @@ const whoWeAre = () => {
             <ul className={styles.staffList}>
               <li style={{ flexDirection: "row" }}>
                 <div style={{ marginRight: 30 }}>
-                  <img src="Picture1.png" style={{ width: "13rem" }} />
+                  <img src="Picture1.png" style={{ width: "12.3rem" }} />
                 </div>
                 <div
                   style={{

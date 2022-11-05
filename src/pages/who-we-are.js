@@ -87,7 +87,7 @@ const whoWeAre = () => {
                       centre accreditations and annual audits as requested by
                       the regulators. Sophia’s experience is extensive and
                       ranges from managing external verifications to all matters
-                      relating to student assessments
+                      relating to student assessments.
                     </div>
                   </div>
                   <div style={{ color: "#191970", fontWeight: "bold" }}>

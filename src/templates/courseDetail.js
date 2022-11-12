@@ -248,8 +248,8 @@ const CourseDetail = ({ pageContext }) => {
                 if (node.frontmatter.awardingbody == "othm") {
                   return (
                     <img
-                      src="/othm-logo.png"
-                      style={{ boxShadow: "none", width: "25rem" }}
+                      src="/part6.png"
+                      style={{ boxShadow: "none", width: "12rem" }}
                     />
                   );
                 }

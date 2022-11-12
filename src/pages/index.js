@@ -279,6 +279,7 @@ const Home = (props) => {
                   Your Access to The Best Education{" "}
                 </span>
               </div>
+
               <span style={{ lineHeight: 1.6 }}>
                 Diploma that you receive from Richmond College is provided by
                 the awarding institution recognized by The Office of
@@ -337,6 +338,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
+
         <div className={styles.where_to_start_outer}>
           <div className={styles.where_to_start_inner + " " + styles.wrap}>
             <div
@@ -579,11 +581,21 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-
+        <video
+          style={{
+            width: "50rem",
+            marginTop: "3rem",
+            marginBottom: "4rem",
+          }}
+          controls="controls"
+        >
+          <source src="richhmondadv.MP4" type="video/mp4" />
+        </video>
         <div className={styles.accreditation}>
           <div className={styles.classic_text} style={{ textAlign: "center" }}>
             Accreditation of Our Diplomas
           </div>
+
           <div
             style={{
               display: "flex",
@@ -600,6 +612,9 @@ const Home = (props) => {
             <img src="/Cyber (1).png" />
             <img src="/ID (1).png" />
             <img src="/Institution Hospitality (1).png" />
+          </div>
+          <div style={{ width: "70%" }}>
+            <img src="/part6.png" style={{ height: "6rem" }} />
           </div>
         </div>
       </div>

@@ -48,9 +48,9 @@ const whoWeAre = () => {
           </h2>
           <div className={styles.inner_container}>
             <ul className={styles.staffList}>
-              <li style={{ flexDirection: "row" }}>
+              <li style={{ flexDirection: "row", minHeight: "20rem" }}>
                 <div style={{ marginRight: 30 }}>
-                  <img src="/Picture1.png" style={{ width: "12.3rem" }} />
+                  <img src="/Picture1.png" style={{ width: "13rem" }} />
                 </div>
                 <div
                   style={{
@@ -61,9 +61,8 @@ const whoWeAre = () => {
                 >
                   <div>
                     <span> Sophia Goddard </span>
-                    <span style={{ fontSize: "1.1rem" }}>
-                      {" "}
-                      / Quality Assurance Consultant/Manager{" "}
+                    <span style={{ fontSize: "1.1rem", fontWeight: "bolder" }}>
+                      {"   "}/ Manager{" "}
                     </span>
                   </div>
 
@@ -73,7 +72,7 @@ const whoWeAre = () => {
                       flexDirection: "column",
                     }}
                   >
-                    <div>
+                    <div style={{ lineHeight: 1.5 }}>
                       Over the past 20 years Sophia has worked in the field of
                       Regulation in the UK and in particular the area of legal
                       and consumer complaints. This background has given her the
@@ -87,16 +86,20 @@ const whoWeAre = () => {
                       centre accreditations and annual audits as requested by
                       the regulators. Sophia’s experience is extensive and
                       ranges from managing external verifications to all matters
-                      relating to student assessments.
+                      relating to student assessments.Sophia has put all her
+                      experience and skills to good use, and now works as a
+                      consultant to several centres. Guidance advises and
+                      practical knowledge in the process of accreditation is her
+                      speciality.
                     </div>
                   </div>
                   <div style={{ color: "#191970", fontWeight: "bold" }}>
                     {" "}
-                    Email: sgoddard1@hotmail.co.uk{" "}
+                    Email: manager@richmondcollege.co.uk{" "}
                   </div>
                 </div>
               </li>
-              {/* <li>
+              <li>
                 <span> Dr. David Whitestone </span>
                 <span> Principle </span>
                 <span> Email: whitestone@richmondcollege.co.uk </span>
@@ -125,7 +128,7 @@ const whoWeAre = () => {
                 <span> Grand Breatton</span>
                 <span> Director of Marketing and Recruitment </span>
                 <span> Email: breatton@richmondcollege.co.uk </span>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

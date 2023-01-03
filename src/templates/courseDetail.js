@@ -19,6 +19,7 @@ const CourseDetail = ({ pageContext }) => {
   var courseCurriculum = [];
   var courseDetailBanner = "";
   var subTitle = "";
+  var video = <></>;
   var universities = node.frontmatter?.university_progression?.split(",");
   var university_progression_details =
     node.frontmatter?.university_progression_details;
@@ -61,6 +62,17 @@ const CourseDetail = ({ pageContext }) => {
           fee: node.frontmatter.fee,
         },
       ];
+      video = (
+        <iframe
+          width="700"
+          height="400"
+          src="https://www.youtube.com/embed/crSnBFAKt5o"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      );
       courseCurriculum = [
         { content: node.frontmatter.curriculum_1, level: "3" },
       ];
@@ -82,6 +94,18 @@ const CourseDetail = ({ pageContext }) => {
           fee: node.frontmatter.doubleFee,
         },
       ];
+
+      video = (
+        <iframe
+          width="700"
+          height="400"
+          src="https://www.youtube.com/embed/859iJiqEWFU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      );
       courseCurriculum = [
         { content: node.frontmatter.curriculum_1, level: "4" },
         { content: node.frontmatter.curriculum_2, level: "5" },
@@ -210,6 +234,37 @@ const CourseDetail = ({ pageContext }) => {
                 dangerouslySetInnerHTML={{ __html: node.html }}
               />
             </div>
+            {
+              // video
+            }
+
+            {courseName == "Teacher Training" ? (
+              <div
+                style={{
+                  marginBottom: "4rem",
+                }}
+              >
+                {" "}
+                <iframe
+                  width="700"
+                  height="400"
+                  src="https://www.youtube.com/embed/hZreVMzRpDo"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            ) : (
+              <div
+                style={{
+                  marginBottom: "4rem",
+                }}
+              >
+                {video}
+              </div>
+            )}
+
             {
               // course options
             }

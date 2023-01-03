@@ -139,6 +139,7 @@ const Home = (props) => {
             style={{
               width: "70%",
               display: "flex",
+              paddingTop: 60,
               justifyContent: "space-between",
               alignItems: "center",
             }}
@@ -178,10 +179,18 @@ const Home = (props) => {
               </div>
               <button className={styles.classic_button}>Apply Now</button>
             </div>
+
             <img src="./Courses Section 1.png" style={{ width: "45%" }} />
           </div>
         </div>
-
+        {/* <img
+          src="uk.png"
+          style={{
+            borderRadius: 4,
+            width: "50%",
+            height: "100%",
+          }}
+        /> */}
         <div className={styles.outer_mid_body}>
           <div className={styles.mid_body + " " + styles.wrap}>
             <div style={{ width: "40%", marginBottom: 50 }}>
@@ -581,16 +590,15 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <video
-          style={{
-            width: "50rem",
-            marginTop: "3rem",
-            marginBottom: "4rem",
-          }}
-          controls="controls"
-        >
-          <source src="richhmondadv.MP4" type="video/mp4" />
-        </video>
+        <iframe
+          width="720"
+          height="420"
+          src="https://www.youtube.com/embed/l9-muFo0kFM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <div className={styles.accreditation}>
           <div className={styles.classic_text} style={{ textAlign: "center" }}>
             Accreditation of Our Diplomas

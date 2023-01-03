@@ -16,7 +16,7 @@ const None_Responsive_Nav = ({ subMenu }) => (
               style={{ color: "#FFFFFF", marginRight: 7 }}
               className="fas fa-phone-alt"
             ></i>
-            <span style={{ color: "#FFFFFF" }}>+1 3063514537</span>
+            <span style={{ color: "#FFFFFF" }}>+44 7778029423</span>
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <i

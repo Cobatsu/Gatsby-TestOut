@@ -29,6 +29,7 @@ const Head = ({ title }) => {
     <Helmet>
       <meta charSet="utf-8" />
       <title>{title}</title>
+
       <meta
         http-equiv="Content-Security-Policy"
         content="upgrade-insecure-requests"

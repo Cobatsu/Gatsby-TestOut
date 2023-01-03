@@ -53,7 +53,7 @@ const None_Responsive_Nav = ({ subMenu }) => (
             onClick={() => {
               navigate("/");
             }}
-            src="/Frame1.png"
+            src="/Frame 1 (9).png"
             style={{
               marginRight: 50,
               width: "22rem",

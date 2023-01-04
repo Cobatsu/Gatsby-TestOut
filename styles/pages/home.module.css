@@ -188,7 +188,7 @@
    align-items:flex-start;
    color:#191970;
    margin-right:100px;
-   flex: 1;
+   flex: 0.5;
 }
 
 .course_background_image{
@@ -230,6 +230,11 @@
    .wrap{
       flex-direction: column !important;
       align-items: center;
+   }
+
+
+   .course_inner{
+      flex: 1;
    }
 
    .course_background_image{

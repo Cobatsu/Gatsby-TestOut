@@ -348,7 +348,10 @@ const Home = (props) => {
           </div>
         </div>
 
-        <div className={styles.where_to_start_outer}>
+        <div
+          className={styles.where_to_start_outer}
+          style={{ marginBottom: 30 }}
+        >
           <div className={styles.where_to_start_inner + " " + styles.wrap}>
             <div
               style={{ display: "flex", flexDirection: "column", width: "50%" }}
@@ -591,14 +594,25 @@ const Home = (props) => {
           </div>
         </div>
         <iframe
-          width="720"
+          width="700"
           height="420"
+          style={{ marginBottom: 30 }}
           src="https://www.youtube.com/embed/l9-muFo0kFM"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+        <iframe
+          width="700"
+          height="420"
+          src="https://www.youtube.com/embed/VtDkLBsaAqQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
         <div className={styles.accreditation}>
           <div className={styles.classic_text} style={{ textAlign: "center" }}>
             Accreditation of Our Diplomas

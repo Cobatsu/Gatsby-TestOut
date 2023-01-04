@@ -83,7 +83,8 @@ export default function Layout({ children, title }) {
         </Content>
       </BlackCover> */}
       <Header />
-      {children}
+      <div style={{ minHeight: 400 }}>{children}</div>
+
       <Footer />
     </React.Fragment>
   );

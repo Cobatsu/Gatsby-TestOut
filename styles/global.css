@@ -30,11 +30,16 @@ html {
   html {
     font-size: 12px;
   }
+  iframe{
+    width: 95% !important;
+    max-height: 250px !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   html {
     font-size: 10px;
   }
+
 }
 ul li{
   margin-bottom: 10px;

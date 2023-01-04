@@ -2,6 +2,7 @@
    background-color: #FBFBFB;
    padding: 5rem 0px;
    display: flex;
+   margin-top: 40px;
    justify-content: center;
    align-items: center;
 }
@@ -19,7 +20,7 @@
    color: #191970;
    font-size: 13.3px;
    line-height: 25px;
-   flex: 0.28;
+   flex: 0.24;
 }
 
 
@@ -40,8 +41,14 @@
    margin-bottom: 14px;
    color: #050516;
    padding-bottom: 10px;
+   font-size: 1rem;
    font-weight: bolder !important;
 
+}
+
+.social i:hover{
+  cursor: pointer;
+  color:rgb(251, 201, 51) !important;
 }
 
 .footer_column span span {
@@ -51,6 +58,9 @@
 
 
 @media only screen and (max-width: 700px) {
+   .footer_column_holder img{
+      display: none;
+   }
    .footer_column_holder {
       flex-direction: column;
    }

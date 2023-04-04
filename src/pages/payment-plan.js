@@ -45,10 +45,10 @@ const PaymentPlan = () => {
       },
     ];
 
-    paymentPlan_2 = Array(3)
+    paymentPlan_2 = Array(4)
       .fill(null)
       .map((_, i) => ({
-        amount: student?.courseFee / 3,
+        amount: student?.courseFee / 4,
         date: formatDate(
           addDays(
             new Date(student.registerState.result.confirmedAt),

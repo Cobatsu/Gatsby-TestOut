@@ -1,1 +1,2 @@
-I used Gatsby JS to generate static HTML pages based on a template.
+- I built this project for a company which sells and promotes "Online Education". This is basically a static web page built with Gatsby JS and React JS.
+- I used Markup files to generate static HTML pages based on a template.

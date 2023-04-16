@@ -1,4 +1,5 @@
-- I built this project for a company which sells and promotes Online Education. This is basically a static web page built with Gatsby JS and React JS, and deployed to Netlify.
+- I built this project for a company which sells and promotes Online Education. 
+- This is basically a static web page built with Gatsby JS and React JS, and deployed to Netlify.
 - I used Markup files to generate static HTML pages based on a template.
 - I used Figma software to design.
 
